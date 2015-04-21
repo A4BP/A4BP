@@ -1,4 +1,4 @@
 A4BP
 ====
 
-Assessment for Bussines Process 
+Assessment for Business Processes 
