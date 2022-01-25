@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 3/13/2015 22:47",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model-dc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y",
+		"width",
+		"height"
+	],
+	"name" : "BPMN20BoundsImpl",
+	"type" : "normal"
+}

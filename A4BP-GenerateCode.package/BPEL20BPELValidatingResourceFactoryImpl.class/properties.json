@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELResourceFactoryImpl",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-resource",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fErrorHandler",
+		"fValidating",
+		"fEntityResolver",
+		"fResourceSet"
+	],
+	"name" : "BPEL20BPELValidatingResourceFactoryImpl",
+	"type" : "normal"
+}

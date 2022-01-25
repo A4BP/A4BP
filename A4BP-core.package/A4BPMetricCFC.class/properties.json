@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPMetricCFC",
+	"type" : "normal"
+}

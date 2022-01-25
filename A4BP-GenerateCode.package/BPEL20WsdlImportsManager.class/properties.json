@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-resource-BPELWriter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fResourceNamespaceMap",
+		"fProcessContext"
+	],
+	"name" : "BPEL20WsdlImportsManager",
+	"type" : "normal"
+}

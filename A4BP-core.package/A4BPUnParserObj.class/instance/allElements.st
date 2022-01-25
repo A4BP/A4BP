@@ -1,0 +1,3 @@
+all
+allElements
+	^ OrderedCollection new

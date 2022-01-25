@@ -1,0 +1,3 @@
+parser
+getVisitor
+	^ BPMN20ParserSetinBPMN20IncomingImplVisitor new

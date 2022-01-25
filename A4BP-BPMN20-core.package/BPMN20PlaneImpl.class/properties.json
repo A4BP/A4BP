@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20NodeImpl",
+	"category" : "A4BP-BPMN20-core-model-dd-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"planeElement"
+	],
+	"name" : "BPMN20PlaneImpl",
+	"type" : "normal"
+}

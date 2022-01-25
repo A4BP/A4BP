@@ -1,0 +1,3 @@
+relations
+buildRelations: aRelation
+	aRelation buildRelationsBpPartnerLink: self

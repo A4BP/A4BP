@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractXML",
+	"category" : "A4BP-core-parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPXMLParserPeti",
+	"type" : "normal"
+}

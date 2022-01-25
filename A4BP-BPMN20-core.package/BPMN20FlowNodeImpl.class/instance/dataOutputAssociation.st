@@ -1,0 +1,3 @@
+getset
+dataOutputAssociation
+	^ dataOutputAssociation

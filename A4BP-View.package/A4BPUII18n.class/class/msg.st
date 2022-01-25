@@ -1,0 +1,3 @@
+singleton
+msg
+	^ self instance

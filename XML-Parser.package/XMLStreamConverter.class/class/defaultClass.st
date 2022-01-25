@@ -1,0 +1,3 @@
+defaults
+defaultClass
+	^ XMLImplicitUTF8StreamConverter

@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mustUnderstand",
+		"xsdDefinition",
+		"definition",
+		"MUST_UNDERSTAND_EDEFAULT",
+		"XSD_DEFINITION_EDEFAULT"
+	],
+	"name" : "BPMN20ExtensionImpl",
+	"type" : "normal"
+}

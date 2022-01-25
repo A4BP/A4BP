@@ -1,0 +1,1 @@
+This class uses Zinc HTTP Components to implement HTTP requests and is the preferred implementation.

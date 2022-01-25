@@ -1,0 +1,1 @@
+A read stream adapter for string read streams that accepts character input and converts it to binary output.

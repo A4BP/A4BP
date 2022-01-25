@@ -1,0 +1,3 @@
+getset
+xpath
+	^ myDocument xpath

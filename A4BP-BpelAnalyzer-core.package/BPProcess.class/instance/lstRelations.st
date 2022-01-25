@@ -1,0 +1,3 @@
+getset
+lstRelations
+	^ bpRelations lstRelations 

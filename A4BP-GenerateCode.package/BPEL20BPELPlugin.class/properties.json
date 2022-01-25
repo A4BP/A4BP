@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"plugin",
+		"PLUGIN_ID",
+		"INSTANCE"
+	],
+	"name" : "BPEL20BPELPlugin",
+	"type" : "normal"
+}

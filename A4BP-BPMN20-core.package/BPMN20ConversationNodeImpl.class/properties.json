@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:40",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"correlationKeys",
+		"NAME_EDEFAULT",
+		"participantRefs",
+		"name",
+		"messageFlowRefs"
+	],
+	"name" : "BPMN20ConversationNodeImpl",
+	"type" : "normal"
+}

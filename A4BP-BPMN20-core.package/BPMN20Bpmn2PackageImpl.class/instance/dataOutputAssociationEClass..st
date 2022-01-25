@@ -1,0 +1,3 @@
+as yet unclassified
+dataOutputAssociationEClass: adataOutputAssociationEClass
+^ dataOutputAssociationEClass := adataOutputAssociationEClass

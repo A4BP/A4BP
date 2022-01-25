@@ -1,0 +1,3 @@
+as yet unclassified
+conversationLinkEClass: aconversationLinkEClass
+^ conversationLinkEClass := aconversationLinkEClass

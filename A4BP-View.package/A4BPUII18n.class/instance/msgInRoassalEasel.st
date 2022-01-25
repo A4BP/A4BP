@@ -1,0 +1,3 @@
+msg
+msgInRoassalEasel
+	^ self defaultmsg

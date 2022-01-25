@@ -1,0 +1,3 @@
+msg
+msgSpy
+	^ self defaultmsg

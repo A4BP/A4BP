@@ -1,0 +1,3 @@
+visitorBPELAnalyzer
+visitBPPartnerLink: aBPPartnerLink
+	^ self icons iconModelBPPartnerLink

@@ -1,0 +1,3 @@
+getset
+label
+	^ self aName

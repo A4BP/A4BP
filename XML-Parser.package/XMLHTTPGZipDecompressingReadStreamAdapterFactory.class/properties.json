@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "monty 2/5/2018 23:40",
+	"super" : "XMLHTTPDecompressingReadStreamAdapterFactory",
+	"category" : "XML-Parser-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XMLHTTPGZipDecompressingReadStreamAdapterFactory",
+	"type" : "normal"
+}

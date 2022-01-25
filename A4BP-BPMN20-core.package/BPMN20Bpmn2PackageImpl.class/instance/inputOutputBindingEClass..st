@@ -1,0 +1,3 @@
+as yet unclassified
+inputOutputBindingEClass: ainputOutputBindingEClass
+^ inputOutputBindingEClass := ainputOutputBindingEClass

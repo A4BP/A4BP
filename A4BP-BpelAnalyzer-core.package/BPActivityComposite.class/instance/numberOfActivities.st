@@ -1,0 +1,3 @@
+metric
+numberOfActivities
+	^ lstActivities size

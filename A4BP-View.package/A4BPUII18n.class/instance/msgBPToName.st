@@ -1,0 +1,3 @@
+msg
+msgBPToName
+	^ self defaultmsg

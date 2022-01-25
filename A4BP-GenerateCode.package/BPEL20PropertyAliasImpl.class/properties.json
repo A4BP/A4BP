@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-messageproperties-impl",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ID_EDEFAULT",
+		"part",
+		"wsdlPart",
+		"XSD_ELEMENT_EDEFAULT",
+		"query",
+		"PROPERTY_NAME_EDEFAULT",
+		"MESSAGE_TYPE_EDEFAULT",
+		"messageType",
+		"propertyName",
+		"TYPE_EDEFAULT",
+		"PART_EDEFAULT",
+		"xsdElement",
+		"type"
+	],
+	"name" : "BPEL20PropertyAliasImpl",
+	"type" : "normal"
+}

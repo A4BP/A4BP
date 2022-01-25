@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-a4bp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lstRelations"
+	],
+	"name" : "BPRelationsElementsInBPObject",
+	"type" : "normal"
+}

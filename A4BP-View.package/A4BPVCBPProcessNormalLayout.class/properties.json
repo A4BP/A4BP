@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPVCBPProcess",
+	"category" : "A4BP-View-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPVCBPProcessNormalLayout",
+	"type" : "normal"
+}

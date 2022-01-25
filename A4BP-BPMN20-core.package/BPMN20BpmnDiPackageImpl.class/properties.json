@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bpmnShapeEClass",
+		"bpmnPlaneEClass",
+		"isCreated",
+		"isInited",
+		"bpmnLabelStyleEClass",
+		"bpmnLabelEClass",
+		"messageVisibleKindEEnum",
+		"documentRootEClass",
+		"participantBandKindEEnum",
+		"bpmnEdgeEClass",
+		"bpmnDiagramEClass",
+		"isInitialized"
+	],
+	"name" : "BPMN20BpmnDiPackageImpl",
+	"type" : "normal"
+}

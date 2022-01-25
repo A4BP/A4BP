@@ -1,0 +1,3 @@
+defaults
+preferredImplementation
+	^ XMLFileSystemFileHandle

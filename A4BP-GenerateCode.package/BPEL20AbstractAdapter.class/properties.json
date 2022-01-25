@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-adapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"context",
+		"target",
+		"CONTEXT_UPDATE_EVENT_TYPE"
+	],
+	"name" : "BPEL20AbstractAdapter",
+	"type" : "normal"
+}

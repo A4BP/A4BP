@@ -1,0 +1,3 @@
+metric
+metricCFCAbs
+	^ 0

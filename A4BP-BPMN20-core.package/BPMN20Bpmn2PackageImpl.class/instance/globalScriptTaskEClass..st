@@ -1,0 +1,3 @@
+as yet unclassified
+globalScriptTaskEClass: aglobalScriptTaskEClass
+^ globalScriptTaskEClass := aglobalScriptTaskEClass

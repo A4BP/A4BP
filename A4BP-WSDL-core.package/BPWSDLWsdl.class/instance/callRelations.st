@@ -1,0 +1,3 @@
+getset
+callRelations
+	^ callRelations lstRelations

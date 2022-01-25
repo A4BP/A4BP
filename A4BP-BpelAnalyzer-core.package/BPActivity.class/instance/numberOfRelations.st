@@ -1,0 +1,3 @@
+metric
+numberOfRelations
+	^ 0

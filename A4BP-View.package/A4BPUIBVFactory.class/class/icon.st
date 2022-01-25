@@ -1,0 +1,3 @@
+factories
+icon
+	^ self iconVisitor

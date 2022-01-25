@@ -1,0 +1,1 @@
+All BPMN elements that inherit from the BaseElement will have the capability, through the Documentation element, to have one (1) or more text descriptions of that element.

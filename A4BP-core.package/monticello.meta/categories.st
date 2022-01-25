@@ -1,0 +1,10 @@
+SystemOrganization addCategory: #'A4BP-core'!
+SystemOrganization addCategory: #'A4BP-core-files'!
+SystemOrganization addCategory: #'A4BP-core-log'!
+SystemOrganization addCategory: #'A4BP-core-metric'!
+SystemOrganization addCategory: #'A4BP-core-model'!
+SystemOrganization addCategory: #'A4BP-core-model-collections'!
+SystemOrganization addCategory: #'A4BP-core-parser'!
+SystemOrganization addCategory: #'A4BP-core-parser-builder'!
+SystemOrganization addCategory: #'A4BP-core-resources-download'!
+SystemOrganization addCategory: #'A4BP-core-visitor'!

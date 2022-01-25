@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"namespace",
+		"mustUnderstand",
+		"mustUnderstandESet",
+		"NAMESPACE_EDEFAULT",
+		"MUST_UNDERSTAND_EDEFAULT"
+	],
+	"name" : "BPEL20ExtensionImpl",
+	"type" : "normal"
+}

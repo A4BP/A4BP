@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:42",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mixed",
+		"TEXT_EDEFAULT",
+		"textFormat",
+		"TEXT_FORMAT_EDEFAULT"
+	],
+	"name" : "BPMN20DocumentationImpl",
+	"type" : "normal"
+}

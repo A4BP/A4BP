@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20EdgeImpl",
+	"category" : "A4BP-BPMN20-core-model-dd-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ownedLabel"
+	],
+	"name" : "BPMN20LabeledEdgeImpl",
+	"type" : "normal"
+}

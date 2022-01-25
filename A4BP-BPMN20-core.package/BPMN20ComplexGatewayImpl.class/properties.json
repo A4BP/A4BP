@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20GatewayImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"activationCondition",
+		"default_"
+	],
+	"name" : "BPMN20ComplexGatewayImpl",
+	"type" : "normal"
+}

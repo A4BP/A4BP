@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-GenerateCode-BPMN20-org-eclipse-dd-dc-impl",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"y",
+		"X_EDEFAULT",
+		"Y_EDEFAULT",
+		"x"
+	],
+	"name" : "BPMN20PointImpl",
+	"type" : "normal"
+}

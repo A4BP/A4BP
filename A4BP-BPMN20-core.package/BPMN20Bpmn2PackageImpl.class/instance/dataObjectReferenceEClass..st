@@ -1,0 +1,3 @@
+as yet unclassified
+dataObjectReferenceEClass: adataObjectReferenceEClass
+^ dataObjectReferenceEClass := adataObjectReferenceEClass

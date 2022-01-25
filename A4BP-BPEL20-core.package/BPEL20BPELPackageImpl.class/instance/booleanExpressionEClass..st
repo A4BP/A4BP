@@ -1,0 +1,3 @@
+as yet unclassified
+booleanExpressionEClass: abooleanExpressionEClass
+^ booleanExpressionEClass := abooleanExpressionEClass

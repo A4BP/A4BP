@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:58",
+	"super" : "BPMN20CatchEventImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IS_INTERRUPTING_EDEFAULT"
+	],
+	"instvars" : [
+		"isInterrupting"
+	],
+	"name" : "BPMN20StartEventImpl",
+	"type" : "normal"
+}

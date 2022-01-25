@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:39",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ID_EDEFAULT"
+	],
+	"instvars" : [
+		"extensionDefinitions",
+		"extensionValues",
+		"anyAttribute",
+		"documentation",
+		"shape",
+		"myLane"
+	],
+	"name" : "BPMN20BaseElementImpl",
+	"type" : "normal"
+}

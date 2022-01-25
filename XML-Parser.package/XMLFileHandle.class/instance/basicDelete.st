@@ -1,0 +1,3 @@
+basic
+basicDelete
+	self subclassResponsibility

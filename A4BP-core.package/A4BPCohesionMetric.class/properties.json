@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPBaseMetric",
+	"category" : "A4BP-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPCohesionMetric",
+	"type" : "normal"
+}

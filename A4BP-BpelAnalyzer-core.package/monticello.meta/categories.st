@@ -1,0 +1,9 @@
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-Trait'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-biz-actions'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-example'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-metric'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-model-a4bp'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-model-bpel'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-parser'!
+SystemOrganization addCategory: #'A4BP-BpelAnalyzer-core-parser-builder'!

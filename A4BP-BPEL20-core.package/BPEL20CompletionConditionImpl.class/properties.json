@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"branches"
+	],
+	"name" : "BPEL20CompletionConditionImpl",
+	"type" : "normal"
+}

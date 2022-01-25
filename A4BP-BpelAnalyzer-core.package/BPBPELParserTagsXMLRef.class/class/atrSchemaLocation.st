@@ -1,0 +1,3 @@
+atr
+atrSchemaLocation
+	^ 'schemalocation'

@@ -1,0 +1,3 @@
+getset
+variableName
+	^ aName

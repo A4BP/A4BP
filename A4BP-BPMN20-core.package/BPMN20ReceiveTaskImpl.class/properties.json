@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20TaskImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"IMPLEMENTATION_EDEFAULT",
+		"operationRef",
+		"implementation",
+		"instantiate",
+		"INSTANTIATE_EDEFAULT",
+		"messageRef"
+	],
+	"name" : "BPMN20ReceiveTaskImpl",
+	"type" : "normal"
+}

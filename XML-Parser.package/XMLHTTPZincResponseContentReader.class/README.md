@@ -1,0 +1,1 @@
+A Zinc content reader. Zinc handles decompression automatically, so this class doesn't.

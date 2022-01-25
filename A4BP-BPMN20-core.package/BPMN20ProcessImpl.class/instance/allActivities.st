@@ -1,0 +1,3 @@
+getset
+allActivities
+	^ self activities

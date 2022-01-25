@@ -1,0 +1,3 @@
+getset
+variables
+	^ self lstVariables  

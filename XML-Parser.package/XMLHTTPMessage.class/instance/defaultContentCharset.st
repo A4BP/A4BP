@@ -1,0 +1,3 @@
+defaults
+defaultContentCharset
+	^ XMLHTTPMIMEType defaultCharset

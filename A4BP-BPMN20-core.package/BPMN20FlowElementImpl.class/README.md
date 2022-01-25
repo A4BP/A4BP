@@ -1,0 +1,1 @@
+FlowElement is the abstract super class for all elements that can appear in a Process flow, which are FlowNodes, which consist of Activities, Choreography Activities, Gateways and Events Data Objects, Data Associations, and Sequence Flows.

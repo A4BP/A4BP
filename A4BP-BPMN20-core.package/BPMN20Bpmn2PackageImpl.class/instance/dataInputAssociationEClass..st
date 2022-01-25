@@ -1,0 +1,3 @@
+as yet unclassified
+dataInputAssociationEClass: adataInputAssociationEClass
+^ dataInputAssociationEClass := adataInputAssociationEClass

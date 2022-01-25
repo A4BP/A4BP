@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:58",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"NAME_EDEFAULT"
+	],
+	"instvars" : [
+		"sourceRef",
+		"name",
+		"targetRef",
+		"messageRef",
+		"a4bpRefsToBuilder",
+		"isImmediate"
+	],
+	"name" : "BPMN20MessageFlowImpl",
+	"type" : "normal"
+}

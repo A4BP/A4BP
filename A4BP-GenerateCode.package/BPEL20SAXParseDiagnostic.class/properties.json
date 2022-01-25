@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-resource",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"FATAL_ERROR",
+		"exception",
+		"severity",
+		"WARNING",
+		"ERROR"
+	],
+	"name" : "BPEL20SAXParseDiagnostic",
+	"type" : "normal"
+}

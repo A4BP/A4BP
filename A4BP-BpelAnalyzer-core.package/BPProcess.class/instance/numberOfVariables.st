@@ -1,0 +1,3 @@
+metrics
+numberOfVariables
+	^ variables numberOfVariables

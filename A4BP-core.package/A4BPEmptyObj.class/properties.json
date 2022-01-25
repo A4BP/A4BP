@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPObject",
+	"category" : "A4BP-core-model",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPEmptyObj",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+as yet unclassified
+loopCharacteristicsEClass: aloopCharacteristicsEClass
+^ loopCharacteristicsEClass := aloopCharacteristicsEClass

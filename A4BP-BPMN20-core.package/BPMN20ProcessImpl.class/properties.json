@@ -1,0 +1,34 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:59",
+	"super" : "BPMN20CallableElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IS_CLOSED_EDEFAULT",
+		"IS_EXECUTABLE_EDEFAULT",
+		"PROCESS_TYPE_EDEFAULT"
+	],
+	"instvars" : [
+		"isExecutable",
+		"supports",
+		"laneSets",
+		"resources",
+		"monitoring",
+		"definitionalCollaborationRef",
+		"correlationSubscriptions",
+		"properties",
+		"isClosed",
+		"artifacts",
+		"auditing",
+		"flowElements",
+		"processType",
+		"extensionElements",
+		"fileName",
+		"fullPath",
+		"variables",
+		"wsdls"
+	],
+	"name" : "BPMN20ProcessImpl",
+	"type" : "normal"
+}

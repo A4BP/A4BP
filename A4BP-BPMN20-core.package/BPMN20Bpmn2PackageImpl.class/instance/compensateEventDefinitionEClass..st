@@ -1,0 +1,3 @@
+as yet unclassified
+compensateEventDefinitionEClass: acompensateEventDefinitionEClass
+^ compensateEventDefinitionEClass := acompensateEventDefinitionEClass

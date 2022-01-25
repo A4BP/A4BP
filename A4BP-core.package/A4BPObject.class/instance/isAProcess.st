@@ -1,0 +1,3 @@
+getset
+isAProcess
+	^ false

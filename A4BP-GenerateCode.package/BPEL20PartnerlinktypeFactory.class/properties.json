@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-partnerlinktype",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"eINSTANCE"
+	],
+	"name" : "BPEL20PartnerlinktypeFactory",
+	"type" : "normal"
+}

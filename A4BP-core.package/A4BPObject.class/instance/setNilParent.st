@@ -1,0 +1,3 @@
+getset
+setNilParent
+	parent := nil

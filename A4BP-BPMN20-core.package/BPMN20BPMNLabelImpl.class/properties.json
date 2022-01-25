@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20LabelImpl",
+	"category" : "A4BP-BPMN20-core-model-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"labelStyle"
+	],
+	"name" : "BPMN20BPMNLabelImpl",
+	"type" : "normal"
+}

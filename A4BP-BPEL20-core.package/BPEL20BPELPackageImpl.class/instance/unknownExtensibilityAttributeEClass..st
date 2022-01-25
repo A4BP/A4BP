@@ -1,0 +1,3 @@
+as yet unclassified
+unknownExtensibilityAttributeEClass: aunknownExtensibilityAttributeEClass
+^ unknownExtensibilityAttributeEClass := aunknownExtensibilityAttributeEClass

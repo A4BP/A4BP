@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20SubProcessImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"METHOD_EDEFAULT",
+		"method",
+		"PROTOCOL_EDEFAULT",
+		"protocol"
+	],
+	"name" : "BPMN20TransactionImpl",
+	"type" : "normal"
+}

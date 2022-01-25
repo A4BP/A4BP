@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-resource",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"BPEL_CONTENT_TYPE",
+		"SLIGHTLY_HACKED_KEY"
+	],
+	"name" : "BPEL20BPELResourceSetImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+as yet unclassified
+terminateEventDefinitionEClass: aterminateEventDefinitionEClass
+^ terminateEventDefinitionEClass := aterminateEventDefinitionEClass

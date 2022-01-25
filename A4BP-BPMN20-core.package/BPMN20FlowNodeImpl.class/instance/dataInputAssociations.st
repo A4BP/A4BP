@@ -1,0 +1,3 @@
+getset
+dataInputAssociations
+	^ dataInputAssociations

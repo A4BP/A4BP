@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20DiParserAbstractSetVisitor",
+	"category" : "A4BP-BPMN20-core-parser-builder-visitors-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20DiParserBoundsImplVisitor",
+	"type" : "normal"
+}

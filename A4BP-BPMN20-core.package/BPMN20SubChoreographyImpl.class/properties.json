@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ChoreographyActivityImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"laneSets",
+		"artifacts",
+		"flowElements"
+	],
+	"name" : "BPMN20SubChoreographyImpl",
+	"type" : "normal"
+}

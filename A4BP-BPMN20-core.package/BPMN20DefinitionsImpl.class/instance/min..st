@@ -1,0 +1,3 @@
+quetions
+min: aValue
+ ^ self

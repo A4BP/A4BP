@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPVCSOAContext",
+	"category" : "A4BP-BpelAnalyzer-view-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPVCSOAContextProcessCFC",
+	"type" : "normal"
+}

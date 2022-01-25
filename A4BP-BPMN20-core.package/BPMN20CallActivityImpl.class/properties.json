@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:43",
+	"super" : "BPMN20ActivityImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"calledElementRef"
+	],
+	"name" : "BPMN20CallActivityImpl",
+	"type" : "normal"
+}

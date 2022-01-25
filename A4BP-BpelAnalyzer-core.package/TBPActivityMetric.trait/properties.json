@@ -1,0 +1,7 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 5/15/2014 13:29",
+	"classinstvars" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-Trait",
+	"instvars" : [ ],
+	"name" : "TBPActivityMetric"
+}

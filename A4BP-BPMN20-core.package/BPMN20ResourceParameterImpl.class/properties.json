@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"IS_REQUIRED_EDEFAULT",
+		"name",
+		"isRequired",
+		"NAME_EDEFAULT"
+	],
+	"name" : "BPMN20ResourceParameterImpl",
+	"type" : "normal"
+}

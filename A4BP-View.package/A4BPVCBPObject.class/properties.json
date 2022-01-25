@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-View-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bpObj",
+		"visible",
+		"rtview"
+	],
+	"name" : "A4BPVCBPObject",
+	"type" : "normal"
+}

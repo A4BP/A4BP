@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/1/2015 10:20",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cfcMetric"
+	],
+	"name" : "A4BPMetricAbsCFC",
+	"type" : "normal"
+}

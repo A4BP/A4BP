@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPUIBPAbstractViewActionVisitor",
+	"category" : "A4BP-View-UI-Rclick",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mainBrowser"
+	],
+	"name" : "A4BPUIGLMActionTreeBuilderVisitor",
+	"type" : "normal"
+}

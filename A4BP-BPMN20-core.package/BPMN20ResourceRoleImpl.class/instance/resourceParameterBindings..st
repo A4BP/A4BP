@@ -1,0 +1,3 @@
+as yet unclassified
+resourceParameterBindings: aresourceParameterBindings
+^ resourceParameterBindings := aresourceParameterBindings

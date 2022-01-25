@@ -1,0 +1,3 @@
+defaults
+typeName
+	self subclassResponsibility

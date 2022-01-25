@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aName",
+		"algorithm",
+		"derivation"
+	],
+	"name" : "A4BPBaseMetric",
+	"type" : "normal"
+}

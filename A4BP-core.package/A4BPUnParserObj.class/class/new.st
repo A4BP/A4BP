@@ -1,0 +1,3 @@
+instance
+new
+	^ super new.

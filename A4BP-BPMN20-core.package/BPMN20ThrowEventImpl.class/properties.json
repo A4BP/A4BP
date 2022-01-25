@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20EventImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"eventDefinitionRefs",
+		"eventDefinitions",
+		"dataInputAssociation",
+		"dataInputs",
+		"inputSet"
+	],
+	"name" : "BPMN20ThrowEventImpl",
+	"type" : "normal"
+}

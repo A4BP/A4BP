@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:42",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"NAME_EDEFAULT"
+	],
+	"instvars" : [
+		"categoryValueRef",
+		"monitoring",
+		"name",
+		"auditing",
+		"a4bpRefsToBuilder"
+	],
+	"name" : "BPMN20FlowElementImpl",
+	"type" : "normal"
+}

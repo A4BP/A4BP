@@ -1,0 +1,3 @@
+as yet unclassified
+resourceAssignmentExpression: aresourceAssignmentExpression
+^ resourceAssignmentExpression := aresourceAssignmentExpression

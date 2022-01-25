@@ -1,0 +1,3 @@
+as yet unclassified
+completionConditionEClass: acompletionConditionEClass
+^ completionConditionEClass := acompletionConditionEClass

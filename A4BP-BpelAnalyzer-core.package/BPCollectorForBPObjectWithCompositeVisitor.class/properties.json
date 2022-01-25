@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/21/2014 00:54",
+	"super" : "BPCollectorBasicVisitor",
+	"category" : "A4BP-BpelAnalyzer-core-biz-actions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPCollectorForBPObjectWithCompositeVisitor",
+	"type" : "normal"
+}

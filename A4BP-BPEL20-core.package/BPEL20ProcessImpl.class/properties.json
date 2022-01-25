@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"processName",
+		"activitie",
+		"variables",
+		"partnerLinks",
+		"faultHandlers",
+		"fileName",
+		"fullPath",
+		"bpRelations",
+		"nsNameSpaces",
+		"bpRelationsProcessInstrumented"
+	],
+	"name" : "BPEL20ProcessImpl",
+	"type" : "normal"
+}

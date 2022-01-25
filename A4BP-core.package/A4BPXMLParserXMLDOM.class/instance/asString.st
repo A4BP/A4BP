@@ -1,0 +1,3 @@
+writer
+asString
+	^ parser fullPrintString

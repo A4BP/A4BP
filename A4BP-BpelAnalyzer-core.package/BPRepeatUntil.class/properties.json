@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/17/2014 15:20",
+	"super" : "BPActivityComposite",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPRepeatUntil",
+	"type" : "normal"
+}

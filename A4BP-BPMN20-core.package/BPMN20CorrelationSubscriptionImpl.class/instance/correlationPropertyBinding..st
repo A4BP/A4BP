@@ -1,0 +1,3 @@
+as yet unclassified
+correlationPropertyBinding: acorrelationPropertyBinding
+^ correlationPropertyBinding := acorrelationPropertyBinding

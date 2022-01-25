@@ -1,0 +1,3 @@
+links
+linkOut
+	^ nil

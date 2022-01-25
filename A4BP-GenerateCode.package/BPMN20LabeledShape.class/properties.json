@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-GenerateCode-BPMN20-org-eclipse-dd-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20LabeledShape",
+	"type" : "normal"
+}

@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPOnMsgCommon",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"activity",
+		"variable",
+		"partnerLink",
+		"bpActivity"
+	],
+	"name" : "BPOnMessage",
+	"type" : "normal"
+}

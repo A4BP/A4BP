@@ -1,0 +1,3 @@
+as yet unclassified
+extensionAttributeDefinition: aextensionAttributeDefinition
+^ extensionAttributeDefinition := aextensionAttributeDefinition

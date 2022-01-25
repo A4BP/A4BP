@@ -1,0 +1,3 @@
+msg
+msgOpenView
+	^ 'Open view'

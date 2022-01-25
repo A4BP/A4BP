@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"XSD_TYPE_DEFINITION",
+		"XSD_SCHEMA",
+		"XSD_ELEMENT_DECLARATION"
+	],
+	"name" : "BPEL20XSDUtil",
+	"type" : "normal"
+}

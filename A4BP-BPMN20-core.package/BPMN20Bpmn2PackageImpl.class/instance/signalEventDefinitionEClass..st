@@ -1,0 +1,3 @@
+as yet unclassified
+signalEventDefinitionEClass: asignalEventDefinitionEClass
+^ signalEventDefinitionEClass := asignalEventDefinitionEClass

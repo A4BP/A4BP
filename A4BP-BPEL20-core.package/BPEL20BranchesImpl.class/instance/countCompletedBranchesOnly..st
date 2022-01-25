@@ -1,0 +1,3 @@
+as yet unclassified
+countCompletedBranchesOnly: acountCompletedBranchesOnly
+^ countCompletedBranchesOnly := acountCompletedBranchesOnly

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPDBAbstract",
+	"category" : "A4BP-DB",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPDBMongo",
+	"type" : "normal"
+}

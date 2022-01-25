@@ -1,0 +1,3 @@
+defaults
+abstractClass
+	^ XMLUTF16StreamConverter

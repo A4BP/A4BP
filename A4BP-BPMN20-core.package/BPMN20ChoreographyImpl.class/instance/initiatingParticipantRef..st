@@ -1,0 +1,3 @@
+as yet unclassified
+initiatingParticipantRef: ainitiatingParticipantRef
+	^ initiatingParticipantRef := ainitiatingParticipantRef

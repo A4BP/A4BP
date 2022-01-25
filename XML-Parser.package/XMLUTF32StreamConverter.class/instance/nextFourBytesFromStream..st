@@ -1,0 +1,3 @@
+basic
+nextFourBytesFromStream: aStream
+	self subclassResponsibility

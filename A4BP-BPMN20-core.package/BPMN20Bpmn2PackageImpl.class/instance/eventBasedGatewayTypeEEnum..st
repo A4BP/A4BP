@@ -1,0 +1,3 @@
+as yet unclassified
+eventBasedGatewayTypeEEnum: aeventBasedGatewayTypeEEnum
+^ eventBasedGatewayTypeEEnum := aeventBasedGatewayTypeEEnum

@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-resource",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fBPELResource",
+		"wsdlNamespacePrefixManager",
+		"extensibilityElementListHandlers",
+		"bpelPackage",
+		"EMPTY_STRING",
+		"SKIP_AUTO_IMPORT",
+		"document",
+		"extensionRegistry"
+	],
+	"name" : "BPEL20BPELWriter",
+	"type" : "normal"
+}

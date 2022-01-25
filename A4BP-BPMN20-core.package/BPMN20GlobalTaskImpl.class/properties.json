@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20CallableElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"resources"
+	],
+	"name" : "BPMN20GlobalTaskImpl",
+	"type" : "normal"
+}

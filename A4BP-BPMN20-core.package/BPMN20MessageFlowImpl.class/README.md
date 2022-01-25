@@ -1,0 +1,1 @@
+A Message Flow is used to show the flow of Messages between two Participants that are prepared to send and receive them.

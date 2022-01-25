@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPBuilderSetNodesVisitor",
+	"category" : "A4BP-BPEL20-core-parser-builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"a"
+	],
+	"name" : "A4BPBuildBPXSDSequenceVisitor",
+	"type" : "normal"
+}

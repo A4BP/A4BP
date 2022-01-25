@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20GlobalTaskImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"renderings",
+		"IMPLEMENTATION_EDEFAULT",
+		"implementation"
+	],
+	"name" : "BPMN20GlobalUserTaskImpl",
+	"type" : "normal"
+}

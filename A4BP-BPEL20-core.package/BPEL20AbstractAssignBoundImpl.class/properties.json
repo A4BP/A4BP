@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"property",
+		"query",
+		"part",
+		"variable",
+		"partnerLink",
+		"expression"
+	],
+	"name" : "BPEL20AbstractAssignBoundImpl",
+	"type" : "normal"
+}

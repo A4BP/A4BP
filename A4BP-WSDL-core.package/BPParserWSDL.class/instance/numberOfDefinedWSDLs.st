@@ -1,0 +1,3 @@
+metric
+numberOfDefinedWSDLs
+	^ self numberOfElements.

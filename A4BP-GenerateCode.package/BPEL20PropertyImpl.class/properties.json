@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-messageproperties-impl",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"QNAME_EDEFAULT",
+		"type",
+		"name",
+		"ID_EDEFAULT",
+		"qName",
+		"NAME_EDEFAULT",
+		"TYPE_EDEFAULT"
+	],
+	"name" : "BPEL20PropertyImpl",
+	"type" : "normal"
+}

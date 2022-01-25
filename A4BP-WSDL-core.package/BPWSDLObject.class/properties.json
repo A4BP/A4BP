@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/7/2014 14:54",
+	"super" : "A4BPObject",
+	"category" : "A4BP-WSDL-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"myWSDL",
+		"fileName",
+		"fullPath"
+	],
+	"name" : "BPWSDLObject",
+	"type" : "normal"
+}

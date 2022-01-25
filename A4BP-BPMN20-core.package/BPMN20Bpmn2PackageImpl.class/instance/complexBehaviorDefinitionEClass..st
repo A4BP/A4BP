@@ -1,0 +1,3 @@
+as yet unclassified
+complexBehaviorDefinitionEClass: acomplexBehaviorDefinitionEClass
+^ complexBehaviorDefinitionEClass := acomplexBehaviorDefinitionEClass

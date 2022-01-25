@@ -1,0 +1,3 @@
+accessing
+terminalStates: aTerminalStateCollection
+	terminalStateOrStates := aTerminalStateCollection

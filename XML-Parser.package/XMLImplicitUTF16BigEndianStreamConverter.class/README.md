@@ -1,0 +1,1 @@
+A stream converter for implicit big endian UTF-16 streams.

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"DIRECTION_EDEFAULT",
+		"targets",
+		"TYPE_EDEFAULT",
+		"direction",
+		"sources",
+		"type"
+	],
+	"name" : "BPMN20RelationshipImpl",
+	"type" : "normal"
+}

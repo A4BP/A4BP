@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"debug",
+		"terms",
+		"strict",
+		"diagnostics"
+	],
+	"name" : "BPEL20XSDComparer",
+	"type" : "normal"
+}

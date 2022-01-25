@@ -1,0 +1,3 @@
+getset
+lstFaultHandlers
+	^ faultHandlers lstFaultHandlers

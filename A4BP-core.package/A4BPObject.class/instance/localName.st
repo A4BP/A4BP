@@ -1,0 +1,3 @@
+getset
+localName
+	^ localName

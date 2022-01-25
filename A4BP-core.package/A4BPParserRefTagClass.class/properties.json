@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-core-parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tag",
+		"objclass"
+	],
+	"name" : "A4BPParserRefTagClass",
+	"type" : "normal"
+}

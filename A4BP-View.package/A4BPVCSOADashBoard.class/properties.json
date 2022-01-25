@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPVCSOAContext",
+	"category" : "A4BP-View-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cv",
+		"rtc"
+	],
+	"name" : "A4BPVCSOADashBoard",
+	"type" : "normal"
+}

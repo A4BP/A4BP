@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"NAME_EDEFAULT"
+	],
+	"instvars" : [
+		"name",
+		"partitionElement",
+		"partitionElementRef",
+		"childLaneSet",
+		"flowNodeRefs",
+		"a4bpRefsToBuilder"
+	],
+	"name" : "BPMN20LaneImpl",
+	"type" : "normal"
+}

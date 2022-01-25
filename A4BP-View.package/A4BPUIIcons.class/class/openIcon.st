@@ -1,0 +1,3 @@
+iconsMAIN
+openIcon
+	^ GLMUIThemeExtraIcons glamorousOpen

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20EventDefinitionImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageRef",
+		"operationRef"
+	],
+	"name" : "BPMN20MessageEventDefinitionImpl",
+	"type" : "normal"
+}

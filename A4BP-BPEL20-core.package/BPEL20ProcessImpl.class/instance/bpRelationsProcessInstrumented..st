@@ -1,0 +1,3 @@
+accessing
+bpRelationsProcessInstrumented: anObject
+	bpRelationsProcessInstrumented := anObject

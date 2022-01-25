@@ -1,0 +1,3 @@
+as yet unclassified
+PATTERN_EDEFAULT
+^ PATTERN_EDEFAULT

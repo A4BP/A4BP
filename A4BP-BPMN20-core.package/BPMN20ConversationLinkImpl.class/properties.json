@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"targetRef",
+		"sourceRef",
+		"NAME_EDEFAULT"
+	],
+	"name" : "BPMN20ConversationLinkImpl",
+	"type" : "normal"
+}

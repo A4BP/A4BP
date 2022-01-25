@@ -1,0 +1,3 @@
+all
+allRelations
+	^ bpRelations allRelations 

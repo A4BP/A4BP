@@ -1,0 +1,3 @@
+inout
+outgoings
+	^ self outgoing

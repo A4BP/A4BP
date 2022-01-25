@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-JVM",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sp",
+		"jsp",
+		"basePathDir",
+		"libraryFile",
+		"autoConfigure"
+	],
+	"name" : "A4BPJVMConfiguration",
+	"type" : "normal"
+}

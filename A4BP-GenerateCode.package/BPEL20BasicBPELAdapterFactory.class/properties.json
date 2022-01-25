@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELAdapterFactory",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-adapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"provider",
+		"INSTANCE"
+	],
+	"name" : "BPEL20BasicBPELAdapterFactory",
+	"type" : "normal"
+}

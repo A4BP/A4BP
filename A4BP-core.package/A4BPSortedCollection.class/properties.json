@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPAbstractCollection",
+	"category" : "A4BP-core-model-collections",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPSortedCollection",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"correlationPropertyRef",
+		"dataPath"
+	],
+	"name" : "BPMN20CorrelationPropertyBindingImpl",
+	"type" : "normal"
+}

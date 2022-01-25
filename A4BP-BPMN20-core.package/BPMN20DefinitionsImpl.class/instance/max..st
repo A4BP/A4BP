@@ -1,0 +1,3 @@
+quetions
+max: aValue
+	^ self

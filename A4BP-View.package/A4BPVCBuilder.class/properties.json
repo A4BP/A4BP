@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-View-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPVCBuilder",
+	"type" : "normal"
+}

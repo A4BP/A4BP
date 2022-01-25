@@ -1,0 +1,1 @@
+A WebClient content reader.

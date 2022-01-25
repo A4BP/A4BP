@@ -1,0 +1,3 @@
+getset
+key
+	^ self id

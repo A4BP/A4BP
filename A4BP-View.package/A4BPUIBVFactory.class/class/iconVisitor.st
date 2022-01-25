@@ -1,0 +1,3 @@
+factories
+iconVisitor
+	^ A4BPUIBPModelIconBuilderVisitor instance

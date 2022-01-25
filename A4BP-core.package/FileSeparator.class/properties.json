@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-core-files",
+	"classinstvars" : [
+		"separator",
+		"cseparator"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "FileSeparator",
+	"type" : "normal"
+}

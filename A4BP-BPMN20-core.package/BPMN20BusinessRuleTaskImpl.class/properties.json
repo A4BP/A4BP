@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20TaskImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IMPLEMENTATION_EDEFAULT"
+	],
+	"instvars" : [
+		"implementation"
+	],
+	"name" : "BPMN20BusinessRuleTaskImpl",
+	"type" : "normal"
+}

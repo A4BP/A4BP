@@ -1,0 +1,3 @@
+getset
+allChildrens
+	^ self allElements 

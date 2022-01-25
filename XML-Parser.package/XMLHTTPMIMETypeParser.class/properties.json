@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "monty 1/24/2018 02:21",
+	"super" : "XMLAbstractReadStreamParser",
+	"category" : "XML-Parser-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"TokenDelimiters"
+	],
+	"instvars" : [ ],
+	"name" : "XMLHTTPMIMETypeParser",
+	"type" : "normal"
+}

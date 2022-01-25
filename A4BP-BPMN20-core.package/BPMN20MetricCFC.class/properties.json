@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPMetricCFC",
+	"category" : "A4BP-BPMN20-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cfcMetric"
+	],
+	"name" : "BPMN20MetricCFC",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+init
+instance
+	^ mInstance

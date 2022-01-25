@@ -1,0 +1,3 @@
+metrics
+numberOfActivities
+^ 0

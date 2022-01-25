@@ -1,0 +1,3 @@
+as yet unclassified
+linkEventDefinitionEClass: alinkEventDefinitionEClass
+^ linkEventDefinitionEClass := alinkEventDefinitionEClass

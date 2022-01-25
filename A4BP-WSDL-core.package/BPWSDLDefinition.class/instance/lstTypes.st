@@ -1,0 +1,3 @@
+getset
+lstTypes
+	^ types lstSchemas

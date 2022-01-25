@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "monty 2/12/2017 16:42",
+	"super" : "XMLAbstractReadStreamParser",
+	"category" : "XML-Parser-URI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"HostDelimiters",
+		"PathDelimiters",
+		"QueryKeyDelimiters",
+		"QueryValueDelimiters",
+		"SchemeDelimiters",
+		"UserInfoDelimiters"
+	],
+	"instvars" : [ ],
+	"name" : "XMLURIParser",
+	"type" : "normal"
+}

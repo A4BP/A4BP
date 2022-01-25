@@ -1,0 +1,3 @@
+dsl
+relations
+	^ self lstRelations 

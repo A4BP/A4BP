@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"serviceReferenceDeserializers",
+		"INSTANCE",
+		"serviceReferenceSerializers",
+		"activitySerializers",
+		"activityDeserializers",
+		"serialVersionUID"
+	],
+	"name" : "BPEL20BPELExtensionRegistry",
+	"type" : "normal"
+}

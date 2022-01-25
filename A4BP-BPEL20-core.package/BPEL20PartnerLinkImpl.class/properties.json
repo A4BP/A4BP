@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"initializePartnerRole",
+		"NAME_EDEFAULT",
+		"name",
+		"partnerLinkType",
+		"partnerRole",
+		"INITIALIZE_PARTNER_ROLE_EDEFAULT",
+		"myRole",
+		"initializePartnerRoleESet"
+	],
+	"name" : "BPEL20PartnerLinkImpl",
+	"type" : "normal"
+}

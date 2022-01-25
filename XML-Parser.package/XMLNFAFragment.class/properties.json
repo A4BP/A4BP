@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "monty 3/9/2018 18:26",
+	"super" : "Object",
+	"category" : "XML-Parser-Validation-DFA",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"firstState",
+		"terminalStateOrStates"
+	],
+	"name" : "XMLNFAFragment",
+	"type" : "normal"
+}

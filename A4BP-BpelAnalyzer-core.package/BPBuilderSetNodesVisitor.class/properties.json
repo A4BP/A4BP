@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TBPActivitySameDoForAll classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"aBPObj"
+	],
+	"name" : "BPBuilderSetNodesVisitor",
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractVisitor",
+	"traitcomposition" : "TBPActivitySameDoForAll",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-parser-builder"
+}

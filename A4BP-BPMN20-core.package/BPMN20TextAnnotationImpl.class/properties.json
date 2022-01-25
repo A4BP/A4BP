@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ArtifactImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"TEXT_FORMAT_EDEFAULT"
+	],
+	"instvars" : [
+		"textFormat"
+	],
+	"name" : "BPMN20TextAnnotationImpl",
+	"type" : "normal"
+}

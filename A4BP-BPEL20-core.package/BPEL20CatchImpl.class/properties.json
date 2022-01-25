@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"faultVariable",
+		"faultName",
+		"faultElement",
+		"FAULT_NAME_EDEFAULT",
+		"activity",
+		"faultMessageType"
+	],
+	"name" : "BPEL20CatchImpl",
+	"type" : "normal"
+}

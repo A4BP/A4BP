@@ -1,0 +1,3 @@
+getset
+cancelRemainingInstances: acancelRemainingInstances
+	^ cancelRemainingInstances := acancelRemainingInstances

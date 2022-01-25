@@ -1,0 +1,3 @@
+msg
+msgModels
+	^ self defaultmsg

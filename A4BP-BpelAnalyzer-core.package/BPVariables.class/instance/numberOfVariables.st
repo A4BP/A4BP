@@ -1,0 +1,3 @@
+metric
+numberOfVariables
+	^ lstVariables size

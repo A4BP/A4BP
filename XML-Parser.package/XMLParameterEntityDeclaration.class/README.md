@@ -1,0 +1,1 @@
+This is a class for parameter <!ENTITY> declarations.

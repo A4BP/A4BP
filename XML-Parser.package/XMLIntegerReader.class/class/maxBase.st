@@ -1,0 +1,3 @@
+defaults
+maxBase
+	^ 16

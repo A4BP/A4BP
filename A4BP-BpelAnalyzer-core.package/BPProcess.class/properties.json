@@ -1,0 +1,24 @@
+{
+	"classtraitcomposition" : "TBPRelations classTrait + TBPActivityMetric classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"processName",
+		"activities",
+		"variables",
+		"partnerLinks",
+		"faultHandlers",
+		"fileName",
+		"fullPath",
+		"bpRelations",
+		"nsNameSpaces",
+		"bpRelationsProcessInstrumented"
+	],
+	"name" : "BPProcess",
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/9/2014 18:10",
+	"super" : "BPBPELObject",
+	"traitcomposition" : "TBPRelations + TBPActivityMetric",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel"
+}

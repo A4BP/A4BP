@@ -1,0 +1,3 @@
+as yet unclassified
+globalManualTaskEClass: aglobalManualTaskEClass
+^ globalManualTaskEClass := aglobalManualTaskEClass

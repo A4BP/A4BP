@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20RootElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"escalationCode",
+		"ESCALATION_CODE_EDEFAULT",
+		"structureRef",
+		"NAME_EDEFAULT"
+	],
+	"name" : "BPMN20EscalationImpl",
+	"type" : "normal"
+}

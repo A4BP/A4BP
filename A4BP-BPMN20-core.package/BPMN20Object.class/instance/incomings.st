@@ -1,0 +1,3 @@
+inout
+incomings
+	^ self incoming

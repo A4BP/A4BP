@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-reordering-extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ATTRIBUTE_CLASS",
+		"INSTANCE",
+		"ID_EXTENSION_REORDERING"
+	],
+	"name" : "BPEL20ExtensionFactory",
+	"type" : "normal"
+}

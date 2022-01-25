@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20ExpressionImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPEL20ConditionImpl",
+	"type" : "normal"
+}

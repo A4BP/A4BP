@@ -1,0 +1,3 @@
+as yet unclassified
+timerEventDefinitionEClass: atimerEventDefinitionEClass
+^ timerEventDefinitionEClass := atimerEventDefinitionEClass

@@ -1,0 +1,3 @@
+metrics
+numberOfCatchAll
+	^ faultHandlers numberOfCatchAll

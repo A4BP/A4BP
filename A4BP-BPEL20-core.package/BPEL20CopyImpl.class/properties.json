@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"from",
+		"KEEP_SRC_ELEMENT_NAME_EDEFAULT",
+		"to",
+		"keepSrcElementName",
+		"IGNORE_MISSING_FROM_DATA_EDEFAULT",
+		"ignoreMissingFromDataESet",
+		"keepSrcElementNameESet",
+		"ignoreMissingFromData"
+	],
+	"name" : "BPEL20CopyImpl",
+	"type" : "normal"
+}

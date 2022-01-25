@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Enum",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"REQUEST",
+		"VALUES_ARRAY",
+		"literal",
+		"VALUES",
+		"RESPONSE",
+		"name",
+		"REQUESTRESPONSE",
+		"value"
+	],
+	"name" : "BPEL20CorrelationPattern",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+msg
+msgStartInstrumentationListener
+	^ self defaultmsg

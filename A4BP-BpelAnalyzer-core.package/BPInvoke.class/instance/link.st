@@ -1,0 +1,3 @@
+getset
+link
+	^ bpPartnerLink link

@@ -1,0 +1,3 @@
+as yet unclassified
+multiInstanceLoopCharacteristicsEClass: amultiInstanceLoopCharacteristicsEClass
+^ multiInstanceLoopCharacteristicsEClass := amultiInstanceLoopCharacteristicsEClass

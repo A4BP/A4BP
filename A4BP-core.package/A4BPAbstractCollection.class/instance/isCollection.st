@@ -1,0 +1,3 @@
+adding
+isCollection
+	^ collection isCollection

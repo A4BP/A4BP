@@ -1,0 +1,3 @@
+question
+isGateway
+	^ true

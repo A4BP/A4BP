@@ -1,0 +1,1 @@
+ConversationNode is the abstract super class for all elements that can comprise the Conversation elements of a Collaboration diagram, which are Conversation, Sub-Conversation, and Call Conversation.

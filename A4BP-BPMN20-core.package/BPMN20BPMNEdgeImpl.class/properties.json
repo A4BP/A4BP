@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20LabeledEdgeImpl",
+	"category" : "A4BP-BPMN20-core-model-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"MESSAGE_VISIBLE_KIND_EDEFAULT"
+	],
+	"instvars" : [
+		"targetElement",
+		"bpmnElement",
+		"messageVisibleKind",
+		"sourceElement",
+		"label"
+	],
+	"name" : "BPMN20BPMNEdgeImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ItemAwareElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"inputSetWithWhileExecuting",
+		"NAME_EDEFAULT",
+		"inputSetWithOptional",
+		"IS_COLLECTION_EDEFAULT",
+		"inputSetRefs"
+	],
+	"name" : "BPMN20DataInputImpl",
+	"type" : "normal"
+}

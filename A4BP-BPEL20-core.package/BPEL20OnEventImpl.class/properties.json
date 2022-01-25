@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageType",
+		"partnerLink",
+		"fromParts",
+		"activity",
+		"correlations",
+		"xsdElement",
+		"portType",
+		"messageExchange",
+		"correlationSets",
+		"variable",
+		"operation",
+		"operationName"
+	],
+	"name" : "BPEL20OnEventImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+getset
+allWSDLs
+	^ self wsdls

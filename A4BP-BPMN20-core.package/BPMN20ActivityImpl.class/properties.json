@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:43",
+	"super" : "BPMN20FlowNodeImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"COMPLETION_QUANTITY_EDEFAULT",
+		"IS_FOR_COMPENSATION_EDEFAULT",
+		"START_QUANTITY_EDEFAULT"
+	],
+	"instvars" : [
+		"properties",
+		"completionQuantity",
+		"ioSpecification",
+		"isForCompensation",
+		"loopCharacteristics",
+		"default_",
+		"dataInputAssociations",
+		"boundaryEventRefs",
+		"startQuantity",
+		"resources",
+		"dataOutputAssociations"
+	],
+	"name" : "BPMN20ActivityImpl",
+	"type" : "normal"
+}

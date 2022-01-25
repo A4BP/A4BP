@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 5/14/2014 16:19",
+	"super" : "BPCatchAbstract",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPCatchAll",
+	"type" : "normal"
+}

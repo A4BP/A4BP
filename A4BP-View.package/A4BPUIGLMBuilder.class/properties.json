@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-View-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mainBrowser"
+	],
+	"name" : "A4BPUIGLMBuilder",
+	"type" : "normal"
+}

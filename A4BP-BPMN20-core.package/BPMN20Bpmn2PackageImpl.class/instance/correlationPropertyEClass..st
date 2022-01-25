@@ -1,0 +1,3 @@
+as yet unclassified
+correlationPropertyEClass: acorrelationPropertyEClass
+^ correlationPropertyEClass := acorrelationPropertyEClass

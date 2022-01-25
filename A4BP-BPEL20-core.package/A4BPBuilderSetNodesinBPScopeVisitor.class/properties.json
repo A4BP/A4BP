@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPBuildBPObjectCompositeVisitor",
+	"category" : "A4BP-BPEL20-core-parser-builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"b"
+	],
+	"name" : "A4BPBuilderSetNodesinBPScopeVisitor",
+	"type" : "normal"
+}

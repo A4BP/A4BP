@@ -1,0 +1,3 @@
+defaults
+responseClass
+	^ XMLHTTPWebClientResponse

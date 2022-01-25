@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TBPActivityMetric classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"faultHandlers"
+	],
+	"name" : "BPScope",
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/16/2014 01:26",
+	"super" : "BPActivityComposite",
+	"traitcomposition" : "TBPActivityMetric",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel"
+}

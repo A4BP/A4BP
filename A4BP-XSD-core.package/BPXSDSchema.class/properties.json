@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "BPXSDNamedElement",
+	"category" : "A4BP-XSD-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lstComplexTypes",
+		"lstSimpleTypes",
+		"fileName",
+		"fullPath",
+		"lstElements",
+		"targetNamespace",
+		"nsNameSpaces",
+		"import",
+		"include",
+		"schemaLocation",
+		"iInternalReference"
+	],
+	"name" : "BPXSDSchema",
+	"type" : "normal"
+}

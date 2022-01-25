@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPMetricAbsCFC",
+	"category" : "A4BP-BPMN20-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20MetricAbsCFC",
+	"type" : "normal"
+}

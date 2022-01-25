@@ -1,0 +1,28 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-messageproperties-util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"PROPERTY_ALIAS_PART_ATTRIBUTE",
+		"QUERY_QUERYLANGUAGE_ATTRIBUTE",
+		"PROPERTY_ALIAS_ELEMENT_TAG",
+		"PROPERTY_ALIAS_QUERY_ATTRIBUTE",
+		"PROPERTY_ALIAS_XSD_ELEMENT_ATTRIBUTE",
+		"NAMESPACE_2004",
+		"NAMESPACE_2007",
+		"QUERY_ELEMENT_TAG",
+		"PROPERTY_ALIAS_TYPE_ATTRIBUTE",
+		"PROPERTY_ALIAS_PROPERTY_NAME_ATTRIBUTE",
+		"PROPERTY_NAME_ATTRIBUTE",
+		"PROPERTY_ELEMENT_TAG",
+		"PROPERTY_XSD_ELEMENT_ATTRIBUTE",
+		"PROPERTY_TYPE_ATTRIBUTE",
+		"NAMESPACE",
+		"PROPERTY_ALIAS_MESSAGE_TYPE_ATTRIBUTE"
+	],
+	"name" : "BPEL20MessagepropertiesConstants",
+	"type" : "normal"
+}

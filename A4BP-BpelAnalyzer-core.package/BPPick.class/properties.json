@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/16/2014 01:26",
+	"super" : "BPActivityStructured",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"createInstance",
+		"lstBPOnMessage"
+	],
+	"name" : "BPPick",
+	"type" : "normal"
+}

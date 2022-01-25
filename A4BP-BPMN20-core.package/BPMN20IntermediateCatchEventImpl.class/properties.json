@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20CatchEventImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20IntermediateCatchEventImpl",
+	"type" : "normal"
+}

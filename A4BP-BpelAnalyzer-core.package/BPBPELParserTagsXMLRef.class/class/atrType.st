@@ -1,0 +1,3 @@
+atr
+atrType
+	^ 'type'

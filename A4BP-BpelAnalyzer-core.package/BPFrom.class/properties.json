@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"literal",
+		"query",
+		"queryLanguage",
+		"endPointReference",
+		"expressionLanguage",
+		"property",
+		"part",
+		"bpPartnerLink",
+		"bpVariable"
+	],
+	"name" : "BPFrom",
+	"type" : "normal"
+}

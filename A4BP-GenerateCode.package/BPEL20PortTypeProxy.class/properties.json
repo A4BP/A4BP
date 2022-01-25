@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-proxy",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"proxyURI"
+	],
+	"name" : "BPEL20PortTypeProxy",
+	"type" : "normal"
+}

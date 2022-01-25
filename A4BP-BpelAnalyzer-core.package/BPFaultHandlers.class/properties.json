@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 5/16/2014 15:23",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lstFaultHandlers"
+	],
+	"name" : "BPFaultHandlers",
+	"type" : "normal"
+}

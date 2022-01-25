@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20SubProcessImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ORDERING_EDEFAULT",
+		"completionCondition",
+		"ordering",
+		"cancelRemainingInstances",
+		"CANCEL_REMAINING_INSTANCES_EDEFAULT"
+	],
+	"name" : "BPMN20AdHocSubProcessImpl",
+	"type" : "normal"
+}

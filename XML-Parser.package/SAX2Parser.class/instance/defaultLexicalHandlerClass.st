@@ -1,0 +1,3 @@
+defaults
+defaultLexicalHandlerClass
+	^ SAX2LexicalHandler

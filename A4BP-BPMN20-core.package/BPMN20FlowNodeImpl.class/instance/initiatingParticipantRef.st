@@ -1,0 +1,3 @@
+getset
+initiatingParticipantRef
+	^ initiatingParticipantRef

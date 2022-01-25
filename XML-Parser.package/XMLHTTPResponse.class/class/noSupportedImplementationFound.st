@@ -1,0 +1,3 @@
+finding
+noSupportedImplementationFound
+	XMLHTTPRequest noSupportedImplementationFound

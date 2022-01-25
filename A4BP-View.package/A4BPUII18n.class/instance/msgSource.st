@@ -1,0 +1,3 @@
+msg
+msgSource
+	^ self defaultmsg

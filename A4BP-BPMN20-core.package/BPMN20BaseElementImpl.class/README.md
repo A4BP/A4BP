@@ -1,0 +1,1 @@
+BaseElement is the abstract super class for most BPMN elements. It provides the attributes id and documentation, which other elements will inherit.

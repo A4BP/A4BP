@@ -1,0 +1,11 @@
+SystemOrganization addCategory: #'A4BP-BPMN20-core'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-metric'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-model'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-model-a4bp'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-model-dc'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-model-dd-di'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-model-di'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-parser'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-parser-builder-visitors'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-parser-builder-visitors-di'!
+SystemOrganization addCategory: #'A4BP-BPMN20-core-visitors-questions'!

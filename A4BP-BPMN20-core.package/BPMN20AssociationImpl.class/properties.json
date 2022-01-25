@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ArtifactImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ASSOCIATION_DIRECTION_EDEFAULT"
+	],
+	"instvars" : [
+		"associationDirection",
+		"targetRef",
+		"sourceRef"
+	],
+	"name" : "BPMN20AssociationImpl",
+	"type" : "normal"
+}

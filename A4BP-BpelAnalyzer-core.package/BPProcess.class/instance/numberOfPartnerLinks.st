@@ -1,0 +1,3 @@
+metrics
+numberOfPartnerLinks
+	^ partnerLinks numberOfPartnerLinks.

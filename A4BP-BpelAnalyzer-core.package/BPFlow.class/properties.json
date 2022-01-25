@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/16/2014 01:15",
+	"super" : "BPActivityComposite",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"lstBPLinks"
+	],
+	"name" : "BPFlow",
+	"type" : "normal"
+}

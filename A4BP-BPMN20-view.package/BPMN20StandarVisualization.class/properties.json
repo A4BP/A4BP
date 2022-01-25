@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPVCBPProcess",
+	"category" : "A4BP-BPMN20-view-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"modifyElementBlock"
+	],
+	"name" : "BPMN20StandarVisualization",
+	"type" : "normal"
+}

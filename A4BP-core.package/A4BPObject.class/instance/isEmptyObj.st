@@ -1,0 +1,3 @@
+questions
+isEmptyObj
+ ^ false

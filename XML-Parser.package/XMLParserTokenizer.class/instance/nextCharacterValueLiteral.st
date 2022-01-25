@@ -1,0 +1,3 @@
+decoding
+nextCharacterValueLiteral
+	^ self nextCharacterValueLiteralPrintedOn: nil

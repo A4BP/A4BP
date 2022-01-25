@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPBuilderSetNodesVisitor",
+	"category" : "A4BP-WSDL-core-parser-builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPBuilderSetNodesinBPWSDLPartVisitor",
+	"type" : "normal"
+}

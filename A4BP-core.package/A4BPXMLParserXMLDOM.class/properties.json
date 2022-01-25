@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractXML",
+	"category" : "A4BP-core-parser",
+	"classinstvars" : [
+		"node"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tagWriter"
+	],
+	"name" : "A4BPXMLParserXMLDOM",
+	"type" : "normal"
+}

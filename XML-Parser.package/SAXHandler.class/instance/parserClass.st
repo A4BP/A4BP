@@ -1,0 +1,3 @@
+defaults
+parserClass
+	^ XMLParser

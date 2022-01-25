@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-GenerateCode-BPMN20-org-eclipse-bpmn2-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"eINSTANCE"
+	],
+	"name" : "BPMN20BpmnDiFactory",
+	"type" : "normal"
+}

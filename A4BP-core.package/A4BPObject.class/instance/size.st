@@ -1,0 +1,3 @@
+metric
+size
+	^ 1

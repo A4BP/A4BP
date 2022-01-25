@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPBuilderSetNodesVisitor",
+	"category" : "A4BP-BpelAnalyzer-core-parser-builder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPBuilderSetNodesinBPProcessVisitor",
+	"type" : "normal"
+}

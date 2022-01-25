@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-GenerateCode-BPMN20-org-eclipse-dd-dc-impl",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"IS_UNDERLINE_EDEFAULT",
+		"isBold",
+		"name",
+		"IS_STRIKE_THROUGH_EDEFAULT",
+		"SIZE_EDEFAULT",
+		"IS_ITALIC_EDEFAULT",
+		"NAME_EDEFAULT",
+		"size",
+		"isStrikeThrough",
+		"isUnderline",
+		"IS_BOLD_EDEFAULT",
+		"isItalic"
+	],
+	"name" : "BPMN20FontImpl",
+	"type" : "normal"
+}

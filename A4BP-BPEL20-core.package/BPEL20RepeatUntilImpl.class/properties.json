@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20ActivityImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"activity"
+	],
+	"name" : "BPEL20RepeatUntilImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPUIBPAbstractViewActionVisitor",
+	"category" : "A4BP-View-Action",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rootObj",
+		"nodes"
+	],
+	"name" : "A4BPUIMetricVisualizationActionlstNodesBaseOfClass",
+	"type" : "normal"
+}

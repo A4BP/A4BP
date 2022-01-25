@@ -1,0 +1,3 @@
+deprecated
+requiresDocumentConstraints
+	^ self requiresSchema

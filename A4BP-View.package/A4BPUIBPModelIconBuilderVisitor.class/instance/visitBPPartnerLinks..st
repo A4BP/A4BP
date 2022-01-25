@@ -1,0 +1,3 @@
+visitorBPELAnalyzer
+visitBPPartnerLinks: aBPPartnerLinks
+	^ A4BPUIIcons iconModelBPPartnerLink

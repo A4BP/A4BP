@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20LabeledShapeImpl",
+	"category" : "A4BP-BPMN20-core-model-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IS_EXPANDED_EDEFAULT",
+		"IS_HORIZONTAL_EDEFAULT",
+		"IS_MARKER_VISIBLE_EDEFAULT",
+		"IS_MESSAGE_VISIBLE_EDEFAULT",
+		"PARTICIPANT_BAND_KIND_EDEFAULT"
+	],
+	"instvars" : [
+		"label",
+		"isHorizontal",
+		"isMessageVisible",
+		"isMarkerVisible",
+		"isExpanded",
+		"bpmnElement",
+		"choreographyActivityShape",
+		"participantBandKind"
+	],
+	"name" : "BPMN20BPMNShapeImpl",
+	"type" : "normal"
+}

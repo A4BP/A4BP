@@ -1,0 +1,3 @@
+visitorBPMN20
+visitBPMN20LaneImpl: aModel
+	^ (Color r: 0.9410000000000001 g: 0.9410000000000001 b: 0.9410000000000001 alpha: 0.5)

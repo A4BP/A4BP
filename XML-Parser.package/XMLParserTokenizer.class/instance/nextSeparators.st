@@ -1,0 +1,3 @@
+tokenizing
+nextSeparators
+	self subclassResponsibility

@@ -1,0 +1,3 @@
+build-relations
+buildRelationsBpProcess: aBPProcess
+	aBPProcess buildRelationsBpXSDSchema: self

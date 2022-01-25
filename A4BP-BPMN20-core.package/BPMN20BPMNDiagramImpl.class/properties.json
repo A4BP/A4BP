@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20DiagramImpl",
+	"category" : "A4BP-BPMN20-core-model-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"labelStyle",
+		"plane"
+	],
+	"name" : "BPMN20BPMNDiagramImpl",
+	"type" : "normal"
+}

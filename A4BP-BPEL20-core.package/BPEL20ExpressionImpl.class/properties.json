@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"opaque",
+		"BODY_EDEFAULT",
+		"opaqueESet",
+		"EXPRESSION_LANGUAGE_EDEFAULT",
+		"OPAQUE_EDEFAULT",
+		"expressionLanguage",
+		"body",
+		"expressionLanguageESet"
+	],
+	"name" : "BPEL20ExpressionImpl",
+	"type" : "normal"
+}

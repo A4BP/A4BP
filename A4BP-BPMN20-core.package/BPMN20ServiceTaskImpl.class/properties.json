@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:57",
+	"super" : "BPMN20TaskImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IMPLEMENTATION_EDEFAULT"
+	],
+	"instvars" : [
+		"implementation",
+		"operationRef"
+	],
+	"name" : "BPMN20ServiceTaskImpl",
+	"type" : "normal"
+}

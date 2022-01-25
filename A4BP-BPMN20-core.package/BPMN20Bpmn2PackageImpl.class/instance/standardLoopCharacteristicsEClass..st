@@ -1,0 +1,3 @@
+as yet unclassified
+standardLoopCharacteristicsEClass: astandardLoopCharacteristicsEClass
+^ standardLoopCharacteristicsEClass := astandardLoopCharacteristicsEClass

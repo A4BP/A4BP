@@ -1,0 +1,3 @@
+msg
+msgBrowser
+	^ self defaultmsg

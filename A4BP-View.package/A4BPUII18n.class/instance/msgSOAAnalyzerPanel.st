@@ -1,0 +1,3 @@
+msg
+msgSOAAnalyzerPanel
+	^ self defaultmsg

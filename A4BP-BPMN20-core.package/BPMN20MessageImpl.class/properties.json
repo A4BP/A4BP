@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20RootElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"NAME_EDEFAULT",
+		"itemRef"
+	],
+	"name" : "BPMN20MessageImpl",
+	"type" : "normal"
+}

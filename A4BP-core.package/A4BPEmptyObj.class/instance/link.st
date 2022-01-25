@@ -1,0 +1,3 @@
+all
+link
+	^ self

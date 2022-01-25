@@ -1,0 +1,3 @@
+as yet unclassified
+inputOutputSpecificationEClass: ainputOutputSpecificationEClass
+^ inputOutputSpecificationEClass := ainputOutputSpecificationEClass

@@ -1,0 +1,3 @@
+generate
+nodekey
+	^ nodekey asString

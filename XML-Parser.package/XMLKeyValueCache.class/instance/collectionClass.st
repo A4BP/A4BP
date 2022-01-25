@@ -1,0 +1,3 @@
+defaults
+collectionClass
+	^ Dictionary

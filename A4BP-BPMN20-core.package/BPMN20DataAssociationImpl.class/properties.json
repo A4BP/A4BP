@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"transformation",
+		"assignment",
+		"targetRef",
+		"sourceRef"
+	],
+	"name" : "BPMN20DataAssociationImpl",
+	"type" : "normal"
+}

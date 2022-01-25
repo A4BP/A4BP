@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ItemAwareElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"NAME_EDEFAULT",
+		"CAPACITY_EDEFAULT",
+		"capacity",
+		"isUnlimited",
+		"IS_UNLIMITED_EDEFAULT"
+	],
+	"name" : "BPMN20DataStoreImpl",
+	"type" : "normal"
+}

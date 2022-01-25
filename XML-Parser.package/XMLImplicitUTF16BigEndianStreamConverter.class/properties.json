@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "monty 1/18/2018 02:22",
+	"super" : "XMLUTF16BigEndianStreamConverter",
+	"category" : "XML-Parser-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XMLImplicitUTF16BigEndianStreamConverter",
+	"type" : "normal"
+}

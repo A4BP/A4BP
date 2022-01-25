@@ -1,0 +1,3 @@
+testing
+isXMLBinaryOrExternalStream
+	^ self isBinary

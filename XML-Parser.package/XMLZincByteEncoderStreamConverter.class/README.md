@@ -1,0 +1,1 @@
+A stream converter that wraps the ZnByteEncoder legacy byte encoder class. (Requires Zinc.)

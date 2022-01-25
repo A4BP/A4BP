@@ -1,0 +1,3 @@
+getset
+contexts
+	^ self lstSOAContext  

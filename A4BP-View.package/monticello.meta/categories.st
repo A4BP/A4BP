@@ -1,0 +1,10 @@
+SystemOrganization addCategory: #'A4BP-View'!
+SystemOrganization addCategory: #'A4BP-View-Action'!
+SystemOrganization addCategory: #'A4BP-View-Browser'!
+SystemOrganization addCategory: #'A4BP-View-I18n'!
+SystemOrganization addCategory: #'A4BP-View-UI'!
+SystemOrganization addCategory: #'A4BP-View-UI-Builder'!
+SystemOrganization addCategory: #'A4BP-View-UI-Rclick'!
+SystemOrganization addCategory: #'A4BP-View-UI-metric'!
+SystemOrganization addCategory: #'A4BP-View-Visualization'!
+SystemOrganization addCategory: #'A4BP-View-Visualization-Controller'!

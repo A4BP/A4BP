@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-BPMN20-view-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ww",
+		"hh"
+	],
+	"name" : "BPMN20StandarVizPoint",
+	"type" : "normal"
+}

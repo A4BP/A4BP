@@ -1,0 +1,3 @@
+metrics
+numberOfSimpleTypes
+	^ lstSimpleTypes size

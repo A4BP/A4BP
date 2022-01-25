@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20EventDefinitionImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"timeDuration",
+		"timeCycle",
+		"timeDate"
+	],
+	"name" : "BPMN20TimerEventDefinitionImpl",
+	"type" : "normal"
+}

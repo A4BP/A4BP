@@ -1,0 +1,3 @@
+as yet unclassified
+extensionActivityEClass: aextensionActivityEClass
+^ extensionActivityEClass := aextensionActivityEClass

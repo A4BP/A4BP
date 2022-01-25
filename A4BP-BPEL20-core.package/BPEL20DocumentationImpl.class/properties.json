@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"LANG_EDEFAULT",
+		"SOURCE_EDEFAULT",
+		"source",
+		"VALUE_EDEFAULT",
+		"lang"
+	],
+	"name" : "BPEL20DocumentationImpl",
+	"type" : "normal"
+}

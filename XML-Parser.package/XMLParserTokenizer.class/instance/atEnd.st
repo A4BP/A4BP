@@ -1,0 +1,3 @@
+testing
+atEnd
+	^ state isTerminatedState

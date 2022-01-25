@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:58",
+	"super" : "BPMN20FlowNodeImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"GATEWAY_DIRECTION_EDEFAULT",
+		"gatewayDirection"
+	],
+	"name" : "BPMN20GatewayImpl",
+	"type" : "normal"
+}

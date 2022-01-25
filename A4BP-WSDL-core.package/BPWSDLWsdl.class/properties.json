@@ -1,0 +1,19 @@
+{
+	"classtraitcomposition" : "TBPRelations classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"wsdlDefinition",
+		"bpRelations",
+		"nsNameSpaces",
+		"callRelations",
+		"implementRelations"
+	],
+	"name" : "BPWSDLWsdl",
+	"commentStamp" : "",
+	"super" : "BPWSDLObject",
+	"traitcomposition" : "TBPRelations",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-WSDL-core-model"
+}

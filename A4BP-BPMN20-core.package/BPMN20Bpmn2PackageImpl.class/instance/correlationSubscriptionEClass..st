@@ -1,0 +1,3 @@
+as yet unclassified
+correlationSubscriptionEClass: acorrelationSubscriptionEClass
+^ correlationSubscriptionEClass := acorrelationSubscriptionEClass

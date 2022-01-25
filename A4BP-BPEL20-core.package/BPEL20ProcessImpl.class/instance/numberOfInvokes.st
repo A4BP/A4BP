@@ -1,0 +1,3 @@
+metrics
+numberOfInvokes
+	^ 0

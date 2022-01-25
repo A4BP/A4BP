@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 6/21/2014 00:22",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageType",
+		"simpleType",
+		"elementType",
+		"lstRelations",
+		"xsdType"
+	],
+	"name" : "BPVariable",
+	"type" : "normal"
+}

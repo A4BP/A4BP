@@ -1,0 +1,35 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"EXPORTER_EDEFAULT",
+		"EXPORTER_VERSION_EDEFAULT",
+		"EXPRESSION_LANGUAGE_EDEFAULT",
+		"NAME_EDEFAULT",
+		"TARGET_NAMESPACE_EDEFAULT",
+		"TYPE_LANGUAGE_EDEFAULT"
+	],
+	"instvars" : [
+		"targetNamespace",
+		"imports",
+		"extensions",
+		"relationships",
+		"diagrams",
+		"rootElements",
+		"exporterVersion",
+		"typeLanguage",
+		"exporter",
+		"expressionLanguage",
+		"name",
+		"fileRevision",
+		"version",
+		"fileName",
+		"fullPath",
+		"elementsDictionary"
+	],
+	"name" : "BPMN20DefinitionsImpl",
+	"type" : "normal"
+}

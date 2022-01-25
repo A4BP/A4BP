@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"NAME_EDEFAULT"
+	],
+	"instvars" : [
+		"lanes",
+		"name"
+	],
+	"name" : "BPMN20LaneSetImpl",
+	"type" : "normal"
+}

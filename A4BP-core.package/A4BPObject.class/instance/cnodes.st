@@ -1,0 +1,3 @@
+getset
+cnodes
+	^ self childrens 

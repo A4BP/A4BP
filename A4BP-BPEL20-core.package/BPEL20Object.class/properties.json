@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 1/12/2015 17:17",
+	"super" : "A4BPObject",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value",
+		"statebp"
+	],
+	"name" : "BPEL20Object",
+	"type" : "normal"
+}

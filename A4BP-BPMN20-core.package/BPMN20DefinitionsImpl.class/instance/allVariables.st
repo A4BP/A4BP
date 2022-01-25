@@ -1,0 +1,3 @@
+all
+allVariables
+	^ OrderedCollection new

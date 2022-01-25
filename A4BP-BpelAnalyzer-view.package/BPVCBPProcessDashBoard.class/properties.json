@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BPVCBPProcess",
+	"category" : "A4BP-BpelAnalyzer-view-Visualization",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cv",
+		"rtc"
+	],
+	"name" : "BPVCBPProcessDashBoard",
+	"type" : "normal"
+}

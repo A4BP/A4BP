@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 3/21/2018 02:49",
+	"super" : "Object",
+	"category" : "A4BP-API-Server-Biz",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sbjson",
+		"sbclose",
+		"nodekey"
+	],
+	"name" : "A4BPApiGenTreeCtxOnJson",
+	"type" : "normal"
+}

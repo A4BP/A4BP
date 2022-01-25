@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "monty 11/13/2017 13:03",
+	"super" : "Object",
+	"category" : "XML-Parser-HTTP",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mainType",
+		"subType",
+		"parameters"
+	],
+	"name" : "XMLHTTPMIMEType",
+	"type" : "normal"
+}

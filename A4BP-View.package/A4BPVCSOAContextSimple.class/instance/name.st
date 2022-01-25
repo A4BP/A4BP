@@ -1,0 +1,3 @@
+visualization
+name
+	^ 'Complete view'

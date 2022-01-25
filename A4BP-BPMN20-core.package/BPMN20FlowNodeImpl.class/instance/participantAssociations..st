@@ -1,0 +1,3 @@
+getset
+participantAssociations: aparticipantAssociations
+	^ participantAssociations := aparticipantAssociations

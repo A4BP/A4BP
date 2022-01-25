@@ -1,0 +1,3 @@
+visitorBPMN20
+visitBPMN20ExclusiveGatewayImpl: aModel
+	^ self icons iconBPMN20ExclusiveGateway

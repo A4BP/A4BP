@@ -1,0 +1,3 @@
+getset
+elements
+	^ self lstElements

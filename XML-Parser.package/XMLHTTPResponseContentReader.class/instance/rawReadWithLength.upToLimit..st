@@ -1,0 +1,3 @@
+reading
+rawReadWithLength: aContentLength upToLimit: aMaxSize
+	self subclassResponsibility

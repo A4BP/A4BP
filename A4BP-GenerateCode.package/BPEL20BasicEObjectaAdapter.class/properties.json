@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20IProperty",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-adapters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"fNamespace2Prefix",
+		"fProperties",
+		"fPrefix2Namespace"
+	],
+	"name" : "BPEL20BasicEObjectaAdapter",
+	"type" : "normal"
+}

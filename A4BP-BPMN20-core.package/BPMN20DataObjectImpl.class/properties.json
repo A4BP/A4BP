@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20FlowElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"IS_COLLECTION_EDEFAULT",
+		"dataState",
+		"itemSubjectRef"
+	],
+	"name" : "BPMN20DataObjectImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/7/2014 19:28",
+	"super" : "A4BPUIGLM",
+	"category" : "A4BP-View-UI-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPUIMetricVisualization",
+	"type" : "normal"
+}

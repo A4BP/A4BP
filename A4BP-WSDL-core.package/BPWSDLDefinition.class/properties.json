@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPWSDLObject",
+	"category" : "A4BP-WSDL-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetNamespace",
+		"lstPartnertLinkTypes",
+		"lstXmlns",
+		"types",
+		"lstMessages",
+		"lstPortTypes"
+	],
+	"name" : "BPWSDLDefinition",
+	"type" : "normal"
+}

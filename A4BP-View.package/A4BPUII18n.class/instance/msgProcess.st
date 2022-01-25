@@ -1,0 +1,3 @@
+msg
+msgProcess
+	^ self defaultmsg

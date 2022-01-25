@@ -1,0 +1,3 @@
+defaults
+doctypeDefinitionClass
+	^ DTDDoctypeDefinition

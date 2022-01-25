@@ -1,0 +1,27 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20RootElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"IS_CLOSED_EDEFAULT",
+		"NAME_EDEFAULT"
+	],
+	"instvars" : [
+		"artifacts",
+		"conversationLinks",
+		"messageFlows",
+		"isClosed",
+		"conversationAssociations",
+		"conversations",
+		"name",
+		"correlationKeys",
+		"choreographyRef",
+		"messageFlowAssociations",
+		"participantAssociations",
+		"participants"
+	],
+	"name" : "BPMN20CollaborationImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+A Conversation is an atomic element for a Conversation (Collaboration) diagram. It represents a set of Message Flows grouped together based on a concept and/or a CorrelationKey. A Conversation will involve two or more Participants.

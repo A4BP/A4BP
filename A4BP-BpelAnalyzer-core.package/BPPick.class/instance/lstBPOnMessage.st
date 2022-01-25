@@ -1,0 +1,3 @@
+getset
+lstBPOnMessage
+	^ lstBPOnMessage

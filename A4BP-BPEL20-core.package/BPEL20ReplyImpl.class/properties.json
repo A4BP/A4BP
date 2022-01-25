@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20PartnerActivityImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"variable",
+		"messageExchange",
+		"FAULT_NAME_EDEFAULT",
+		"toParts",
+		"faultName"
+	],
+	"name" : "BPEL20ReplyImpl",
+	"type" : "normal"
+}

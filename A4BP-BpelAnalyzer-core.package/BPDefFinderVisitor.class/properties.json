@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-BpelAnalyzer-core-biz-actions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"defType",
+		"returnElement"
+	],
+	"name" : "BPDefFinderVisitor",
+	"type" : "normal"
+}

@@ -1,0 +1,2 @@
+visitor
+visitBPMN20OutgoingImpl: aModel

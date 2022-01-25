@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20ParserTagsXMLRef",
+	"category" : "A4BP-BPEL20-core-parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPEL20ParserXSDTagsXMLRef",
+	"type" : "normal"
+}

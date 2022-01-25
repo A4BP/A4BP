@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-BPMN20-core-visitors-questions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20isGatewayVisitor",
+	"type" : "normal"
+}

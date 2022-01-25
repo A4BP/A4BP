@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-View-UI-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messageType",
+		"val"
+	],
+	"name" : "BPUIMetricMessageType",
+	"type" : "normal"
+}

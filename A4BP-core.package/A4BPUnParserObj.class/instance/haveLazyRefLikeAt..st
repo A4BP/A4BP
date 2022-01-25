@@ -1,0 +1,3 @@
+builder
+haveLazyRefLikeAt: aRef
+	^ false

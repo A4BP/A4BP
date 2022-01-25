@@ -1,0 +1,3 @@
+getset
+allRelations
+	^ self lstRelations

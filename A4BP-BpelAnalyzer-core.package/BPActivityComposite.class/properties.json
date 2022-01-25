@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TBPActivityMetric classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"lstActivities"
+	],
+	"name" : "BPActivityComposite",
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/17/2014 15:13",
+	"super" : "BPActivityStructured",
+	"traitcomposition" : "TBPActivityMetric",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel"
+}

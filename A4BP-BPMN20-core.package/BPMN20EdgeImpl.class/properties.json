@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20DiagramElementImpl",
+	"category" : "A4BP-BPMN20-core-model-dd-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"target",
+		"source",
+		"waypoint"
+	],
+	"name" : "BPMN20EdgeImpl",
+	"type" : "normal"
+}

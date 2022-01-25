@@ -1,0 +1,3 @@
+msg
+msgDelete
+	^ 'Delete'

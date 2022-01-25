@@ -1,0 +1,3 @@
+getset
+activities
+	^ self lstActivities 

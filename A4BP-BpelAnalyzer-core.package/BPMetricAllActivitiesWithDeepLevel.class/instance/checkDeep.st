@@ -1,0 +1,3 @@
+action
+checkDeep
+	^ deepLevel = targetdeepLevel

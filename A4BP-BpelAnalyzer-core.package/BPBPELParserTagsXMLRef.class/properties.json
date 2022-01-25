@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPParserTagsXMLRef",
+	"category" : "A4BP-BpelAnalyzer-core-parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPBPELParserTagsXMLRef",
+	"type" : "normal"
+}

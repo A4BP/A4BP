@@ -1,0 +1,3 @@
+dsl
+metaModelBaseClass
+	^ BPBPELObject

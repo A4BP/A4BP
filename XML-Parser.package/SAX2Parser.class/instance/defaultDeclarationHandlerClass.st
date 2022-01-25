@@ -1,0 +1,3 @@
+defaults
+defaultDeclarationHandlerClass
+	^ SAX2DeclarationHandler

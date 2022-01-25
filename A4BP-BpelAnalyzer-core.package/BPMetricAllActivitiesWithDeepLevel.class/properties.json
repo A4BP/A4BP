@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 11/4/2014 15:48",
+	"super" : "BPMetricAllActivities",
+	"category" : "A4BP-BpelAnalyzer-core-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"deepLevel",
+		"targetdeepLevel"
+	],
+	"name" : "BPMetricAllActivitiesWithDeepLevel",
+	"type" : "normal"
+}

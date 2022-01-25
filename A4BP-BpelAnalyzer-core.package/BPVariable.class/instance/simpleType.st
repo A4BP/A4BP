@@ -1,0 +1,3 @@
+getset
+simpleType
+	^ simpleType 

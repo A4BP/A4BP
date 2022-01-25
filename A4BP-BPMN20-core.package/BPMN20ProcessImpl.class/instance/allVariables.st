@@ -1,0 +1,3 @@
+getset
+allVariables
+	^ self variables 

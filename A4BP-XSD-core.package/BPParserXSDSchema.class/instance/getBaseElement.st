@@ -1,0 +1,3 @@
+impl
+getBaseElement
+	^ BPXSDSchema 

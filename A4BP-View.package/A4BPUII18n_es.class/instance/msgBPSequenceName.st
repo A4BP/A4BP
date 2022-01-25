@@ -1,0 +1,3 @@
+msg
+msgBPSequenceName
+	^ 'Secuencia'

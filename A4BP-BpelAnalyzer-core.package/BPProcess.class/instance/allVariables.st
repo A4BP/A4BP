@@ -1,0 +1,3 @@
+all
+allVariables
+	^ self lstVariables.

@@ -1,0 +1,3 @@
+basic
+basicOnPath: aPathString
+	self subclassResponsibility

@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPObject",
+	"category" : "A4BP-core-parser",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tagName",
+		"value",
+		"fileName",
+		"fullPath",
+		"error"
+	],
+	"name" : "A4BPUnParserObj",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+getset
+partnerLinks
+	^ partnerLinks

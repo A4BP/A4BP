@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20ActivityImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"laneSets",
+		"flowElements",
+		"TRIGGERED_BY_EVENT_EDEFAULT",
+		"triggeredByEvent",
+		"artifacts"
+	],
+	"name" : "BPMN20SubProcessImpl",
+	"type" : "normal"
+}

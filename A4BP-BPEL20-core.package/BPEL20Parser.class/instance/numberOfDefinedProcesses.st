@@ -1,0 +1,3 @@
+metric
+numberOfDefinedProcesses
+	^ self numberOfElements.

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20FlowElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"incoming",
+		"lanes",
+		"outgoing"
+	],
+	"name" : "BPMN20FlowNodeImpl",
+	"type" : "normal"
+}

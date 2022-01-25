@@ -1,0 +1,3 @@
+getset
+eventDefinitionRefs
+	^ eventDefinitionRefs

@@ -1,0 +1,3 @@
+as yet unclassified
+correlationPropertyBindingEClass: acorrelationPropertyBindingEClass
+^ correlationPropertyBindingEClass := acorrelationPropertyBindingEClass

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPXSDNamedElement",
+	"category" : "A4BP-XSD-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"type",
+		"stType",
+		"lstElements"
+	],
+	"name" : "BPXSDElement",
+	"type" : "normal"
+}

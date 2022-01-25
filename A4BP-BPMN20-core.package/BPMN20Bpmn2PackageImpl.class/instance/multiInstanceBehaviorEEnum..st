@@ -1,0 +1,3 @@
+as yet unclassified
+multiInstanceBehaviorEEnum: amultiInstanceBehaviorEEnum
+^ multiInstanceBehaviorEEnum := amultiInstanceBehaviorEEnum

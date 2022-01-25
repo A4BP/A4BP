@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"LOCATION_EDEFAULT",
+		"IMPORT_TYPE_EDEFAULT",
+		"NAMESPACE_EDEFAULT",
+		"location",
+		"namespace",
+		"importType"
+	],
+	"name" : "BPMN20ImportImpl",
+	"type" : "normal"
+}

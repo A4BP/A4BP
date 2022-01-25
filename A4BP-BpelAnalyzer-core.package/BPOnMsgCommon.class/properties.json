@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"portType",
+		"operation",
+		"messageExchange"
+	],
+	"name" : "BPOnMsgCommon",
+	"type" : "normal"
+}

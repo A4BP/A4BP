@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"RESOLVE_DEFINITION",
+		"TOP",
+		"RESOLVE_SCHEMA"
+	],
+	"name" : "BPEL20ImportResolver",
+	"type" : "normal"
+}

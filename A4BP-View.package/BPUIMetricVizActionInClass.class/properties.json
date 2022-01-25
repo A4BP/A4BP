@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPAbstractVisitor",
+	"category" : "A4BP-View-UI-metric",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rootObj",
+		"nodes"
+	],
+	"name" : "BPUIMetricVizActionInClass",
+	"type" : "normal"
+}

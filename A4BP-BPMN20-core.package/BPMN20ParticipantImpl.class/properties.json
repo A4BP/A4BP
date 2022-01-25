@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "SergeStinckwich 12/10/2014 15:59",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"processRef",
+		"participantMultiplicity",
+		"name",
+		"NAME_EDEFAULT",
+		"endPointRefs",
+		"interfaceRefs"
+	],
+	"name" : "BPMN20ParticipantImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPTblItem",
+	"category" : "A4BP-View-Visualization-Controller",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"obj",
+		"message"
+	],
+	"name" : "A4BPTblItemReflexion",
+	"type" : "normal"
+}

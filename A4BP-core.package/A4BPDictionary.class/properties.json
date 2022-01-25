@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPAbstractCollection",
+	"category" : "A4BP-core-model-collections",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPDictionary",
+	"type" : "normal"
+}

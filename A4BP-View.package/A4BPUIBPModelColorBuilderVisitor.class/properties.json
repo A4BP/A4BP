@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "A4BPUIBPAbstractViewBuilderVisitor",
+	"category" : "A4BP-View-UI-Builder",
+	"classinstvars" : [
+		"instance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "A4BPUIBPModelColorBuilderVisitor",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+getset
+allNodes
+	^ self allChildrens

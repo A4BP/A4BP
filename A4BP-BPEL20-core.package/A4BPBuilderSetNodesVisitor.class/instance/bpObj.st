@@ -1,0 +1,3 @@
+getset
+bpObj
+	^ aBPObj

@@ -1,0 +1,15 @@
+{
+	"classtraitcomposition" : "TBPActivitySameDoForAll classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"lstActivities"
+	],
+	"name" : "BPMetricAbstractForBPActivities",
+	"commentStamp" : "AlvaroJosePeraltaOcampo 4/21/2014 00:54",
+	"super" : "A4BPAbstractVisitor",
+	"traitcomposition" : "TBPActivitySameDoForAll",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "A4BP-BpelAnalyzer-core-metric"
+}

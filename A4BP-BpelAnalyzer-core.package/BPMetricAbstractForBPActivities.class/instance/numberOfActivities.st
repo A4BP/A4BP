@@ -1,0 +1,3 @@
+getset
+numberOfActivities
+	^ lstActivities size

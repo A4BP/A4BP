@@ -1,0 +1,3 @@
+doNothing
+allRelations
+	^ OrderedCollection new

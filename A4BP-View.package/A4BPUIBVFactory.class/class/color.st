@@ -1,0 +1,3 @@
+factories
+color
+	^ self colorVisitor

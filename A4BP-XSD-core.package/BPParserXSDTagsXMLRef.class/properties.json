@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "A4BPParserTagsXMLRef",
+	"category" : "A4BP-XSD-core-parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPParserXSDTagsXMLRef",
+	"type" : "normal"
+}

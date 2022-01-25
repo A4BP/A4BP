@@ -1,0 +1,3 @@
+factories
+RTBitmapVisitor
+	^ A4BPUIBPModelRTBitmapBuilderVisitor new.

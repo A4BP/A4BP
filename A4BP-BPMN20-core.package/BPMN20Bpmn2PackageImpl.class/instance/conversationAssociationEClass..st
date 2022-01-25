@@ -1,0 +1,3 @@
+as yet unclassified
+conversationAssociationEClass: aconversationAssociationEClass
+^ conversationAssociationEClass := aconversationAssociationEClass

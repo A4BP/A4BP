@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "AlvaroJosePeraltaOcampo 3/5/2015 19:16",
+	"super" : "BPMN20BaseElementImpl",
+	"category" : "A4BP-BPMN20-core-model-a4bp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"refId",
+		"objWhitMatch",
+		"key"
+	],
+	"name" : "BPMN20RefToBeBuild",
+	"type" : "normal"
+}

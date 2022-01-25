@@ -1,0 +1,1 @@
+Have similar code to produces de collection about relations between metamodels object

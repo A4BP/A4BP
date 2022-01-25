@@ -1,0 +1,3 @@
+as yet unclassified
+resourceParameterEClass: aresourceParameterEClass
+^ resourceParameterEClass := aresourceParameterEClass

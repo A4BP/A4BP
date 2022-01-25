@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Object",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model-util",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ATTR_XMLNS",
+		"string2Locale",
+		"locale2String",
+		"NCNAME_DETECTOR"
+	],
+	"name" : "BPEL20BPELUtils",
+	"type" : "normal"
+}

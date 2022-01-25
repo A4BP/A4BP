@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BPWSDLObject",
+	"category" : "A4BP-WSDL-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bpWsdlPart"
+	],
+	"name" : "BPWSDLMessage",
+	"type" : "normal"
+}

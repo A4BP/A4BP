@@ -1,0 +1,3 @@
+testing
+hasImplicitStreamConverter
+	^ streamConverter isImplicit

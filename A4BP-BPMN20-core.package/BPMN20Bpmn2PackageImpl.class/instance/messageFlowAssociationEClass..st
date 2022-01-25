@@ -1,0 +1,3 @@
+as yet unclassified
+messageFlowAssociationEClass: amessageFlowAssociationEClass
+^ messageFlowAssociationEClass := amessageFlowAssociationEClass

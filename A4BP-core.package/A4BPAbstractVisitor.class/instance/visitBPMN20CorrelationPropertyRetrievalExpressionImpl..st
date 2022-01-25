@@ -1,0 +1,3 @@
+visitor-BPMN20
+visitBPMN20CorrelationPropertyRetrievalExpressionImpl:aModel 
+	^ self visitBPMN20Object: aModel

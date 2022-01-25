@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20Enum",
+	"category" : "A4BP-GenerateCode-BPEL20-org-eclipse-bpel-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"MY_ROLE",
+		"name",
+		"VALUES",
+		"literal",
+		"value",
+		"PARTNER_ROLE",
+		"VALUES_ARRAY"
+	],
+	"name" : "BPEL20EndpointReferenceRole",
+	"type" : "normal"
+}

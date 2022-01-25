@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BPEL20BPELExtensibleElementImpl",
+	"category" : "A4BP-BPEL20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"repeatEvery",
+		"until",
+		"for_",
+		"activity"
+	],
+	"name" : "BPEL20OnAlarmImpl",
+	"type" : "normal"
+}

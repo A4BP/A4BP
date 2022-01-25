@@ -1,0 +1,3 @@
+metrics
+numberOfRelations
+	^ bpRelations  numberOfRelations

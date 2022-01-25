@@ -1,0 +1,3 @@
+msg
+msgVisualization
+	^ 'Visualización'

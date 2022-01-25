@@ -1,0 +1,25 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20LoopCharacteristicsImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"loopDataInputRef",
+		"outputDataItem",
+		"complexBehaviorDefinition",
+		"isSequential",
+		"noneBehaviorEventRef",
+		"loopDataOutputRef",
+		"completionCondition",
+		"oneBehaviorEventRef",
+		"IS_SEQUENTIAL_EDEFAULT",
+		"loopCardinality",
+		"behavior",
+		"BEHAVIOR_EDEFAULT",
+		"inputDataItem"
+	],
+	"name" : "BPMN20MultiInstanceLoopCharacteristicsImpl",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "A4BP-API-Server-Main",
+	"classinstvars" : [
+		"mInstance"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"jsonEB",
+		"mapper",
+		"JSONStore",
+		"server"
+	],
+	"name" : "A4BPMainServer",
+	"type" : "normal"
+}

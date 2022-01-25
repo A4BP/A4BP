@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20EventImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"PARALLEL_MULTIPLE_EDEFAULT"
+	],
+	"instvars" : [
+		"parallelMultiple",
+		"dataOutputs",
+		"eventDefinitionRefs",
+		"eventDefinitions",
+		"outputSet",
+		"dataOutputAssociation"
+	],
+	"name" : "BPMN20CatchEventImpl",
+	"type" : "normal"
+}

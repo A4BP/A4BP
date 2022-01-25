@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"query",
+		"queryLanguage",
+		"endPointReference",
+		"expressionLanguage",
+		"property",
+		"part",
+		"bpPartnerLink",
+		"bpVariable"
+	],
+	"name" : "BPTo",
+	"type" : "normal"
+}

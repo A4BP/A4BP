@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20Object",
+	"category" : "A4BP-BPMN20-core-model-dd-di",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"DOCUMENTATION_EDEFAULT",
+		"ID_EDEFAULT",
+		"NAME_EDEFAULT",
+		"RESOLUTION_EDEFAULT"
+	],
+	"instvars" : [
+		"ownedStyle",
+		"documentation",
+		"name",
+		"resolution"
+	],
+	"name" : "BPMN20DiagramImpl",
+	"type" : "normal"
+}

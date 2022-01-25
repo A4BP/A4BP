@@ -1,0 +1,3 @@
+getset
+shape
+	^ shape

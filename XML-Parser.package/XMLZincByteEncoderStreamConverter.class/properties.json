@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "monty 2/7/2018 07:36",
+	"super" : "XMLStreamConverter",
+	"category" : "XML-Parser-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"NullReadStream"
+	],
+	"instvars" : [
+		"zincByteEncoder",
+		"stringReadStreamAdapter"
+	],
+	"name" : "XMLZincByteEncoderStreamConverter",
+	"type" : "normal"
+}

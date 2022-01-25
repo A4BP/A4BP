@@ -1,0 +1,3 @@
+as yet unclassified
+choreographyLoopTypeEEnum: achoreographyLoopTypeEEnum
+^ choreographyLoopTypeEEnum := achoreographyLoopTypeEEnum

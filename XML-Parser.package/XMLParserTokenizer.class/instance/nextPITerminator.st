@@ -1,0 +1,3 @@
+tokenizing
+nextPITerminator
+	self expectNext: $>

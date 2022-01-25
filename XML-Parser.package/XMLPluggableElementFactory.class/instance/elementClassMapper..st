@@ -1,0 +1,3 @@
+private
+elementClassMapper: anElementClassMapper
+	elementClassMapper := anElementClassMapper

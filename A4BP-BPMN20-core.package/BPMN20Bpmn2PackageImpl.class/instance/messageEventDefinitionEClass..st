@@ -1,0 +1,3 @@
+as yet unclassified
+messageEventDefinitionEClass: amessageEventDefinitionEClass
+^ messageEventDefinitionEClass := amessageEventDefinitionEClass

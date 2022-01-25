@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "BPBPELObject",
+	"category" : "A4BP-BpelAnalyzer-core-model-bpel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bpForUntilGroup",
+		"bpRepeatEvery"
+	],
+	"name" : "BPOnAlarmEvent",
+	"type" : "normal"
+}

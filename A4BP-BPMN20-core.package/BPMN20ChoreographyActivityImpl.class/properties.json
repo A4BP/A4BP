@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20FlowNodeImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"LOOP_TYPE_EDEFAULT"
+	],
+	"instvars" : [
+		"initiatingParticipantRef",
+		"loopType",
+		"correlationKeys",
+		"participantRefs"
+	],
+	"name" : "BPMN20ChoreographyActivityImpl",
+	"type" : "normal"
+}

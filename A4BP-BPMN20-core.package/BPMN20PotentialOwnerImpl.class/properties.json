@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20HumanPerformerImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20PotentialOwnerImpl",
+	"type" : "normal"
+}

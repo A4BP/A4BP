@@ -1,0 +1,2 @@
+getset
+value: aValue

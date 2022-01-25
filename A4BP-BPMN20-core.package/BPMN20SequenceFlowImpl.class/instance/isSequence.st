@@ -1,0 +1,3 @@
+questions
+isSequence
+	^ true

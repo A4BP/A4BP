@@ -1,0 +1,3 @@
+as yet unclassified
+participantMultiplicityEClass: aparticipantMultiplicityEClass
+^ participantMultiplicityEClass := aparticipantMultiplicityEClass

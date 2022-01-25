@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20CatchEventImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"cancelActivity",
+		"attachedToRef",
+		"CANCEL_ACTIVITY_EDEFAULT"
+	],
+	"name" : "BPMN20BoundaryEventImpl",
+	"type" : "normal"
+}

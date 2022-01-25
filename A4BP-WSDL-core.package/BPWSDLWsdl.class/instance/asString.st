@@ -1,0 +1,3 @@
+getset
+asString
+	^ self aName

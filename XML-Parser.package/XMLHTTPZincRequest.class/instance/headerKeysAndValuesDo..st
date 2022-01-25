@@ -1,0 +1,3 @@
+enumerating
+headerKeysAndValuesDo: aTwoArgumentBlock
+	self zincRequest headersDo: aTwoArgumentBlock

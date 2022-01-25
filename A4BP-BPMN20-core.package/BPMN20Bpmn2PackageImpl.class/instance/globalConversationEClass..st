@@ -1,0 +1,3 @@
+as yet unclassified
+globalConversationEClass: aglobalConversationEClass
+^ globalConversationEClass := aglobalConversationEClass

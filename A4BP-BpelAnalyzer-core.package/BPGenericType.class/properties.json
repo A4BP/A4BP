@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "A4BP-BpelAnalyzer-core-model-a4bp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"prefix",
+		"element",
+		"nameSpace"
+	],
+	"name" : "BPGenericType",
+	"type" : "normal"
+}

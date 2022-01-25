@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BPMN20TaskImpl",
+	"category" : "A4BP-BPMN20-core-model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BPMN20ManualTaskImpl",
+	"type" : "normal"
+}
