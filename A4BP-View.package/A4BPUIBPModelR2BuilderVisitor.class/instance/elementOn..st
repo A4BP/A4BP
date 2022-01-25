@@ -1,6 +1,6 @@
 shape
 elementOn: aModel
-	^ RTElement new
+	^ RSObject new
 		model: aModel;
 		addShape: (aModel accept: self);
 		yourself

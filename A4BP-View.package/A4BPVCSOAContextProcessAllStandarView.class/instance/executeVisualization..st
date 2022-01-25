@@ -1,7 +1,7 @@
-as yet unclassified
+visualization
 executeVisualization: view
 	| v soa cv lb |
-	v := RTMondrian new.
+	v := self buildView.
 	v view: view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
@@ -19,11 +19,11 @@ executeVisualization: view
 	v build.
 	
 	"Create the legend builder"
-	lb := RTLegendBuilder new view: view.
+	lb := self buildLegendBuilder: view.
 	lb offset:1.
-	lb addText:'width:metric CFC Abs'.
+	"lb addText:'width:metric CFC Abs'.
 	lb addText:'height: metric CFC'.
-	lb addText:'color number Of Relations'.
+	lb addText:'color number Of Relations'."
 	lb below.
 	lb build.	
 	

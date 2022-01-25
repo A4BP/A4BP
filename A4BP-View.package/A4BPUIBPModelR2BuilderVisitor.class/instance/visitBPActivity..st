@@ -1,3 +1,3 @@
 visitor
 visitBPActivity: aModel
-	^ RTEllipse new
+	^ RSEllipse new

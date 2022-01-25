@@ -1,3 +1,3 @@
 visitor
 visitBPPartnerLinks: aBPPartnerLinks
-	^ RTPolygon new.
+	^ self buildPolygon.

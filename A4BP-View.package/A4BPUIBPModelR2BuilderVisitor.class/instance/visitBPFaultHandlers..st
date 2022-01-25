@@ -1,3 +1,3 @@
 visitor
 visitBPFaultHandlers: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

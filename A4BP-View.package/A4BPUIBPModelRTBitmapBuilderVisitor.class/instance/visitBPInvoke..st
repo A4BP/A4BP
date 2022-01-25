@@ -1,3 +1,3 @@
 visitor
 visitBPInvoke: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

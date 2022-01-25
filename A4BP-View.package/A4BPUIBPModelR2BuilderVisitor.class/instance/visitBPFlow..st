@@ -1,3 +1,3 @@
 visitor
 visitBPFlow: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

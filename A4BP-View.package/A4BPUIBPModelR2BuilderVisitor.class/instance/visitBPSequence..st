@@ -1,3 +1,3 @@
 visitor
 visitBPSequence: aBPSequence
-	^ RTPolygon new.
+	^ self buildPolygon.

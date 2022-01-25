@@ -1,7 +1,7 @@
 visualization
 executeVisualization: view
 	| v soa lst1 lst2 i size |
-	v := RTMondrian new.
+	v := self buildView.
 	v view: view.
 	self addInspect: v.
 	soa := bpObj.

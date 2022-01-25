@@ -1,3 +1,3 @@
 visitor
 visitBPFaultHandlers: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

@@ -1,8 +1,8 @@
 visualization
 executeVisualization: view
 	| b nodes legendBuilder colorv |
-	view @ RTDraggableView.
-	b := RTMondrian new.
+	self makeDraggableView:view.
+	b := self buildView.
 	colorv := A4BPUIBPModelColorBuilderVisitor new.
 	b view: view.
 	nodes := bpObj process.
@@ -22,15 +22,15 @@ executeVisualization: view
 	b shape arrowedLine color: Color black.
 	b edges objects: nodes; connectFrom: #yourself toAll: #outFlows.
 	
-	b layout forceWithCharge: -1500.
+	"b layout forceWithCharge: -1500."
 	b build.	
 	"add the legend"
-	legendBuilder := RTLegendBuilder new view: view.
-	legendBuilder 
+	legendBuilder := self buildLegendBuilder: view.
+	"legendBuilder 
 		addColor: (colorv visitBPProcess: nil)
 		text: 'BPEL20 width: numberOfActivities heigth: metricCFC'.
 	legendBuilder 
 		addColor: (colorv visitBPMN20DefinitionsImpl: nil)
-		text: 'BPMN20 w:#Activities h:CFC'.
+		text: 'BPMN20 w:#Activities h:CFC'."
 	legendBuilder build.
 	"---------------------------------------------------------------------------------------------"

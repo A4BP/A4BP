@@ -1,3 +1,3 @@
 visitor
 visitBPReceive: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

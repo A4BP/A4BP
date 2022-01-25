@@ -1,0 +1,3 @@
+visitor
+buildPolygon
+	^ RSPolygon new.

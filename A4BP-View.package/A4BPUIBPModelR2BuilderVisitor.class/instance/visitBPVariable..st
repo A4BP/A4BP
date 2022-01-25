@@ -1,3 +1,3 @@
 visitor
 visitBPVariable: aBPVariable
-	^ RTPolygon new.
+	^ self buildPolygon.

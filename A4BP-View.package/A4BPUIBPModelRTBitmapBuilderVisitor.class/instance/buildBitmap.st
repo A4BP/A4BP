@@ -1,0 +1,3 @@
+visitor
+buildBitmap
+	^ RSBitmap new.

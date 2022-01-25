@@ -1,3 +1,3 @@
 visitor
 visitBPScope: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

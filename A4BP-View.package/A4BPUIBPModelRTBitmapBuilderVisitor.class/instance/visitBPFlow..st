@@ -1,3 +1,3 @@
 visitor
 visitBPFlow: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

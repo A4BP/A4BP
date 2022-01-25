@@ -1,7 +1,9 @@
 SystemOrganization addCategory: #'A4BP-View'!
 SystemOrganization addCategory: #'A4BP-View-Action'!
 SystemOrganization addCategory: #'A4BP-View-Browser'!
+SystemOrganization addCategory: #'A4BP-View-Glamour'!
 SystemOrganization addCategory: #'A4BP-View-I18n'!
+SystemOrganization addCategory: #'A4BP-View-Roassalx'!
 SystemOrganization addCategory: #'A4BP-View-UI'!
 SystemOrganization addCategory: #'A4BP-View-UI-Builder'!
 SystemOrganization addCategory: #'A4BP-View-UI-Rclick'!

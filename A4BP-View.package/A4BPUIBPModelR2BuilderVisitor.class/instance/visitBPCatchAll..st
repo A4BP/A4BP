@@ -1,3 +1,3 @@
 visitor
 visitBPCatchAll: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

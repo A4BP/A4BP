@@ -1,3 +1,3 @@
 visitor
 visitSOAAnalyzer: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

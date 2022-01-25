@@ -1,3 +1,3 @@
 visitor
 visitBPCatchAll: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

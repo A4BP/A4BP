@@ -1,3 +1,3 @@
 visitor
 visitSOAContext: aSOAContext
-	^ RTPolygon new.
+	^ self buildPolygon.

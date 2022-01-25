@@ -1,3 +1,3 @@
 visitor
 visitBPProcess: aModel
-	^ RTPolygon new.
+	^ self buildPolygon.

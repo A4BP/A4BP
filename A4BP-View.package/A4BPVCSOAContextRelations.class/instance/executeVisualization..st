@@ -1,7 +1,7 @@
 visualization
 executeVisualization: view
 	| b colorv |
-	b := RTMondrian new.
+	b := self buildView.
 	colorv := A4BPUIBVFactory colorVisitor.
 	b view: view.
 	"start the visualization"

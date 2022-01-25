@@ -1,7 +1,7 @@
 glamour-builder-display
 executeVisualization: view  obj:obj  tpObj:tpObj  methods: methods
 	| action mondrian one two three|
-	mondrian := RTMondrian new.
+	mondrian := RSMondrian new.
 	mondrian view:view.
 	
 	one := methods at:1.

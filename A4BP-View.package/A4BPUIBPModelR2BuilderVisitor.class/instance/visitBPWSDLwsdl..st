@@ -1,3 +1,3 @@
 visitor
 visitBPWSDLwsdl: aModel
-	^ RTPolygon new
+	^ self buildPolygon.

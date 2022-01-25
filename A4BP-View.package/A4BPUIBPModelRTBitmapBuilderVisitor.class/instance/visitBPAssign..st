@@ -1,3 +1,3 @@
 visitor
 visitBPAssign: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

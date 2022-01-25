@@ -1,3 +1,3 @@
 visitor
 visitBPActivity: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.

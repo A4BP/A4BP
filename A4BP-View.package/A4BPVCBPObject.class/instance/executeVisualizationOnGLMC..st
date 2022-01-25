@@ -1,3 +1,3 @@
 execute
 executeVisualizationOnGLMC: glmc
-	self executeInRoassal2: glmc
+	self executeInRoassal3: glmc

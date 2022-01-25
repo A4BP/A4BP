@@ -1,17 +1,17 @@
 as yet unclassified
 executeVisualization: view
 	| v soa cv  |
-	v := RTMondrian new.
+	v := self buildView.
 	v view: view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
 	"Do visualization"
 	
-	v interaction
+	"v interaction
 		popupText: [ :a | 
 			'',a name,'-> [CFC:' , a metricCFC asString , ' , NoRel:' , a numberOfRelations asString , ']' ];
-		action: #inspect.
-	v shape rectangle
+		action: #inspect."
+	v shape box
 		height: [ :a | a metricCFC];
 		width: [ :a | a numberOfRelations];
 		color: [:n | n accept:cv].

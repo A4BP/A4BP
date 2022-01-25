@@ -1,3 +1,3 @@
 visitor
 visitBPPick: aBPPick
-	^ RTPolygon new.
+	^ self buildPolygon.
