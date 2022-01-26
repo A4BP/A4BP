@@ -1,3 +1,3 @@
 getset
 verticalLineLayout
-	^ lstRelations.
+	^ self lstRelations.
