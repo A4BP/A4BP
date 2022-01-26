@@ -1,7 +1,6 @@
 private
 executeInRoassal2: glmc
 	| r2 |
-	self halt.
 	r2 := glmc roassal2.
 	r2
 		painting: [ :rview :viewBuilder | 

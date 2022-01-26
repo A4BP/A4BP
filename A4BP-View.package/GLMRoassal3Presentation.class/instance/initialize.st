@@ -1,6 +1,6 @@
 initialize-release
 initialize 
 	super initialize.
-	newViewBlock := [ RSCanvas new ].
+	newViewBlock := [ A4BPCanvas new ].
 	shouldPopulateSelection := true.
 	self defaultActions

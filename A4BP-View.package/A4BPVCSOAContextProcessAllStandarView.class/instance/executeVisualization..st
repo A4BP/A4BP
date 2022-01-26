@@ -20,12 +20,12 @@ executeVisualization: view
 	
 	"Create the legend builder"
 	lb := self buildLegendBuilder: view.
-	lb offset:1.
+	"lb offset:1."
 	"lb addText:'width:metric CFC Abs'.
 	lb addText:'height: metric CFC'.
 	lb addText:'color number Of Relations'."
-	lb below.
-	lb build.	
+	"lb below."
+	"lb build."	
 	
 	self addLegendBuilderView: view values: soa allNodes.	
 	

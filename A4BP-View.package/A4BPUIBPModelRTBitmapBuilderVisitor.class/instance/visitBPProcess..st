@@ -1,3 +1,3 @@
 visitor
 visitBPProcess: aModel
-	^ RTBitmap new.
+	^ self buildBitmap.
