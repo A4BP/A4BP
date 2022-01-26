@@ -1,3 +1,3 @@
 visitor
 visitBPSequence: aBPSequence
-	^ RTBitmap new.
+		^ self buildBitmap.

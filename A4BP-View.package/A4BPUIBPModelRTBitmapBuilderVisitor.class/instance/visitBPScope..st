@@ -1,3 +1,3 @@
 visitor
 visitBPScope: aModel
-	^ RTBitmap new.
+		^ self buildBitmap.

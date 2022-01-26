@@ -1,3 +1,3 @@
 visitor
 visitBPPartnerLinks: aBPPartnerLinks
-	^ RTBitmap new.
+	^ self buildBitmap.

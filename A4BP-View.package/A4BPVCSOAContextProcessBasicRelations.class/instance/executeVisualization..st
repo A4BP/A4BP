@@ -1,7 +1,7 @@
 as yet unclassified
 executeVisualization: view
 	| v soa cv lb |
-	v := RSMondrian new.
+	v := A4BPMondrian new.
 	v view: view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.

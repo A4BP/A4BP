@@ -1,3 +1,3 @@
 visitor
 visitBPPick: aBPPick
-	^ RTBitmap new.
+	^ self buildBitmap.
