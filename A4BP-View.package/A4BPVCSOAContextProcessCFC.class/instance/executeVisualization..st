@@ -1,8 +1,7 @@
-as yet unclassified
+visualization
 executeVisualization: view
-	| v soa cv  |
-	v := self buildView.
-	v view: view.
+	| b soa cv  |
+	b := self buildView:view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
 	"Do visualization"
@@ -11,12 +10,12 @@ executeVisualization: view
 		popupText: [ :a | 
 			'',a name,'-> [CFC:' , a metricCFC asString , ' , NoRel:' , a numberOfRelations asString , ']' ];
 		action: #inspect."
-	v shape box
+	b shape box
 		height: [ :a | a metricCFC];
 		width: [ :a | a numberOfRelations];
 		color: [:n | n accept:cv].
-	v nodes: soa process.
+	b nodes: soa process.
 	"add the legend"
 	self addLegendBuilderView: view values: soa process.
 	
-	v build.
+	b build.

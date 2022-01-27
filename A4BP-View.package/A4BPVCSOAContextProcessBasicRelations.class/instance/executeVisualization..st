@@ -1,8 +1,7 @@
-as yet unclassified
+visualization
 executeVisualization: view
 	| b soa cv lb |
-	b := A4BPMondrian new.
-	b view: view.
+	b := self buildView: view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
 	"Do visualization"
@@ -31,5 +30,3 @@ executeVisualization: view
 	lb build.	"
 	
 	self addLegendBuilderView: view values: soa allNodes.
-	view @ RSCanvasController.
-	view open.

@@ -1,9 +1,8 @@
 visualization
 executeVisualization: view
 	| v soa lst1 lst2 i size |
-	v := self buildView.
-	v view: view.
-	self addInspect: v.
+	v := self buildView:view.
+	"self addInspect: v."
 	soa := bpObj.
 	lst1 := OrderedCollection new.
 	lst2 := OrderedCollection new.
@@ -14,10 +13,10 @@ executeVisualization: view
 	self viewWSDLBuilder: v onlst: lst1.
 	self viewProcessBuilder: v onlst: soa process.
 	self viewWSDLBuilder: v onlst: lst2.
-	v layout verticalLine.
+	v layout vertical.
 	v build.
 	soa process
 		do: [ :p | 
-			v shape line color: Color gray.
-			v edges objects: p allActivities; connectFrom: #yourself toAll: [ :object | object relations ] ].
+			v shape arrowedLine color: Color gray.
+			v lines objects: p allActivities; connectFrom: #yourself toAll: [ :object | object relations ] ].
 	self addLegendBuilderView: view values: soa allNodes

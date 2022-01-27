@@ -7,7 +7,7 @@ executeVisualization: view
 	"start the visualization"
 	b shape circle color:[:node | node accept:colorv]; size:[:n | n metricCFCAbs].
 	b nodes: bpObj allNodes.
-	b edges connectToAll: [ :node | node allRelations ].
+	b lines connectToAll: [ :node | node allRelations ].
 	b layout grid.
 	b build.
 

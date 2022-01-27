@@ -1,22 +1,21 @@
 visualization
 executeVisualization: view
-	| v soa cv lb |
-	v := self buildView.
-	v view: view.
+	| b soa cv lb |
+	b := self buildView:view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
 	"Do visualization"
-	v interaction
+	b interaction
 		popupText: [ :a | '',a name,'-> [CFC:' , 
 				a metricCFC asString , ' , NoRel:' , 
 				a numberOfRelations asString , ']' ];
 		action: #inspect.
 	
-	v nodes: soa process forEach:[ :p | 
-		( BPMN20StandarVisualizationSvg init: p ) executeVisualization: v view.
+	b nodes: soa process forEach:[ :p | 
+		( BPMN20StandarVisualizationSvg init: p ) executeVisualization: b view.
 	].
-	v layout grid.
-	v build.
+	b layout grid.
+	b build.
 	
 	"Create the legend builder"
 	lb := self buildLegendBuilder: view.

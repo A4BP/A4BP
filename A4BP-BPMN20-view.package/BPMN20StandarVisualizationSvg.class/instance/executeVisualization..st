@@ -1,7 +1,8 @@
 visualization
 executeVisualization: view
 	| model cv eb nodes mnodes  svgv vizp composite| 
-	view @ RTDraggableView.
+	self makeDraggableView: view.
+	self makeControllerView: view.
 	model := bpObj.
 	cv:= A4BPUIBVFactory colorVisitor.
 	svgv := BPMN20IconsSvg new.
@@ -10,7 +11,7 @@ executeVisualization: view
 	"Start the visualization"	
 	vizp:= BPMN20StandarVizPoint new.
 	vizp addBasicElement: view.
-	composite := RTCompositeShape new.
+	composite := RSShapeBuilder new.
 	model lanes do: [ :el |  el shape  ifNotNil: [ 
 		| point es box label|
 		point := vizp newp:el.
@@ -19,15 +20,15 @@ executeVisualization: view
 			height: el shape bounds height;
 			color:[:n | n accept:cv];
 			borderColor: Color black) ."
-		box := RTBox new.
-		label := RTLabel new.
-		composite add: box.
-		composite add: label.
-		es := composite elementOn:el.
-		es @ RTDraggable @ RTPopup.
+		box := RSBox new.
+		label := RSLabel new.
+		"composite add: box.
+		composite add: label."
+		es := composite shapeOn:el.
+		es @ RSDraggable @ RSPopup.
 		es translateTo: point.
-		es @ RTPopup.
-		es when: TRMouseClick do: [ :evt | evt element inspect ].
+		es @ RSPopup.
+		"es when: TRMouseClick do: [ :evt | evt element inspect ]."
 		view add: es.
 		] 
 	].
@@ -38,21 +39,21 @@ executeVisualization: view
 		"create element on into the svgv visitor, create the element base on svg object"
 		es :=  el accept: svgv.
 		es color: (el accept:cv).
-		eslabel := RTLabel new elementOn:el.
 		es translateTo: point.
-		eslabel translateTo: point.
-		es @ RTDraggable @ RTPopup.
-		es when: TRMouseClick do: [ :evt | evt element inspect ].
+"		eslabel := RTLabel new elementOn:el.
+		eslabel translateTo: point."
+		es @ RSDraggable @ RSPopup.
+		"es when: TRMouseClick do: [ :evt | evt element inspect ]."
 		view add: es.
-		view add: eslabel.
+		"view add: eslabel."
 		] 
 	].
 	
-	eb := RTEdgeBuilder new.
-	eb notUseInLayout.
-	eb view: view.
+	eb := RSEdgeBuilder arrowedLine.
+	"eb notUseInLayout."
+	"eb view: view.
 	eb shape arrowedLine color: Color black.
 	(eb objects: nodes )connectFrom:#yourself toAll: [ :e |  e outFlows].
 	mnodes := model messageFlows.
 	(eb objects: mnodes) connectFrom: [ :e |  e sourceRef] to: [ :e |  e targetRef].
-	view canvas camera focusOnCenterScaled.
+	view canvas camera focusOnCenterScaled."

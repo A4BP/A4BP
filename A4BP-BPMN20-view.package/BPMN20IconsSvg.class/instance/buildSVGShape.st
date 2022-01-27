@@ -1,0 +1,3 @@
+events
+buildSVGShape
+	^ RSSVGPath new
