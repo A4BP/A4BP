@@ -1,5 +1,5 @@
 printing
 printElementsOn: aStream
 	self
-		printElementsStartingAt: 1
+		printElementsFrom: 1
 		on: aStream

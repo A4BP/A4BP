@@ -1,4 +1,3 @@
-deprecated
+enumerating
 descendentNodesDetect: aBlock
-	self deprecated: 'use #descendantNodesDetect: instead'.
-	^ self descendantNodesDetect: aBlock.
+	^ self descendentNodesDetect: aBlock ifNone: [nil]

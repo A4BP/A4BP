@@ -1,0 +1,3 @@
+replacing
+constructReplacementOn: aTokenizer
+	aTokenizer constructReplacementForParameterEntity: self

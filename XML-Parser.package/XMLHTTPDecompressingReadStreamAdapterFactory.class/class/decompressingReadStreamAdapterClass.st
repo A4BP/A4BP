@@ -1,3 +1,0 @@
-accessing
-decompressingReadStreamAdapterClass
-	self subclassResponsibility

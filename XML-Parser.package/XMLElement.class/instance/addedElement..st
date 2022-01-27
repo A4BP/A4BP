@@ -1,7 +1,6 @@
-private
+notifying
 addedElement: anElement
+	super addedElement: anElement.
 	(self hasNamespaces
 		and: [self namespaceScope ~= anElement namespaceScope])
-		ifTrue: [
-			anElement allElementsDo: [:each |
-				each namespaceScope inheritMappingsFrom: self namespaceScope]]
+		ifTrue: [anElement inheritNamespacesFrom: self]

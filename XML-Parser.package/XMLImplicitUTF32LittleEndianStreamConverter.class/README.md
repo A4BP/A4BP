@@ -1,1 +1,0 @@
-A stream converter for implicit little endian UTF-32 streams.

@@ -4,4 +4,4 @@ renamedAttribute: anAttribute from: anOldName to: aNewName
 		renamedAttribute: anAttribute
 		from: anOldName
 		to: aNewName.
-	self validateNamespacePrefixOfAttribute: anAttribute.
+	self validateAttributes.

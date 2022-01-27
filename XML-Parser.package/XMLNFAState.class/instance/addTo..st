@@ -2,7 +2,7 @@ adding
 addTo: aStateSet
 	lastAddedTo == aStateSet
 		ifFalse: [
-			"to detect and handle cycles"
+			"This avoids getting caught in a loop"
 			lastAddedTo := aStateSet.
 
 			aStateSet add: self]

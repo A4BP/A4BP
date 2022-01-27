@@ -1,12 +1,12 @@
 entity replacing
 constructReplacementForGeneralEntity: anEntity
-	isInLiteralValue
+	context isLiteralValueContext
 		ifTrue: [
 			anEntity isExternal
-				ifTrue: [self errorLiteralReferenceToExternalGeneralEntity: anEntity].
-			self constructLiteralReplacementForEntity: anEntity]
-		ifFalse: [
-			driver handleStartContentEntityReplacement: anEntity name.
-			self
-				pushBackEntity: anEntity
-				whenPoppedDo: [driver handleEndContentEntityReplacement: anEntity name]]
+				ifTrue: [self errorLiteralContextExternalEntity: anEntity].
+			^ self constructReplacementForLiteralContextEntity: anEntity].
+
+	driver handleStartContentEntityReplacement: anEntity name.
+	self
+		pushBackEntity: anEntity
+		onClose: [driver handleEndContentEntityReplacement: anEntity name].

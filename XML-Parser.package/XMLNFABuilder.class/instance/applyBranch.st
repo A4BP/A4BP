@@ -1,6 +1,6 @@
-applying
+building
 applyBranch
-	| leftFragment rightFragment branchState |
+	| branchState leftFragment  rightFragment |
 
 	leftFragment := self popFragment.
 	rightFragment := self popFragment.
@@ -12,5 +12,4 @@ applyBranch
 	self pushFragment:
 		(XMLNFAFragment
 			firstState: branchState
-			terminalStates:
-				(leftFragment terminalStatesWithAllFrom: rightFragment)).
+			terminalStates: (leftFragment combinedTerminalStatesFrom: rightFragment)).

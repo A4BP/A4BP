@@ -1,5 +1,5 @@
 validating
-unvalidatedElement: anElement
+unvalidatedElement: aName
 	XMLValidationException
 		formatSignal: 'Undeclared element <{1}>'
-		with: anElement
+		with: aName

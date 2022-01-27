@@ -1,5 +1,4 @@
 printing
 canonicallyPrinted
- 	"Prints as canonical XML (http://www.w3.org/TR/xml-c14n)"
-
+ 	"Prints as canonical XML"
 	^ String streamContents: [:stream | self canonicallyPrintOn: stream]

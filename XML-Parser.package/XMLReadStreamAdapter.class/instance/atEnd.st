@@ -1,3 +1,3 @@
 testing
 atEnd
-	^ stream atEnd
+	self subclassResponsibility

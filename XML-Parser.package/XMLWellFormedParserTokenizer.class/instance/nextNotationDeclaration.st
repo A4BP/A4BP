@@ -4,22 +4,22 @@ nextNotationDeclaration
 
 	self
 		expectNextAll: 'NOTATION';
-		nextSeparatorsInDeclaration.
+		expectSeparatorsInDeclaration.
 
-	name := self nextNotationName.
-	self nextSeparatorsInDeclaration.
+	name := self nextName.
+	self expectSeparatorsInDeclaration.
 	streamReader peek == $P
 		ifTrue: [
 			publicID := self nextPublicIDInDeclaration.
 			(streamReader peek == $>
 				or: [
-					self nextSeparatorsInDeclaration.
+					self expectSeparatorsInDeclaration.
 					streamReader peek == $>])
 				ifFalse: [systemID := self nextSystemIDLiteral]]
 		ifFalse: [systemID := self nextSystemIDInDeclaration].
 	self
 		skipSeparatorsInDeclaration;
-		nextDeclarationTerminator.
+		expectTerminator.
 
 	driver
 		handleNotationDeclaration: name

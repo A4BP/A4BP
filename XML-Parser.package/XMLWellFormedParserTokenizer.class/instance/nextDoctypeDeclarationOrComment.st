@@ -3,7 +3,10 @@ nextDoctypeDeclarationOrComment
 	"skip !"
 	streamReader next.
 	streamReader peek == $-
-		ifTrue: [^ self nextComment].
-	state isPostDoctypeDeclarationState
+		ifTrue: [
+			context isXMLDeclarationContext
+				ifTrue: [context := context prologContext].
+			^ self nextComment].
+	context isPostDoctypeDeclarationContext
 		ifTrue: [self errorMultipleDoctypeDeclarations].
 	self nextDoctypeDeclaration.

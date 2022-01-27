@@ -1,24 +1,17 @@
 tokenizing - dtd
 nextContentModel
-	| pushedBackParameterEntity |
-
-	self nextSeparatorsInDeclaration.
+	self expectSeparatorsInDeclaration.
 	streamReader peek == $A
 		ifTrue: [^ self expectNextAll: 'ANY'].
 	streamReader peek == $E
 		ifTrue: [^ self expectNextAll: 'EMPTY'].
 	
-	characterStream
+	writeStream
 		reset;
 		nextPut: (self expectNext: $().
-	pushedBackParameterEntity := self topPushedBackEntity.
 	self skipSeparatorsInDeclaration.
 	streamReader peek == $#
-		ifTrue: [
-			self nextMixedContentListOnCharacterStreamFromEntity:
-				pushedBackParameterEntity]
-		ifFalse: [
-			self nextContentModelChoiceOrSequenceOnCharacterStreamFromEntity:
-				pushedBackParameterEntity].
+		ifTrue: [self nextMixedContentListValuesOnWriteStream]
+		ifFalse: [self nextContentModelChoiceOrSequenceValuesOnWriteStream].
 
-	^ characterStream contents.
+	^ writeStream contents.

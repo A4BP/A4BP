@@ -2,10 +2,10 @@ enumerating
 with: aCollection collect: aBlock
 	| collected |
 
-	collected := self copyEmptyForCollect.
-	1 to: (collection size min: aCollection size) do: [:i |
+	collected := self species new: self size.
+	1 to: (self size min: aCollection size) do: [:i |
 		collected addLast:
 			(aBlock
-				value: (collection at: i)
+				value: (self at: i)
 				value: (aCollection at: i))].
 	^ collected.

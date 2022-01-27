@@ -3,12 +3,12 @@ nextPIWithTarget: aTarget
 	streamReader peek == $?
 		ifTrue: [
 			streamReader next.
-			self nextPITerminator.
+			self expectTerminator.
 			driver
 				handlePI: aTarget
 				data: '']
 		ifFalse: [
-			self nextSeparators.
+			self expectSeparators.
 			driver
 				handlePI: aTarget
-				data: self nextPIData].
+				data: (self expectUpToAll: '?>')].

@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "monty 10/3/2016 22:52",
+	"commentStamp" : "monty 1/23/2014 05:48",
 	"super" : "Object",
 	"category" : "XML-Parser-DTD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"externalEntityLimits"
+		"externalEntityLimits",
+		"totalResolvedEntities"
 	],
 	"name" : "DTDExternalEntityResolver",
 	"type" : "normal"

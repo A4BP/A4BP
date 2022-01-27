@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "monty 4/11/2017 05:20",
+	"commentStamp" : "monty 4/6/2015 07:14",
 	"super" : "Object",
 	"category" : "XML-Parser",
 	"classinstvars" : [ ],
@@ -9,7 +9,6 @@
 		"input",
 		"documentURI",
 		"configuration",
-		"hasParser",
 		"isInContent",
 		"isInCDataSection"
 	],

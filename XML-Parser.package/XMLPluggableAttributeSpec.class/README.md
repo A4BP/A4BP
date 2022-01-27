@@ -1,1 +1,0 @@
-A block-based pluggable attribute spec that evaluates blocks with the attribute dictionary to test matching.

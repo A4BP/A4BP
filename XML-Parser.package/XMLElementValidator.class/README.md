@@ -1,1 +1,1 @@
-This is a base class for element validators.
+This is a base class for element content validators.

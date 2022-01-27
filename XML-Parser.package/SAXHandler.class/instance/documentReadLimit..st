@@ -1,6 +1,5 @@
 configuring
-documentReadLimit: anInteger
-	"change the document read limit (maximum number of chars that can be read)
-	or nil to disable"
+documentReadLimit: aLimit
+	"change the document read limit or nil to disable"
 
-	self configuration documentReadLimit: anInteger
+	self configuration documentReadLimit: aLimit

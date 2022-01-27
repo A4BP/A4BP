@@ -1,15 +1,11 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
-	aStream nextPut: $(.
-	self printLabelOn: aStream.
-	aStream nextPut: $(.
-	leftBranch
-		ifNotNil: [
-			leftBranch printLabelOn: aStream].
-	aStream nextPut: $|.
-	rightBranch
-		ifNotNil: [
-			rightBranch printLabelOn: aStream].
-	aStream nextPutAll: '))'.
+	aStream
+		nextPut: $(;
+		print: self identityHash; "only print ids to avoid loops"
+		nextPutAll: ': ';
+		print: leftBranch identityHash;
+		nextPutAll: ' | ';
+		print: rightBranch identityHash;
+		nextPut: $).

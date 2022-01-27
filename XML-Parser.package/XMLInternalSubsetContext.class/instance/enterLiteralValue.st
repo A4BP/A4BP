@@ -1,0 +1,3 @@
+changing
+enterLiteralValue
+	isLiteralValueContext := true

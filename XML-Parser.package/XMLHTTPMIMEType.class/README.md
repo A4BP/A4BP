@@ -1,1 +1,0 @@
-This is an immutable class for HTTP MIME types. Adapted from ZnMimeType.

@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "monty 11/12/2014 04:34",
+	"super" : "XMLStreamDecoder",
+	"category" : "XML-Parser-Streams",
+	"classinstvars" : [
+		"textConverterCache"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textConverter"
+	],
+	"name" : "XMLTextConverterStreamDecoder",
+	"type" : "normal"
+}

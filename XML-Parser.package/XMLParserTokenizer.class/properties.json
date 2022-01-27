@@ -1,20 +1,18 @@
 {
-	"commentStamp" : "monty 10/6/2017 14:27",
+	"commentStamp" : "monty 2/9/2014 02:44",
 	"super" : "Object",
-	"category" : "XML-Parser-Drivers",
+	"category" : "XML-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"PredefinedEntities"
 	],
 	"instvars" : [
-		"state",
+		"context",
 		"driver",
-		"elementNester",
 		"streamReader",
-		"nameStream",
-		"xmlDeclarationStream",
-		"characterStream"
+		"writeStream",
+		"nameStream"
 	],
 	"name" : "XMLParserTokenizer",
 	"type" : "normal"

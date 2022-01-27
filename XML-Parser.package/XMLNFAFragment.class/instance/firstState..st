@@ -1,3 +1,3 @@
 accessing
-firstState: aFirstState
-	firstState := aFirstState
+firstState: aState
+	firstState := aState

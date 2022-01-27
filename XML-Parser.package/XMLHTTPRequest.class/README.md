@@ -1,3 +1,1 @@
-This is an abstract base class for HTTP requests.
-
-These classes implement the #get/#getUpToLimit:decoding: and #streamGet/#streamGetUpToLimit:decoding: interface of XMLURI.
+A base class for HTTP requests. Subclasses need to implement the abstract requesting method to return a ReadStream on the respone or raise an exception if a network or HTTP error happens or if the response is too large.

@@ -1,3 +1,0 @@
-tokenizing
-nextXMLDeclarationTerminator
-	self expectNextAll: '?>'

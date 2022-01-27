@@ -1,4 +1,4 @@
 private
 pushElement: anElement
-	self topNodeAdd: anElement.
+	self topNode addNode: anElement.
 	^ self pushNode: anElement.

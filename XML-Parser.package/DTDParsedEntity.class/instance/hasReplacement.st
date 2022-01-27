@@ -1,3 +1,3 @@
 testing
 hasReplacement
-	self subclassResponsibility
+	^ self replacement notEmpty

@@ -2,5 +2,5 @@ tokenizing - dtd
 nextPublicIDInDeclaration
 	^ self
 		expectNextAll: 'PUBLIC';
-		nextSeparatorsInDeclaration;
+		expectSeparatorsInDeclaration;
 		nextPublicIDLiteral

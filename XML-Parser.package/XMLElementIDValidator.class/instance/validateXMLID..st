@@ -1,6 +1,6 @@
 validating
 validateXMLID: anID
-	anID isXMLNCName
+	(XMLWellFormedParserTokenizer isNCName: anID)
 		ifFalse: [
 			self
 				errorInvalidID: anID

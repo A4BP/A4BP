@@ -1,0 +1,3 @@
+validating
+validateAttributeDefaultIn: anAttributeDictionary
+	self subclassResponsibility

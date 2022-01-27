@@ -1,0 +1,3 @@
+defaults
+contentCanonicalEscapes
+	^ ContentCanonicalEscapes

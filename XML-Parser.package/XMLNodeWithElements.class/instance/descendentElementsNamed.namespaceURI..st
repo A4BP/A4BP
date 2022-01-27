@@ -1,6 +1,5 @@
-deprecated
+accessing
 descendentElementsNamed: aName namespaceURI: aURI
-	self deprecated: 'use #descendantElementsNamed:namespaceURI: instead'.
-	^ self
-		descendantElementsNamed: aName
-		namespaceURI: aURI.
+	^ self descendentElementsSelect: [:each |
+		(each isNamed: aName)
+			and: [each namespaceURI = aURI]]

@@ -1,0 +1,1 @@
+A stream decoder for little endian UTF-16 streams.

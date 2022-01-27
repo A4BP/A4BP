@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "monty 2/2/2014 04:47",
+	"super" : "XMLAttributeDefaultValidator",
+	"category" : "XML-Parser-Validation",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XMLDefaultValueAttributeValidator",
+	"type" : "normal"
+}

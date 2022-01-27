@@ -6,8 +6,7 @@ mapPrefixesAndURIs: anAssociationCollection
 		self
 			validatePrefix: each key
 			beforeMappingTo: each value.
-		"nil test ensures we only copy the first time when needed"
-		(copiedPrefixMappings
+		(copiedPrefixMappings "used so we only copy once"
 			ifNil: [copiedPrefixMappings := self copiedPrefixMappings])
 			at: each key
 			put: each value]

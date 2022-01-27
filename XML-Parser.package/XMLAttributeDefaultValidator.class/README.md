@@ -1,1 +1,1 @@
-This is a base class for attribute default validators that implement constraints from the default declaration part of an ATTLIST attribute definition.
+This is a base class for attribute default value validators that implement the constraints (like #REQUIRED) from the default declaration.

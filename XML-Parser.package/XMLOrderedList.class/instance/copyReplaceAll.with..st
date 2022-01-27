@@ -21,7 +21,6 @@ copyReplaceAll: aSearchCollection with: aReplacementCollection
 						whileTrue: [searchCollectionIndex := searchCollectionIndex + 1].
 					searchCollectionIndex > searchCollectionSize
 						ifTrue: [
-							"found a match, add the replacement and skip the replaced"
 							copy addAll: aReplacementCollection.
 							index := index + searchCollectionSize]
 						ifFalse: [

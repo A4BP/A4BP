@@ -1,14 +1,13 @@
-handling
+element handling
 handleElementsMatchingClass: aClass
-	"This will handle all elements matching the name of a class with that
-	class, but igoring the class's prefix and any 'Element' suffix.
+	| className |
 
-	For example, it will match MyUserDefinedElement to:
-		<UserDefined>
-		<userDefined>
-		<user-defined>
-		<user_defined>"
+	(className := self toNameWithoutPrefixAndElementSuffix: aClass name asString)
+		ifEmpty: [^ self].
 
-	elementClassMapper
-		mapAllMatchingElementsToClass: aClass
-		ignoringSuffixes: self ignorableClassNameSuffixes
+	self
+		handleElement: (self toCamelCasedName: className)
+		withClass: aClass.
+	self
+		handleElement: (self toHyphenatedName: className)
+		withClass: aClass.

@@ -1,3 +1,3 @@
 testing
 resolvesExternalEntities
-	^ true
+	^ self saxDriver resolvesExternalEntities

@@ -1,17 +1,15 @@
 {
-	"commentStamp" : "monty 10/31/2016 03:38",
+	"commentStamp" : "monty 12/27/2014 03:06",
 	"super" : "Object",
-	"category" : "XML-Parser-Drivers",
+	"category" : "XML-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"openElements",
 		"rootElement",
-		"scopedAttributes",
 		"hasExternalRootElement",
-		"wasRootElementEnded",
-		"isInElement"
+		"scopedAttributes"
 	],
 	"name" : "XMLElementNester",
 	"type" : "normal"

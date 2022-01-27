@@ -1,15 +1,14 @@
 {
-	"commentStamp" : "monty 12/16/2017 10:12",
+	"commentStamp" : "monty 1/21/2014 01:36",
 	"super" : "Object",
-	"category" : "XML-Parser-Utils",
+	"category" : "XML-Parser-Util",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
 		"CharacterDigitValues"
 	],
 	"instvars" : [
-		"readStream",
-		"printStream"
+		"stream"
 	],
 	"name" : "XMLIntegerReader",
 	"type" : "normal"

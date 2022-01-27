@@ -1,14 +1,14 @@
 tokenizing - dtd
 nextAttributeDefaultValueForPragma: aPragma
-	| previousState attributeValue |
+	| previousContext attributeValue |
 
 	aPragma isEmpty
 		ifFalse: [
 			(aPragma first == $F) "FIXED"
 				ifFalse: [^ ''].
-			self nextSeparatorsInDeclaration].
-	previousState := state.
-	state := state contentState.
+			self expectSeparatorsInDeclaration].
+	previousContext := context.
+	context := context contentContext.
 	attributeValue := self nextAttributeValue.
-	state := previousState.
+	context := previousContext.
 	^ attributeValue.

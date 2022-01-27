@@ -1,3 +1,3 @@
 instance creation
-observer: anObserver
-	^ self new observer: anObserver
+observer: anObject
+	^ self new observer: anObject

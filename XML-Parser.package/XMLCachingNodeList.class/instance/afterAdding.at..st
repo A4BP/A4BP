@@ -1,17 +1,13 @@
 private
 afterAdding: aNode at: anIndex
-	(aNode hasParentWithNodeList: self)
+	aNode isElement
 		ifTrue: [
-			self
-				removeDuplicateOf: aNode
-				notAt: anIndex.
-			aNode isElement
-				ifTrue: [self rebuildCachedElements]]
-		ifFalse: [
-			aNode isElement
-				ifTrue: [
+			anIndex = self size
+				ifTrue: [self cacheElementAddedLast: aNode]
+				ifFalse: [
 					self
 						cacheElement: aNode
-						addedAt: anIndex].
-			observer
-				ifNotNil: [observer addedNode: aNode]]
+						addedAt: anIndex]].
+	super
+		afterAdding: aNode
+		at: anIndex.

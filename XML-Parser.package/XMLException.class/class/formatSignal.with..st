@@ -1,5 +1,5 @@
 signalling
 formatSignal: aString with: aFirstValue
-	^ self new
+	^ self
 		formatSignal: aString
-		with: aFirstValue
+		withAll: (Array with: aFirstValue)

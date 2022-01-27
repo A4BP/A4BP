@@ -1,3 +1,0 @@
-testing
-handlesDecompression
-	^ false

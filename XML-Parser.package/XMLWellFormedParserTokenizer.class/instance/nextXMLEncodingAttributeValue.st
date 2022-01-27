@@ -1,26 +1,13 @@
 tokenizing
 nextXMLEncodingAttributeValue
-	| quote nextChar |
+	| quote |
 
-	((quote := streamReader next) == $"
-		or: [quote == $'])
-		ifFalse: [self errorExpectedXMLEncodingValueStartButGot: quote].
-
-	((nextChar := streamReader next) notNil
-		and: [EncodingNameStartChars includes: nextChar])
-		ifFalse: [self errorExpectedEncodingName].
-
-	xmlDeclarationStream
+	quote := self expectQuote.
+	writeStream
 		reset;
-		nextPut: nextChar.
-	[(nextChar := streamReader next) == nil
-		or: [(EncodingNameChars includes: nextChar) not]]
-		whileFalse: [xmlDeclarationStream nextPut: nextChar].
+		nextPut: self expectLetter.
+	[EncodingNameChars xmlParserIncludes: streamReader peek]
+		whileTrue: [writeStream nextPut: streamReader next].
+	self expectNext: quote.
 
-	nextChar == quote
-		ifFalse: [
-			self
-				errorExpectedXMLEncodingValueEnd: quote
-				butGot: nextChar].
-
-	^ xmlDeclarationStream contents.
+	^ writeStream contents.

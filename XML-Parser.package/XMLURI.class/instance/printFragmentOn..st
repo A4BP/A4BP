@@ -4,4 +4,4 @@ printFragmentOn: aStream
 		ifTrue: [
 			aStream
 				nextPut: $#;
-				nextPutAll: self rawFragment]
+				nextPutAll: fragment]

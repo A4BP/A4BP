@@ -1,3 +1,3 @@
 accessing
 currentScopedAttributes
-	^ self scopedAttributes xmlLastOrNil
+	^ self scopedAttributes lastOrNil

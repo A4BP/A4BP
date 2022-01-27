@@ -1,1 +1,0 @@
-A stream converter for ISO Latin-1.

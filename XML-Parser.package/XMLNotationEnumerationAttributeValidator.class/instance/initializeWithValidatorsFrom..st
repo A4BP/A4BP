@@ -1,5 +1,6 @@
 initialization
 initializeWithValidatorsFrom: aValidatorContainer
-	super initializeWithValidatorsFrom: aValidatorContainer.
-
-	unparedEntityValidator := aValidatorContainer unparsedEntityValidator.
+	(unparsedEntityValidator := aValidatorContainer unparsedEntityValidator)
+		validateNotationAttribute: self attribute
+		forElement: self element.
+	self validateReservedAttributeValidator.

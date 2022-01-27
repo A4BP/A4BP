@@ -1,7 +1,14 @@
 tokenizing
 nextPrologToken
 	streamReader skipSeparators.
-	self nextStartMarkupToken.
+	streamReader atEnd
+		ifTrue: [^ self].
+
+	self expectNext: $<.
 	streamReader peek == $?
-		ifTrue: [^ self nextPI].
-	self nextNonPIPrologOrContentMarkupToken.
+		ifTrue: [^ self nextPIOrXMLDeclaration].
+	streamReader peek == $!
+		ifTrue: [^ self nextDoctypeDeclarationOrComment].
+	self
+		nextStartContent;
+		nextTag.

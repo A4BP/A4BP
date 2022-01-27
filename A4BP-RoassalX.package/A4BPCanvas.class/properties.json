@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RSCanvas",
+	"category" : "A4BP-RoassalX",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"attributes"
+	],
+	"name" : "A4BPCanvas",
+	"type" : "normal"
+}

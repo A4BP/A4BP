@@ -1,3 +1,3 @@
-accessing
+private
 notations
-	^ notations ifNil: [notations := Dictionary new]
+	^ notations ifNil: [notations := Set new]

@@ -1,3 +1,3 @@
-private
+accessing
 fragmentStack
-	^ fragmentStack
+	^ fragmentStack ifNil: [fragmentStack := OrderedCollection new]

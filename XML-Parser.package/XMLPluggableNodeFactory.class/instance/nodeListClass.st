@@ -1,3 +1,3 @@
 accessing
 nodeListClass
-	^ nodeListClass
+	^ nodeListClass ifNil: [nodeListClass := super nodeListClass]

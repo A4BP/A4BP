@@ -1,5 +1,6 @@
 notifying
 renamedAttribute: anAttribute from: anOldName to: aNewName
-	self
-		removeDuplicateOf: anAttribute
-		notAt: (self indexOf: anAttribute)
+	self attributesByName
+		removeKey: anOldName;
+		at: aNewName ifPresent: [:attribute | self remove: attribute];
+		at: aNewName put: anAttribute

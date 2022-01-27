@@ -8,5 +8,5 @@ copyUpToLast: anObject
 			(self
 				lastIndexOf: anObject
 				ifAbsent: [collection size + 1]) - 1
-		do: [:i | copy addToCopyLast: (self at: i)].
+		do: [:i | copy addLast: (self at: i)].
 	^ copy.

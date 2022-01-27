@@ -1,14 +1,7 @@
 testing
 isEmpty
-	self hasScheme
-		ifTrue: [^ false].
-	self hasAuthority
-		ifTrue: [^ false].
-	self hasPath
-		ifTrue: [^ false].
-	self hasQuery
-		ifTrue: [^ false].
-	self hasFragment
-		ifTrue: [^ false].
-
-	^ true.
+	^ (self hasScheme
+		or: [self hasAuthority
+			or: [self hasPath
+				or: [self hasQueryString
+					or: [self hasFragment]]]]) not

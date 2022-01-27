@@ -1,3 +1,3 @@
 accessing
 elementIDValidator
-	^ elementIDValidator
+	^ elementIdValidator

@@ -1,4 +1,4 @@
-applying
+building
 applyOptional
 	| optionalFragment branchingState |
 
@@ -10,4 +10,4 @@ applyOptional
 		(XMLNFAFragment
 			firstState: branchingState
 			terminalStates:
-				(optionalFragment terminalStatesWith: branchingState))
+				(optionalFragment combinedTerminalStatesWith: branchingState))

@@ -1,3 +1,3 @@
 accessing
-ndata: aNotationName
-	ndata := aNotationName
+ndata: anNdata
+	ndata := anNdata

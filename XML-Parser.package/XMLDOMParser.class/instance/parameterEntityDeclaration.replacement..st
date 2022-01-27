@@ -1,6 +1,6 @@
-handling - declaration
+handling - declarations
 parameterEntityDeclaration: aName replacement: aReplacement
-	self topNodeAdd:
+	self topNode addNode:
 		(self nodeFactory parameterEntityDeclarationClass
 			name: aName
 			replacement: aReplacement)

@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"elementIDValidator"
+		"elementIdValidator"
 	],
 	"name" : "XMLIDRefAttributeValidator",
 	"type" : "normal"

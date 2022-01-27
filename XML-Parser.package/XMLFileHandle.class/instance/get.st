@@ -1,5 +1,3 @@
-resolving
+requesting
 get
-	^ self
-		getUpToLimit: nil
-		decoding: true
+	^ self readStream

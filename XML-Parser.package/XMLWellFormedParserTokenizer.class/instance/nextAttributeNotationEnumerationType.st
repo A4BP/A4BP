@@ -1,28 +1,15 @@
 tokenizing - dtd
 nextAttributeNotationEnumerationType
-	characterStream
+	writeStream
 		reset;
-		nextPutAll:
-			(self
-				expectNextAll: 'NOTATION'
-				startingAt: 2). "the 'N' was already read"
-	self
-		nextSeparatorsInDeclaration;
-		expectNext: $(.
-	characterStream nextPutAll: ' ('.
+		nextPutAll: 'NOTATION '.
+	self expectSeparatorsInDeclaration.
+	writeStream nextPut: (self expectNext: $().
 
-	"must have at least one declaration name in the enumeration"
 	self
 		skipSeparatorsInDeclaration;
-		nextNotationNameOnCharacterStream.
-	[self skipSeparatorsInDeclaration.
-		streamReader peek == $)]
-		whileFalse: [
-			characterStream nextPut: (self expectNext: $|).
-			self
-				skipSeparatorsInDeclaration;
-				nextNotationNameOnCharacterStream].
-	
-	^ characterStream
-		nextPut: streamReader next;
-		contents.
+		nextNameOnWriteStream;
+		skipSeparatorsInDeclaration;
+		nextNameListValuesOnWriteStream.
+
+	^ writeStream contents.

@@ -1,19 +1,20 @@
 adding
-addValidatorForAttributeIn: anElement named: anAttribute type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue
-	| attributes |
+addValidatorForAttributeIn: anElement named: aName type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue
+	| attributeValidatorsForElement |
 
-	attributes :=
+	attributeValidatorsForElement :=
 		self attributeValidators
 			at: anElement
 			ifAbsentPut: [Dictionary new].
-	(attributes includesKey: anAttribute)
-		ifTrue: [^ nil].
-	^ attributes
-		at: anAttribute
-		put:
+	(attributeValidatorsForElement includesKey: aName)
+		ifTrue: [^ self].
+
+	attributeValidatorsForElement
+		at: aName
+		put: 
 			((DTDAttributeDefinitionParser
-				element: anElement
-				attribute: anAttribute
+				element:  anElement
+				attribute: aName
 				type: aType
 				defaultPragma: aDefaultPragma
 				defaultValue: aDefaultValue) parse

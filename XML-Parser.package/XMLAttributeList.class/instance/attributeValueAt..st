@@ -1,5 +1,3 @@
-private
+accessing
 attributeValueAt: aName
-	^ self
-		attributeValueAt: aName
-		ifAbsent: ['']
+	^ self attributeValueAt: aName ifAbsent: ['']

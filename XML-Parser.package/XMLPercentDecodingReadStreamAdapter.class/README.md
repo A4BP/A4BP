@@ -1,1 +1,0 @@
-This class percent decodes octets for URIs.

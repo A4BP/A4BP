@@ -1,18 +1,11 @@
-decoding
+encodings
 convertFromEncoding: anEncodingName
-	"Encoding attributes are ignored unless the stream is a converting adapter
-	that has a null/implicit converter.
-	
-	This is the safest approach, because the encoding of a file can be easily
-	changed by a text editor or utility without automatically updating the
-	<?xml ...?> encoding attribute.
-	
-	The BOM and out-of-band info (like HTTP headers) should be given precedence."
+	| streamDecoder |
 
-	(stream isXMLConvertingStreamAdapter
-		and: [stream hasNullStreamConverter
-			or: [stream hasImplicitStreamConverter]])
-		ifTrue: [| streamConverter |
-			(streamConverter := anEncodingName asXMLStreamConverter) isNull
-				ifTrue: [self errorUnsupportedEncoding: anEncodingName].
-			self decodeStreamWithConverter: streamConverter]
+	"encoding declarations for the default encoding are ignored on ReadStreams,
+	which are assumed to be on strings that don't need decoding"
+	streamDecoder := XMLStreamDecoder newForEncoding: anEncodingName.
+	(streamDecoder == nil
+		or: [(stream isKindOf: ReadStream)
+			and: [streamDecoder isDefaultStreamDecoder]])
+		ifFalse: [self decodeStreamWithDecoder: streamDecoder].

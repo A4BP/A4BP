@@ -3,44 +3,21 @@ nextEntityValue
 	| quote nextChar |
 
 	quote := streamReader next.
-
-	isInLiteralValue := true.
-	characterStream reset.
-	[((nextChar := streamReader next) == quote
-		and: [isIgnoringLiteralValueTerminator not])
-			or: [nextChar == nil]]
+	context enterLiteralValue.
+	writeStream reset.
+	[(nextChar := streamReader peek) == quote
+		or: [nextChar == nil]]
 		whileFalse: [
-			nextChar == $&
+			streamReader next == $&
 				ifTrue: [
 					streamReader peek == $#
-						ifTrue: [
-							"character refs are replaced in entity values"
-							self nextCharacterReferenceOnCharacterStream]
-						ifFalse: [
-							"general entity refs aren't replaced but must be complete"
-							characterStream nextPut: $&.
-							self
-								nextEntityNameOnCharacterStream;
-								nextEntityReferenceTerminator.
-							characterStream nextPut: $;]]
+						ifTrue: [self nextCharacterReferenceOnWriteStream]
+						ifFalse: [writeStream nextPut: $&]]
 				ifFalse: [
 					nextChar == $%
-						ifTrue: [
-							self isInExternalSubsetOrExternalEntity
-								ifFalse: [
-									self
-										errorInternalDeclarationParameterEntityReference].
-							self nextParameterEntityReferenceOnCharacterStream]
-						ifFalse: [
-							nextChar isXMLChar
-								ifFalse: [self errorNonCharInEntityValue: nextChar].
-							characterStream nextPut: nextChar]]].
-	isInLiteralValue := false.
+						ifTrue: [self nextParameterEntityReferenceOnWriteStream]
+						ifFalse: [writeStream nextPut: nextChar]]].
+	context exitLiteralValue.
+	self expectNext: quote.
 
-	nextChar == quote
-		ifFalse: [
-			self
-				errorExpectedEntityValueEnd: quote
-				butGot: nextChar].
-
-	^ characterStream contents.
+	^ writeStream contents.

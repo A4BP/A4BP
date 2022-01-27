@@ -1,3 +1,3 @@
 accessing
 replacement
-	self subclassResponsibility
+	^ replacement ifNil: [replacement := '']

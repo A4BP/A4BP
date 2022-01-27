@@ -1,3 +1,3 @@
 instance creation
-element: anElement
-	^ self new element: anElement
+element: aName
+	^ self new element: aName

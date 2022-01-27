@@ -1,8 +1,4 @@
 testing
 usesNamespaces
-	"returns true if namespace checking is enabled (default)"
-
-	"optimized to avoid lazy initializing the config"
-	configuration == nil
-		ifTrue: [^ true].
-	^ configuration usesNamespaces.
+	"Uses direct access and isNil test for performance"
+	^ configuration isNil or: [configuration usesNamespaces]

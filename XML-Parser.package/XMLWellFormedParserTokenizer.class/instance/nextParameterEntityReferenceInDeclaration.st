@@ -1,5 +1,10 @@
 tokenizing - dtd
 nextParameterEntityReferenceInDeclaration
-	self isInExternalSubsetOrExternalEntity
-		ifFalse: [self errorInternalDeclarationParameterEntityReference].
-	self nextParameterEntityReference.
+	| name |
+
+	name := self nextName.
+	context isInternalSubsetContext
+		ifTrue: [self errorInternalDeclarationParameterEntityReference: name].
+	self expectNext: $;.
+	(driver handleParameterEntityReference: name)
+		ifNotNil: [:entity | entity constructReplacementOn: self].

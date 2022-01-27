@@ -1,7 +1,6 @@
 private
-errorUnexpectedElement: anElement
+errorUnexpectedElement: aName
 	XMLValidationException
-		formatSignal: 'Unexpected <{1}> element in {2} type element <{3}>'
-		with: anElement
-		with: self typeName
+		formatSignal: 'Unexpected <{1}> element in <{2}> element'
+		with: aName
 		with: self element

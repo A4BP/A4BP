@@ -1,1 +1,0 @@
-This class is a limited read stream adapter that will not read beyond a limit. Position changes are limited so you can only move forward as many positions as the limit allows, and moving backwards increases the number of objects that can be read.

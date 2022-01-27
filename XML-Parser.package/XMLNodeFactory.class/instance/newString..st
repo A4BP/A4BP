@@ -1,5 +1,3 @@
-deprecated
+instance creation
 newString: aString
-	"will be deprecated; use #newStringNode: instead"
-
-	^ self newStringNode: aString
+	^ self stringClass string: aString

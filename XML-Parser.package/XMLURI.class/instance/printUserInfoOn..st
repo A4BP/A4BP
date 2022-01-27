@@ -3,5 +3,5 @@ printUserInfoOn: aStream
 	self hasUserInfo
 		ifTrue: [
 			aStream
-				nextPutAll: self rawUserInfo;
+				nextPutAll: userInfo;
 				nextPut: $@]

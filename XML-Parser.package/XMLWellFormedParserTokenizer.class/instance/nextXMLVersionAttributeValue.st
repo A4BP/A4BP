@@ -1,31 +1,18 @@
 tokenizing
 nextXMLVersionAttributeValue
-	| quote nextChar length isValid |
+	| quote |
 
-	((quote := streamReader next) == $"
-		or: [quote == $'])
-		ifFalse: [self errorExpectedXMLVersionValueStartButGot: quote].
+	quote := self expectQuote.
 
-	length := 0.
-	isValid := true.
-	xmlDeclarationStream reset.
-	[(nextChar := streamReader next) == nil
-		or: [(VersionNumChars includes: nextChar) not]]
-		whileFalse: [
-			xmlDeclarationStream nextPut: nextChar.
-			length := length + 1.
-			isValid
-				ifTrue: [isValid := (length == 2) == (nextChar == $.)]].
-	(isValid
-		and: [length >= 3])
-		ifFalse: [
-			self errorExpectedXMLVersionNumberButGot:
-				xmlDeclarationStream contents].
+	writeStream
+		reset;
+		nextPut: self expectDigit;
+		nextPut: (self expectNext: $.);
+		nextPut: self expectDigit.
 
-	nextChar == quote
-		ifFalse: [
-			self
-				errorExpectedXMLVersionValueEnd: quote
-				butGot: nextChar].
+	[streamReader atEnd
+		or: [streamReader peek == quote]]
+		whileFalse: [writeStream nextPut: self expectDigit].
 
-	^ xmlDeclarationStream contents.
+	self expectNext: quote.
+	^ writeStream contents.

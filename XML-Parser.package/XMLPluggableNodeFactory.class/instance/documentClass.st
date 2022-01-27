@@ -1,3 +1,3 @@
 accessing
 documentClass
-	^ documentClass
+	^ documentClass ifNil: [documentClass := super documentClass]

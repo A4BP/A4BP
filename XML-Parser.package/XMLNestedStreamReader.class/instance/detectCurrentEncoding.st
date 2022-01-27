@@ -1,0 +1,3 @@
+encodings
+detectCurrentEncoding
+	(XMLStreamEncodingDetector for: self) detectCurrentEncoding

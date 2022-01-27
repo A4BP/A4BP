@@ -1,16 +1,13 @@
 parsing
 parse
-	| validator |
-	
-	validator :=
-		self attributeValidatorClassForType
+	| attributeValidator |
+
+	attributeValidator :=
+		self validatorClassForType
 			element: element
 			attribute: attribute
-			defaultValidator: defaultValidator.
+			defaultValueValidator: defaultValueValidator.
+	attributeValidator isEnumerationValidator
+		ifTrue: [attributeValidator setAllowedValuesFromString: type].
 
-	enumerationListParserClass
-		ifNotNil: [
-			validator allowedValues:
-				(enumerationListParserClass on: type) parse].
-
-	^ validator.
+	^ attributeValidator.

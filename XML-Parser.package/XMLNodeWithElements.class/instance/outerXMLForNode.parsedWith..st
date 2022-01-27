@@ -6,13 +6,10 @@ outerXMLForNode: aNode parsedWith: aParser
 		self nodes
 			indexOf: aNode
 			ifAbsent: [self errorOuterXMLForAbsentNode].
-	removedNodes :=
-		self nodes
-			copyFrom: indexOfNode
-			to: self nodes size.
+	removedNodes := self nodes copyFrom: indexOfNode to: self nodes size.
 	self removeNodes: removedNodes.
 	[aParser
-		innerXMLRootNode: self;
+		pushInnerXMLRootNode: self;
 		parseDocument]
 		on: Error
 		do: [:error |
@@ -20,5 +17,4 @@ outerXMLForNode: aNode parsedWith: aParser
 				whileTrue: [self nodes removeLast].
 			self addNodes: removedNodes.
 			error pass].
-	2 to: removedNodes size do: [:i |
-		self addNode: (removedNodes at: i)].
+	2 to: removedNodes size do: [:i | self addNode: (removedNodes at: i)].

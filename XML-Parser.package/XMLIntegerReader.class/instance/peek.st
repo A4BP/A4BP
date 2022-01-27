@@ -1,5 +1,3 @@
-private
+accessing
 peek
-	self atEnd
-		ifTrue: [^ nil]
-		ifFalse: [^ readStream peek]
+	^ stream peek

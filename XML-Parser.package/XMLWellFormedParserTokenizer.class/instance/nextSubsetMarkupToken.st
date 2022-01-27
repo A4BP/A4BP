@@ -1,24 +1,18 @@
 tokenizing - dtd
 nextSubsetMarkupToken
-	| pushedBackParameterEntity |
-
-	self nextStartMarkupToken.
-	pushedBackParameterEntity := self topPushedBackEntity.
-
+	self expectNext: $<.
 	streamReader peek == $?
-		ifTrue: [self nextPI]
-		ifFalse: [
-			self expectNext: $!.
-			streamReader peek == $-
-				ifTrue: [self nextComment]
-				ifFalse: [
-					streamReader peek == $[
-						ifTrue: [
-							self isInExternalSubsetOrExternalEntity
-								ifFalse: [self errorInternalSubsetConditionalSection].
-							self nextConditionalSectionFromEntity:
-								pushedBackParameterEntity]
-						ifFalse: [self nextSubsetDeclaration]]].
+		ifTrue: [^ self nextPI].
 
-	self topPushedBackEntity == pushedBackParameterEntity
-		ifFalse: [driver handleImproperParameterEntityNesting].
+	self expectNext: $!.
+	streamReader peek == $-
+		ifTrue: [^ self nextComment].
+
+	(streamReader peek == $[)
+		ifTrue: [
+			(context isExternalSubsetContext
+				or: [self hasActiveExternalEntity])
+				ifTrue: [^ self nextConditionalSection].
+			self errorInternalSubsetConditionalSection].
+
+	self nextSubsetDeclaration.

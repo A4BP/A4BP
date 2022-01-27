@@ -1,4 +1,3 @@
-deprecated
+configuring
 requiresDocumentConstraints
-	"will be deprecated; use #requiresSchema instead"
-	^ self requiresSchema
+	^ self configuration requiresDocumentConstraints

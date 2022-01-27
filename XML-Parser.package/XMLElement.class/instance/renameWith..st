@@ -6,7 +6,7 @@ renameWith: aBlock
 	aBlock value.
 	self name = oldName
 		ifFalse: [
-			self validateNamespacePrefix.
+			self validateName.
 			self hasParent
 				ifTrue: [
 					self parent

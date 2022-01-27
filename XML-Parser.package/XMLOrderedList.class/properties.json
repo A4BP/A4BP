@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "monty 6/15/2015 22:15",
+	"commentStamp" : "<historical>",
 	"super" : "Collection",
 	"category" : "XML-Parser-DOM",
 	"classinstvars" : [ ],

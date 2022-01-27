@@ -1,3 +1,3 @@
-resolving
+retrieving
 get
-	^ self asRetrievableResource get
+	^ self getUpToLimit: nil

@@ -1,0 +1,3 @@
+private
+errorUnsupported
+	self subclassResponsibility

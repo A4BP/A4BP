@@ -1,3 +1,3 @@
 accessing
 elementClass
-	^ elementClass
+	^ elementClass ifNil: [elementClass := super elementClass]

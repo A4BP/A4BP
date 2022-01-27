@@ -1,4 +1,3 @@
 private
 prefixMappings
-	^ prefixMappings
-		ifNil: [prefixMappings := OrderPreservingStringDictionary new: 5]
+	^ prefixMappings ifNil: [prefixMappings := OrderPreservingStringDictionary new: 5]

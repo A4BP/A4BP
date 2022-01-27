@@ -1,6 +1,3 @@
-appending/prepending
+adding
 prepend: aStringOrStringNode
-	string :=
-		string
-			ifNil: [aStringOrStringNode asString]
-			ifNotNil: [aStringOrStringNode asString, string]
+	self string: aStringOrStringNode asString, self string

@@ -1,20 +1,12 @@
 tokenizing
 nextXMLStandaloneAttributeValue
-	| quote yesOrNo nextChar |
+	| quote yesOrNo |
 
-	((quote := streamReader next) == $"
-		or: [quote == $'])
-		ifFalse: [self errorExpectedXMLStandaloneValueStartButGot: quote].
-
+	quote := self expectQuote.
 	yesOrNo := 
 		streamReader peek == $y
 			ifTrue: [self expectNextAll: 'yes']
 			ifFalse: [self expectNextAll: 'no'].
-
-	(nextChar := streamReader next) == quote
-		ifFalse: [
-			self
-				errorExpectedXMLStandaloneValueEnd: quote
-				butGot: nextChar].
+	self expectNext: quote.
 
 	^ yesOrNo.

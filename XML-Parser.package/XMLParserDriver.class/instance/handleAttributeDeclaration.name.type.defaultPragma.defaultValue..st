@@ -1,2 +1,2 @@
 handling - dtd
-handleAttributeDeclaration: anElement name: anAttribute type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue
+handleAttributeDeclaration: anElement name: anName type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue

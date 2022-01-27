@@ -1,3 +1,0 @@
-testing
-hasImplicitStreamConverter
-	^ streamConverter isImplicit

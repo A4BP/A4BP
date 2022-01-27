@@ -1,1 +1,0 @@
-A write stream adapter for percent encoding octets for URIs.

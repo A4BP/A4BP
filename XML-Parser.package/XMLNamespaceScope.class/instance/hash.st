@@ -1,5 +1,8 @@
 comparing
 hash
-	self hasNamespaces
-		ifTrue: [^ self species hash bitXor: self prefixMappings hash]
-		ifFalse: [^ self species hash]
+	| hash |
+
+	hash := self class hash.
+	prefixMappings
+		ifNotNil: [hash := hash bitXor: prefixMappings hash].
+	^ hash.

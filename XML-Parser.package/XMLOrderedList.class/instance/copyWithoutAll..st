@@ -1,9 +1,7 @@
 copying
 copyWithoutAll: aCollection
-	| rejected |
+	| copy |
 
-	rejected :=
-		aCollection size > 5
-			ifTrue: [aCollection asSet]
-			ifFalse: [aCollection].
-	^ self reject: [:each | rejected includes: each].
+	copy := self copy.
+	aCollection do: [:each | copy remove: each ifAbsent: [nil]].
+	^ copy.

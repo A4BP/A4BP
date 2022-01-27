@@ -1,0 +1,1 @@
+A stream decoder that uses Pharo TextConverter classes.

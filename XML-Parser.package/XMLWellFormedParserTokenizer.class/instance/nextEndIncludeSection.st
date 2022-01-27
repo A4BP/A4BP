@@ -1,21 +1,10 @@
 tokenizing - dtd
 nextEndIncludeSection
-	| secondChar thirdChar |
-
+	self totalOpenIncludeSections > 0
+		ifFalse: [self errorUnexpectedEndOfIncludeSection].
 	"skip ]"
 	streamReader next.
-	secondChar := streamReader next.
-	thirdChar := streamReader next. 
-	(secondChar == $]
-		and: [thirdChar == $>])
-		ifFalse: [
-			self
-				errorExpectedIncludeSectionTerminatorButGot: secondChar
-				followedBy: thirdChar].
-
+	self
+		expectNext: $];
+		expectTerminator.
 	totalOpenIncludeSections := self totalOpenIncludeSections - 1.
-	self topPushedBackEntity
-		ifNotNil: [:pushedBackParameterEntity |
-			pushedBackParameterEntity endIncludeSection.
-			pushedBackParameterEntity totalOpenIncludeSections >= 0
-				ifFalse: [driver handleImproperParameterEntityNesting]].

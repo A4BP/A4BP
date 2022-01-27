@@ -1,5 +1,5 @@
 configuring
-externalSubsetReadLimit: anInteger
+externalSubsetReadLimit: aLimit
 	"change the external subset read limit or nil to disable"
 
-	self externalEntityLimits externalSubsetReadLimit: anInteger
+	self externalEntityLimits externalSubsetReadLimit: aLimit

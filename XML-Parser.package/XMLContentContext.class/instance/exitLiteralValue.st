@@ -1,0 +1,3 @@
+changing
+exitLiteralValue
+	isLiteralValueContext := false

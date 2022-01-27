@@ -1,3 +1,3 @@
 accessing
 collection
-	self subclassResponsibility
+	^ collection

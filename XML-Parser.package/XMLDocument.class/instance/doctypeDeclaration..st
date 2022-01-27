@@ -1,14 +1,11 @@
 accessing
 doctypeDeclaration: aDoctypeDeclaration
-	doctypeDeclaration
-		ifNotNil: [doctypeDeclaration parent: nil].
-
 	aDoctypeDeclaration
 		ifNotNil: [
 			aDoctypeDeclaration hasParent
-				ifTrue: [
-					"remove it from its current parent"
-					aDoctypeDeclaration parent doctypeDeclaration: nil].
+				ifTrue: [self errorAddingDoctypeDeclarationWithParent].
 			aDoctypeDeclaration parent: self].
+	doctypeDeclaration
+		ifNotNil: [doctypeDeclaration parent: nil].
 
 	doctypeDeclaration := aDoctypeDeclaration.

@@ -1,11 +1,10 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
 	self hasOpenElements
 		ifTrue: [
 			aStream nextPut: $(.
 			self
-				printElementsStartingAt: 1
+				printElementsFrom: 1
 				on: aStream.
 			aStream nextPut: $)].

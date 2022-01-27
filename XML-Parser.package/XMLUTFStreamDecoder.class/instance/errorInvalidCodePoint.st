@@ -1,0 +1,3 @@
+private
+errorInvalidCodePoint
+	self subclassResponsibility

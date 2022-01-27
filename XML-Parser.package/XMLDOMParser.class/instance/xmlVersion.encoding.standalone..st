@@ -1,4 +1,4 @@
-handling - lexical
+handling - content
 xmlVersion: aVersionFloat encoding: anEncoding standalone: aBoolean
 	self document ifNotNil: [
 		self document

@@ -1,5 +1,5 @@
 instance creation
-element: anElement contentModel: aContentModel
+element: aName contentModel: aContentModel
 	^ self new
-		setElement: anElement
+		setElement: aName
 		contentModel: aContentModel

@@ -1,3 +1,5 @@
 tokenizing
 nextCDataSection
-	self subclassResponsibility
+	self expectNextAll: '[CDATA['.
+
+	driver handleCData: (self expectUpToAll: ']]>').

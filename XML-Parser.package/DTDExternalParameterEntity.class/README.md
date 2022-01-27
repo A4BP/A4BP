@@ -1,0 +1,1 @@
+A parameter entity with an external replacement.

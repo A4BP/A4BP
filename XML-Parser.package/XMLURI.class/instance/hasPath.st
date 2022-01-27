@@ -1,3 +1,3 @@
 testing
 hasPath
-	^ self rawPathSegments notEmpty
+	^ pathSegments notEmpty

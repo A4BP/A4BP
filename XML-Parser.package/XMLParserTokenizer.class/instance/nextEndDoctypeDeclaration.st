@@ -1,6 +1,6 @@
 tokenizing - dtd
 nextEndDoctypeDeclaration
-	self nextDoctypeDeclarationTerminator.
-	state := state postDoctypeDeclarationState.
+	self expectTerminator.
+	context := context postDoctypeDeclarationContext.
 
 	driver handleEndDTD.

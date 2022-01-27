@@ -1,13 +1,10 @@
 tokenizing - expecting
-expectNextAll: aString
-	"uses to:do: and not implemented in terms of #expectNextAll:startingAt:
-	for speed"
-	1 to: aString size do: [:i | | nextChar |
-		"use #= for pre-SpurVM compatibility where wide chars aren't #=="
-		(nextChar := streamReader next) = (aString at: i)
+expectNextAll: anExpectedLiteral
+	1 to: anExpectedLiteral size do: [:i | | nextChar |
+		(nextChar := streamReader next) == (anExpectedLiteral at: i)
 			ifFalse: [
 				self
-					errorExpectedLiteral: aString
+					errorExpectedLiteral: anExpectedLiteral
 					butGot: nextChar
 					at: i]].
-	^ aString.
+	^ anExpectedLiteral.

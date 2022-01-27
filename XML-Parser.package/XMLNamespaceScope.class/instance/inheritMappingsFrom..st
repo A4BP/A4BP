@@ -7,12 +7,10 @@ inheritMappingsFrom: anEnclosingScope
 			anEnclosingScope prefixesAndURIsDo: [:prefix :uri |
 				(self includesPrefix: prefix)
 					ifFalse: [
-						"nil test ensures we only copy the first time when needed"
-						(copiedPrefixMappings
+						(copiedPrefixMappings "used so we only copy once"
 							ifNil: [copiedPrefixMappings := self copiedPrefixMappings])
 							at: prefix
 							put: uri]]]
 		ifFalse: [
-			"can safely share anEnclosingScope's prefixMappings because of
-			copy-on-write behavior"
+			"can reuse because of copy-on-write"
 			prefixMappings := anEnclosingScope prefixMappings].

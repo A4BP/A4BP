@@ -1,4 +1,7 @@
-deprecated
+accessing
 descendentNodes
-	self deprecated: 'use #descendantNodes instead'.
-	^ self descendantNodes.
+	| descendentNodes |
+
+	descendentNodes := self newListForSelect.
+	self descendentNodesDo: [:each | descendentNodes addLast: each].
+	^ descendentNodes.

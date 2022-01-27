@@ -1,3 +1,3 @@
-defaults
+private
 defaultMaxSize
-	^ 32
+	^ 16

@@ -1,8 +1,8 @@
 private
-writeAttributesOn: aWriter
-	"use #to:do: with direct access for fast writing"
-	1 to: collection size do: [:i | | attribute |
-		attribute := collection at: i.
-		aWriter
+writeAttributesOn: aTagWriter
+	"use to:do: for speed"
+	1 to: self size do: [:i | | attribute |
+		attribute := self at: i.
+		aTagWriter
 			writeAttributeName: attribute name
 			value: attribute value]

@@ -1,5 +1,5 @@
 instance creation
-saxDriver: aSAXDriver documentURI: anExternalSubsetURIString
+saxDriver: aSaxDriver documentURI: anExternalSubsetURI
 	^ self new
-		setSAXDriver: aSAXDriver
-		documentURI: anExternalSubsetURIString
+		setSAXDriver: aSaxDriver
+		documentURI: anExternalSubsetURI

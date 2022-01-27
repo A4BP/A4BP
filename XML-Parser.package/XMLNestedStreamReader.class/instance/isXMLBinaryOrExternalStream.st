@@ -1,3 +1,0 @@
-testing
-isXMLBinaryOrExternalStream
-	^ self isBinary

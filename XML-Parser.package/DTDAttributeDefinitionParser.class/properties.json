@@ -1,16 +1,18 @@
 {
-	"commentStamp" : "monty 11/23/2016 23:46",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "XML-Parser-DTD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"DefaultValueValidators",
+		"NonEnumerationValidators"
+	],
 	"instvars" : [
 		"element",
 		"attribute",
 		"type",
-		"defaultValidator",
-		"enumerationListParserClass"
+		"defaultValueValidator"
 	],
 	"name" : "DTDAttributeDefinitionParser",
 	"type" : "normal"

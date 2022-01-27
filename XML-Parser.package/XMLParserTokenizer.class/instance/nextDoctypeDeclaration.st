@@ -2,20 +2,20 @@ tokenizing - dtd
 nextDoctypeDeclaration
 	| root publicID systemID |
 
-	state := state doctypeDeclarationState.
+	context := context doctypeDeclarationContext.
 	self
 		expectNextAll: 'DOCTYPE';
-		nextSeparators.
+		expectSeparators.
 
-	root := self nextElementName.
+	root := self nextName.
 	(streamReader peek == $[
 		or: [streamReader peek == $>])
 		ifFalse: [
-			self nextSeparators.
+			self expectSeparators.
 			streamReader peek == $P
 				ifTrue: [
 					publicID := self nextPublicID.
-					self nextSeparators.
+					self expectSeparators.
 					systemID := self nextSystemIDLiteral]
 				ifFalse: [
 					streamReader peek == $S
@@ -27,5 +27,5 @@ nextDoctypeDeclaration
 
 	streamReader skipSeparators.
 	streamReader peek == $[
-		ifTrue: [self nextStartInternalSubset]
+		ifTrue: [self nextInternalSubsetStart]
 		ifFalse: [self nextEndDoctypeDeclaration].

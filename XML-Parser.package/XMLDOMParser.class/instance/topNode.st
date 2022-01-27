@@ -1,3 +1,3 @@
-accessing
+private
 topNode
-	^ self nodeStack xmlLastOrNil
+	^ self nodeStack lastOrNil

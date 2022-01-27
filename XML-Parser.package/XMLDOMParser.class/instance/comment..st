@@ -1,4 +1,4 @@
 handling - lexical
-comment: aString
+comment: aComment
 	self preservesCommentNodes
-		ifTrue: [self topNodeAdd: (self nodeFactory newComment: aString)]
+		ifTrue: [self topNode addNode: (self nodeFactory newComment: aComment)]

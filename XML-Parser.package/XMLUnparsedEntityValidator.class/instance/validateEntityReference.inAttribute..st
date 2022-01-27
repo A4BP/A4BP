@@ -1,7 +1,7 @@
 validating
-validateEntityReference: anEntity inAttribute: anAttribute
-	(self unparsedEntities includesKey: anEntity)
+validateEntityReference: aName inAttribute: anAttribute
+	(self unparsedEntities includesKey: aName)
 		ifFalse: [
 			self
-				errorUndeclaredUnparsedEntityReference: anEntity
+				errorUndeclaredUnparsedEntityReference: aName
 				inAttribute: anAttribute]

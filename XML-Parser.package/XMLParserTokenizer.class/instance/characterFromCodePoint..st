@@ -1,10 +1,7 @@
-decoding
-characterFromCodePoint: aCodePoint
-	(aCodePoint notNil
-		and: [aCodePoint > 0
-			and: [aCodePoint <= 16r10FFFF]])
-		ifTrue: [
-			^ [Character value: aCodePoint]
-				on: Error
-				do: [:error | nil]]
-		ifFalse: [^ nil]
+entity replacing
+characterFromCodePoint: anInteger
+	(anInteger notNil and: [anInteger > 0])
+		ifFalse: [^ nil].
+	^ [anInteger asCharacter]
+		on: Error
+		do: [:error | nil].

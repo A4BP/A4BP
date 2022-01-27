@@ -1,7 +1,9 @@
-applying
+building
 applyPlus
-	| plusFragment |
+	| plusFragment branchState |
 
 	plusFragment := self topFragment.
-	plusFragment connectToState:
-		(XMLNFABranchingState branch: plusFragment firstState).
+	branchState := XMLNFABranchingState branch: plusFragment firstState.
+	plusFragment
+		connectToState: branchState;
+		terminalState: branchState.

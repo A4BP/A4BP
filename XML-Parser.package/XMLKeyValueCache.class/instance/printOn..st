@@ -1,13 +1,9 @@
 printing
 printOn: aStream
-	| loadFactor |
-
 	super printOn: aStream.
-
-	loadFactor := self loadFactor.
 	aStream
 		nextPut: $(;
-		print: loadFactor numerator;
+		print: self size;
 		nextPut: $/;
-		print: loadFactor denominator;
+		print: self maxSize;
 		nextPut: $).

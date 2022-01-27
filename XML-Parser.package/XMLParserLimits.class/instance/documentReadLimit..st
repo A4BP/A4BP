@@ -1,3 +1,3 @@
 accessing
-documentReadLimit: anInteger
-	documentReadLimit := anInteger
+documentReadLimit: aLimit
+	documentReadLimit := aLimit

@@ -1,3 +1,3 @@
-accessing
-implementation: aClassOrNil
-	implementation := aClassOrNil
+private
+implementation: aClass
+	implementation := aClass

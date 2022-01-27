@@ -1,5 +1,3 @@
 instance creation
 attribute: anAttribute
-	^ self
-		attribute: anAttribute
-		value: ''
+	^ self attribute: anAttribute defaultValue: ''

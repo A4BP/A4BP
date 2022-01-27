@@ -1,11 +1,18 @@
 handling
-handleEndTag: anElement
+handleEndTag: anElementName
 	"performance critical method"
 	| prefix currentScope |
 
-	prefix := anElement xmlPrefixBeforeLocalName.
+	self elementNester hasScopedAttributes
+		ifTrue: [
+			self
+				endNestingOfElement: anElementName
+				withScopedAttributes: self elementNester currentScopedAttributes]
+		ifFalse: [self elementNester endElement: anElementName].
+
+	prefix := anElementName prefixBeforeLocalName.
 	self saxHandler 
-		endElement: anElement
+		endElement: anElementName
 		prefix: prefix
 		uri:
 			(self usesNamespaces
@@ -13,11 +20,10 @@ handleEndTag: anElement
 					(currentScope := self scopeAllocator exitScope)
 						resolvePrefix: prefix]
 				ifFalse: [''])
-		localName: (anElement xmlLocalNameAfterPrefix: prefix).
+		localName: (anElementName localNameAfterPrefix: prefix).
 
-	self usesNamespaces
-		ifTrue: [
-			currentScope hasNamespaces
-				ifTrue: [self undeclareNamespacesInScope: currentScope]].
+	currentScope ifNotNil: [
+		currentScope hasNamespaces
+			ifTrue: [self undeclareNamespacesInScope: currentScope]].
 	self isValidating
-		ifTrue: [self validator validateEndTag: anElement].
+		ifTrue: [self validator validateEndTag: anElementName].

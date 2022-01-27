@@ -3,6 +3,6 @@ initialize
 	super initialize.
 
 	externalSubsetReadLimit := self class defaultExternalSubsetReadLimit.
-	maxExternalEntities := self class defaultMaxExternalEntities.
+	maxExternalEntities := 20.
 	maxExternalEntitySize := self class defaultMaxExternalEntitySize.
 	resolvesLocalFromNonLocal := false.

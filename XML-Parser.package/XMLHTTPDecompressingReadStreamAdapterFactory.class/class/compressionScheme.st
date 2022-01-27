@@ -1,3 +1,0 @@
-accessing
-compressionScheme
-	self subclassResponsibility

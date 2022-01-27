@@ -1,6 +1,5 @@
 *XML-Parser
 asXMLEscapedString
-	"returns a copy of self with &, <, and > escaped with &amp;, &lt;, and &gt;"
 	| stream |
 
 	stream := (self class new: self size) writeStream.

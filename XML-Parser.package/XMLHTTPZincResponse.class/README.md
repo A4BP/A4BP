@@ -1,1 +1,0 @@
-This class uses Zinc HTTP Components to implement HTTP responses and is the preferred implementation.

@@ -5,10 +5,10 @@ renamedElement: anElement from: anOldName to: aNewName
 	self
 		cachedElementsByNameAt: anOldName
 		remove: anElement.
-	(oldPrefix := anOldName xmlPrefixBeforeLocalName) notEmpty
-		ifTrue: [
+	(oldPrefix := anOldName prefixBeforeLocalName)
+		ifNotEmpty: [
 			self
-				cachedElementsByNameAt: (anOldName xmlLocalNameAfterPrefix: oldPrefix)
+				cachedElementsByNameAt: (anOldName localNameAfterPrefix: oldPrefix)
 				remove: anElement].
 	index := self indexOf: anElement.
 	self

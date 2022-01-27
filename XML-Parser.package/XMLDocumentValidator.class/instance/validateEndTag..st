@@ -1,7 +1,9 @@
 validating
-validateEndTag: anElement
-	self hasCurrentElementValidator
+validateEndTag: aName
+	self hasElementValidators
 		ifTrue: [
-			self currentElementValidator atEnd
-				ifFalse: [self errorUnexpectEndOfElement: anElement].
+			(self currentElementValidator element = aName)
+				ifTrue: [
+					self currentElementValidator atEnd
+						ifFalse: [self errorMissingContentFor: aName]].
 			self elementValidatorStack removeLast]

@@ -1,6 +1,6 @@
 private
-errorUndeclaredUnparsedEntityReference: anEntity inAttribute: anAttriubute
+errorUndeclaredUnparsedEntityReference: aName inAttribute: anAttriubute
 	XMLValidationException
 		formatSignal: 'Undeclared unparsed entity "{1}" in "{2}" attribute'
-		with: anEntity
+		with: aName
 		with: anAttriubute

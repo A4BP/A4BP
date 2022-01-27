@@ -1,17 +1,13 @@
 private
-handleReservedAttributes: aDictionary
-	aDictionary
+handleReservedAttributes: anAttributeDictionary
+	anAttributeDictionary
 		at: 'xml:base'
-		ifPresent: [:uri |
-			"expand the new base URI using the current"
-			aDictionary
-				at: 'xml:base'
-				put: (self baseURI asXMLURI / uri) asString].
+		ifPresent: [:uri | self currentURI: uri].
 	self isValidating
-		ifTrue: [self validator validateXMLIDAttributeIn: aDictionary].
+		ifTrue: [self validator validateXMLIDAttributeIn: anAttributeDictionary].
 
 	self elementNester
 		setScopedAttributesNamed: self scopedAttributeNames
-		from: aDictionary.
+		from: anAttributeDictionary.
 
-	self haveNoUnhandledReservedAttributes.
+	hasUnhandledReservedAttributes := false.

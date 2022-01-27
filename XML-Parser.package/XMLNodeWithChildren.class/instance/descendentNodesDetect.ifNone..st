@@ -1,6 +1,6 @@
-deprecated
+enumerating
 descendentNodesDetect: aBlock ifNone: anExceptionBlock
-	self deprecated: 'use #descendantNodesDetect:ifNone: instead'.
-	^ self
-		descendantNodesDetect: aBlock
-		ifNone: anExceptionBlock.
+	self descendentNodesDo: [:each |
+		(aBlock value: each)
+			ifTrue: [^ each]].
+	^ anExceptionBlock value.

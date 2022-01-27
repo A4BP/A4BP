@@ -1,12 +1,7 @@
 tokenizing
 nextEndDocument
-	state canTerminateInput
-		ifFalse: [self errorInputTerminatedPrematurely].
-	state isContentState
-		ifTrue: [
-			elementNester hasOpenElements
-				ifTrue: [self errorUnterminatedElements]]
-		ifFalse: [
-			self hasOpenIncludeSections
-				ifTrue: [self errorUnterminatedIncludeSections]].
+	context canTerminateDocument
+		ifFalse: [self errorDocumentTerminatedPrematurely].
+	self hasOpenIncludeSections
+		ifTrue: [self errorUnterminatedIncludeSections].
 	super nextEndDocument.

@@ -1,6 +1,6 @@
 parsing
 parseDocument
-	"Parse the entire input string or stream and return the result"
+	"parser the entire input document"
 
 	self parser parseDocument.
 

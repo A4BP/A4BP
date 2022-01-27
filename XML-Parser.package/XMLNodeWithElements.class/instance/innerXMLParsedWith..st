@@ -5,7 +5,7 @@ innerXMLParsedWith: aParser
 	removedNodes := self nodes asArray.
 	self removeNodes.
 	[aParser
-		innerXMLRootNode: self;
+		pushInnerXMLRootNode: self;
 		parseDocument]
 		on: Error
 		do: [:error |

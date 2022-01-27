@@ -1,13 +1,13 @@
 tokenizing - dtd
 nextAttributeNotationEnumerationOrNmtokenType
-	"skip the N"
 	streamReader next.
 	streamReader peek == $O
-		ifTrue: [^ self nextAttributeNotationEnumerationType].
-	self
-		expectNextAll: 'NMTOKEN'
-		startingAt: 2.
+		ifTrue: [
+			self expectNextAll: 'OTATION'.
+			^ self nextAttributeNotationEnumerationType].
+	self expectNextAll: 'MTOKEN'.
 	streamReader peek == $S
-		ifFalse: [^ 'NMTOKEN'].
-	streamReader next.
-	^ 'NMTOKENS'.
+		ifTrue: [
+			streamReader next.
+			^ 'NMTOKENS'].
+	^ 'NMTOKEN'.

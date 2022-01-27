@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "monty 11/20/2014 03:59",
+	"super" : "XMLUTF16StreamDecoder",
+	"category" : "XML-Parser-Streams",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XMLUTF16BigEndianStreamDecoder",
+	"type" : "normal"
+}

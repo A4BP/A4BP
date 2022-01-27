@@ -1,9 +1,5 @@
 accessing
 contentString
- 	"Returns a combined string of all descendant string values with spaces inserted
-	for readability when one string has no trailing space and the next has no
-	leading space.
-
-	See also #rawContentString."
-
+ 	"Returns combined content strings of all descendants with space inserted
+	when one string has no trailing space and the one after has no leading space"
 	^ String streamContents: [:stream | self printContentOn: stream]

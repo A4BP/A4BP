@@ -1,12 +1,10 @@
 private
-checkForReservedAttributesIn: anOrderPreservingDictionary afterIndex: anIndex
-	"validation may add attributes, so this is used to check if reserved
-	attributes were added that need handling when there weren't any before"
-
+checkForReservedAttributesIn: anAttributeDictionary afterIndex: anIndex
+	"validation may add attributes"
 	self hasUnhandledReservedAttributes
-		ifTrue: [^ self].
-	anIndex + 1
-		to: anOrderPreservingDictionary size
-		do: [:i |
-			(anOrderPreservingDictionary keyAtIndex: i) isXMLReservedAttributeName
-				ifTrue: [^ self haveUnhandledReservedAttributes]].
+		ifFalse: [
+			anIndex + 1
+				to: anAttributeDictionary size
+				do: [:i |
+					(anAttributeDictionary keyAtIndex: i) isReservedAttributeName
+						ifTrue: [^ self haveUnhandledReservedAttributes]]]

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "monty 3/13/2016 23:23",
+	"commentStamp" : "monty 11/20/2014 02:28",
 	"super" : "XMLFileReadStreamFactory",
-	"category" : "XML-Parser-Files",
+	"category" : "XML-Parser-File",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

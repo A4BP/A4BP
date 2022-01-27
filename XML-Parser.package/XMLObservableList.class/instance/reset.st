@@ -4,5 +4,4 @@ reset
 
 	removed := collection copy.
 	collection reset.
-	removed reverseDo: [:each |
-		self afterRemoving: each].
+	removed do: [:each | self afterRemoving: each].

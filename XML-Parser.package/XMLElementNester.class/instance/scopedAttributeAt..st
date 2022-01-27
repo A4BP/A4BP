@@ -1,5 +1,5 @@
 accessing
-scopedAttributeAt: anAttribute
+scopedAttributeAt: aName
 	^ self
-		scopedAttributeAt: anAttribute
+		scopedAttributeAt: aName
 		ifAbsent: ['']

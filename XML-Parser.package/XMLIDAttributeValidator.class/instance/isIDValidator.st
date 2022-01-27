@@ -1,0 +1,3 @@
+testing
+isIDValidator
+	^ true

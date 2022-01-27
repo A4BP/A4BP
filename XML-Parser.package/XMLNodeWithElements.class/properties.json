@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "monty 2/27/2016 13:48",
+	"commentStamp" : "monty 12/8/2014 15:16",
 	"super" : "XMLNodeWithChildren",
 	"category" : "XML-Parser-DOM",
 	"classinstvars" : [ ],

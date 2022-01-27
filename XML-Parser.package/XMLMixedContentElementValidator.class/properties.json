@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"allowedContent"
+		"allowedElements"
 	],
 	"name" : "XMLMixedContentElementValidator",
 	"type" : "normal"

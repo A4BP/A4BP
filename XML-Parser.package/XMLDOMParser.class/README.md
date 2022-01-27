@@ -1,10 +1,7 @@
-This class is an XML parser that parses XML into a tree of nodes with an XMLDocument node as the root:
-	document := XMLDOMParser parse: xmlStringOrStream.
+This class is an XML parser that produces a tree of nodes representing the parsed document's structure. The root of this tree will typically be a document node, and it will have a single child element node as its root. The root element can have any number of additional elements as its children, as well as non-element child nodes. Those elements can themselves have an arbitrary number of children, and so on. To see what type of node objects a node tree created by this parser will contain and for how to manipulate them browse the XML-Parser-DOM category.
 
-See the XML-Parser-DOM category for info on the node classes.
+By default, CDATA sections are treated as regular string nodes and comments are ignored entirely. To suppress this behavior, enable #preservesCDataNodes: and #preservesCommentNodes: before parsing. You can also use #preservesIgnorableWhitespace: to preserve ignorable whitespace as string nodes.
 
-By default, XML comments are ignored during parsing and "<![CDATA[...]]>" sections are merged with adjacent character data as XMLString nodes. Use #preservesCommentNodes: or #preservesCDataNodes: before parsing to change this. You can also use #preservesIgnorableWhitespace: to preserve ignorable whitespace as XMLString nodes, but this requires a DTD with <!ELEMENT> declarations to distinguish ignorable and unignorable whitespace.
+Lastly. you can control what node classes the DOM parser uses to create node objects by injecting a custom node factory with #nodeFactory: prior to parsing. See XMLNodeFactory for more information.
 
-To control what node classes the parser uses to construct the tree, inject a custom node factory with #nodeFactory: prior to parsing. See XMLNodeFactory.
-
-See the superclass for more info.
+Read the superclass comment for more info.

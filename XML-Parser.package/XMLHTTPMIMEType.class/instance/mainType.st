@@ -1,3 +1,0 @@
-accessing
-mainType
-	^ mainType

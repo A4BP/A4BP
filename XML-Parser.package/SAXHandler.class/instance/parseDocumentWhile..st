@@ -1,7 +1,6 @@
 parsing
 parseDocumentWhile: aBlock
-	"Parse the input string or stream only as long as aBlock evalautes as true
-	and return the result"
+	"parse the input document while aBlock is true"
 
 	self parser parseDocumentWhile: aBlock.
 

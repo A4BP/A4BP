@@ -1,22 +1,14 @@
 comparing
-= anObject
-	"Returns true if anObject is any kind of XMLOrderedList (not just the
-	class of the receiver) and it and the receiver have the same items
-	in the same order."
-
-	self == anObject
+= aCollection
+	self == aCollection
 		ifTrue: [^ true].
 
-	(self species == anObject species
-		and: [collection size = anObject size])
+	(self species == aCollection species
+		and: [self size = aCollection size])
 		ifFalse: [^ false].
 
-	"Test each position with #= using #to:do: for speed instead of
-	just 'collection = anObject collection' because that would
-	make equality depend on the internal collection types instead
-	of just their items."
-	1 to: collection size do: [:i |
-		(collection at: i) = (anObject at: i)
+	"to:do: used for speed"
+	1 to: self size do: [:i |
+		(self at: i) = (aCollection at: i)
 			ifFalse: [^ false]].
-
 	^ true.

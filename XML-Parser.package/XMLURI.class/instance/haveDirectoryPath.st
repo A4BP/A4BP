@@ -1,5 +1,5 @@
 private
 haveDirectoryPath
 	self hasPath
-		ifFalse: [self rawPathSegments addLast: ''].
-	self rawPathSegments addLast: ''.
+		ifFalse: [pathSegments addLast: ''].
+	pathSegments addLast: ''.

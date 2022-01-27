@@ -2,7 +2,7 @@ tokenizing - dtd
 nextAttributeType
 	| nextChar |
 
-	self nextSeparatorsInDeclaration.
+	self expectSeparatorsInDeclaration.
 	(nextChar := streamReader peek) == $C
 		ifTrue: [^ self expectNextAll: 'CDATA'].
 	nextChar == $I

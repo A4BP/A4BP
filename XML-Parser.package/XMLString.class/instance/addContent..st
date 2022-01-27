@@ -1,5 +1,6 @@
-deprecated
+adding
 addContent: aStringOrStringNode
-	"will be deprecated"
-
-	self append: aStringOrStringNode
+	string :=
+		string
+			ifNil: [aStringOrStringNode asString]
+			ifNotNil: [string, aStringOrStringNode asString]

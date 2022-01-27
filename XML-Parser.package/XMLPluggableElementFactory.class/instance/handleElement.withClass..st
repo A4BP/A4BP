@@ -1,5 +1,6 @@
-handling
+element handling
 handleElement: anElementName withClass: aClass
-	elementClassMapper
-		mapElement: anElementName
-		toClass: aClass
+	self
+		handleElement: anElementName
+		namespaceURI: ''
+		withClass: aClass

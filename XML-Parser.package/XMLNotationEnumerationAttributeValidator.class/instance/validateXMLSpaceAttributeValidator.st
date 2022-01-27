@@ -1,0 +1,3 @@
+validating
+validateXMLSpaceAttributeValidator
+	self errorInvalidXMLSpaceAttributeValidator

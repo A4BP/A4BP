@@ -1,5 +1,5 @@
 validating
-validateStartTag: anElement
-	(self allowedContent includes: anElement)
-		ifFalse: [self errorUnexpectedElement: anElement]
+validateStartTag: aName
+	(self allowedElements includes: aName)
+		ifFalse: [self errorUnexpectedElement: aName]
 	

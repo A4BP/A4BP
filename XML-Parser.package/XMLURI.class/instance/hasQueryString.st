@@ -1,0 +1,3 @@
+testing
+hasQueryString
+	^ queryString notEmpty

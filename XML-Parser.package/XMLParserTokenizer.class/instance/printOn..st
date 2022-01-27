@@ -1,10 +1,9 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
 	aStream
 		nextPut: $(;
-		print: state;
+		print: context;
 		nextPutAll: '; ';
 		print: streamReader;
 		nextPut: $).

@@ -1,7 +1,9 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
-	aStream nextPut: $(.
-	self printNameAndValueOn: aStream.
-	aStream nextPut: $).
+	aStream
+		nextPut: $(;
+		nextPutAll: self attribute;
+		nextPutAll: '="';
+		nextPutAll: self defaultValue;
+		nextPutAll: '")'.

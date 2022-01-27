@@ -1,21 +1,19 @@
 {
-	"commentStamp" : "monty 6/15/2015 23:55",
+	"commentStamp" : "monty 4/12/2015 10:25",
 	"super" : "XMLParserTokenizer",
-	"category" : "XML-Parser-Drivers",
+	"category" : "XML-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
+		"AdditionalNameChars",
 		"EncodingNameChars",
-		"EncodingNameStartChars",
+		"NameChars",
 		"NormalizedSpace",
-		"PublicIDChars",
-		"VersionNumChars"
+		"PubidChars"
 	],
 	"instvars" : [
-		"pushedBackEntities",
-		"totalOpenIncludeSections",
-		"isInLiteralValue",
-		"isIgnoringLiteralValueTerminator"
+		"activeEntities",
+		"totalOpenIncludeSections"
 	],
 	"name" : "XMLWellFormedParserTokenizer",
 	"type" : "normal"

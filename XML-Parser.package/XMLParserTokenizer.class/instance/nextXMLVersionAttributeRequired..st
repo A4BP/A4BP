@@ -1,10 +1,8 @@
 tokenizing
 nextXMLVersionAttributeRequired: aBoolean
-	(aBoolean
-		or: [streamReader peek == $v])
+	(aBoolean or: [streamReader peek == $v])
 		ifTrue: [
 			^ self
 				nextXMLAttributeName: 'version';
-				nextXMLAttributeEqualsSeparator;
 				nextXMLVersionAttributeValue]
 		ifFalse: [^ '']

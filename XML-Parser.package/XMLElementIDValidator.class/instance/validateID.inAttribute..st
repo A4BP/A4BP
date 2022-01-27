@@ -1,6 +1,6 @@
 validating
 validateID: anID inAttribute: anAttribute
-	anID isXMLName
+	(XMLWellFormedParserTokenizer isName: anID)
 		ifFalse: [
 			self
 				errorInvalidID: anID

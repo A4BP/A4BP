@@ -1,1 +1,1 @@
-This class implements NFA fragments for an XMLNFABuilder. It stores a first state and either a single terminal state or a collection of terminal states (using an OrderedCollection instead of an XMLNFAStateSet), and it can be connected to a state or another fragment.
+This is a fragment used to build an NFA by the NFABuilder.

@@ -1,0 +1,1 @@
+A formatter that adds LF linebreaks around canonical markup.

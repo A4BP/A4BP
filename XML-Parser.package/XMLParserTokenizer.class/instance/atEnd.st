@@ -1,3 +1,3 @@
 testing
 atEnd
-	^ state isTerminatedState
+	^ context isTerminatedContext

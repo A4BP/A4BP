@@ -1,3 +1,3 @@
 accessing
-maxEntityReplacementDepth: anInteger
-	maxEntityReplacementDepth := anInteger
+maxEntityReplacementDepth: aLimit
+	maxEntityReplacementDepth := aLimit

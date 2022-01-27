@@ -1,6 +1,5 @@
 testing
 hasChildren
-	"optimized with nil test and size check to avoid lazy initializing"
-	nodes == nil
-		ifTrue: [^ false].
-	^ nodes size > 0.
+	"Direct variable access avoids possibly unnecessary lazy initialization of the node list"
+
+	^ nodes notNil and: [nodes size > 0]

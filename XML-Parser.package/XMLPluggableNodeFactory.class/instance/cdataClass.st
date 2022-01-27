@@ -1,3 +1,3 @@
 accessing
 cdataClass
-	^ cdataClass
+	^ cdataClass ifNil: [cdataClass := super cdataClass]

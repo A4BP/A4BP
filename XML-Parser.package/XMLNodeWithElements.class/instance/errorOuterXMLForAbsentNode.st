@@ -1,3 +1,3 @@
 private
 errorOuterXMLForAbsentNode
-	XMLDOMException signal: 'Cannot change outer XML for absent node'
+	XMLDOMException signal: 'Cannot set outer XML for absent node'

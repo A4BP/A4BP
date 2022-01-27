@@ -1,4 +1,4 @@
-decoding
-convertFromEncoding: anEncodingName
+encodings
+convertFromEncoding: anEncoding
 	driver decodesCharacters
-		ifTrue: [streamReader convertFromEncoding: anEncodingName]
+		ifTrue: [streamReader convertFromEncoding: anEncoding]

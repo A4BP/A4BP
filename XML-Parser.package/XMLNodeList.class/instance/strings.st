@@ -1,4 +1,4 @@
-accessing
+enumerating
 strings
 	^ self
 		select: [:each | each isStringNode]

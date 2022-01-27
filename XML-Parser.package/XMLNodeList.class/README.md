@@ -1,1 +1,1 @@
-This class represents an ordered list of child nodes for an XML document or element. Non-modifying accessing messages like #first and #last return nil instead of raising exceptions.
+This class represents an ordered list of child nodes for some kind of node with elements, probably either an XML document or element object. Non-modifying accessing messages like #first and #last will never raise exceptions and return nil instead.

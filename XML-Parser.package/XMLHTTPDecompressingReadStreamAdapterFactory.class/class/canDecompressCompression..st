@@ -1,3 +1,0 @@
-testing
-canDecompressCompression: aCompressionScheme
-	^ self basicCanDecompressCompression: aCompressionScheme asLowercase

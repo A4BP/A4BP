@@ -1,3 +1,4 @@
 testing
 isWhitespace
-	^ self string isXMLWhitespace
+	^ self isEmpty not
+		and: [self string allSatisfy: [:each | each xmlParserIsWhitespace]]

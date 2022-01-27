@@ -1,11 +1,10 @@
 parsing
 parseScheme
-	| oldPosition scheme |
+	| scheme |
 
-	oldPosition := readStream position.
-	scheme := self nextDelimitedByAny: SchemeDelimiters.
-	(readStream peekFor: $:)
+	scheme := self parseUpToAnyNotSkipping: ':/@?#'.
+	(self parseNext: $:)
 		ifTrue: [^ scheme asLowercase]
 		ifFalse: [
-			readStream position: oldPosition.
+			readStream reset.
 			^ ''].

@@ -1,0 +1,3 @@
+testing
+isParsingExternalSubset
+	^ true

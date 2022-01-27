@@ -1,8 +1,8 @@
 accessing
-setScopedAttributesNamed: anAttributeCollection from: aDictionary
+setScopedAttributesNamed: aNameCollection from: aDictionary
 	| attributes |
 
-	anAttributeCollection do: [:each |
+	aNameCollection do: [:each |
 		aDictionary
 			at: each
 			ifPresent: [:value |

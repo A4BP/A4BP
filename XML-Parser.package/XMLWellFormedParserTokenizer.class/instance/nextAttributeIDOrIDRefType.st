@@ -1,12 +1,12 @@
 tokenizing - dtd
 nextAttributeIDOrIDRefType
-	self expectNextAll: 'ID'.
+	streamReader next.
+	self expectNext: $D.
 	streamReader peek == $R
 		ifFalse: [^ 'ID'].	
-	self
-		expectNextAll: 'IDREF'
-		startingAt: 3.
+	self expectNextAll: 'REF'.
 	streamReader peek == $S
-		ifFalse: [^ 'IDREF'].
-	streamReader next.
-	^ 'IDREFS'.
+		ifTrue: [
+			streamReader next.
+			^ 'IDREFS'].
+	^ 'IDREF'.

@@ -1,5 +1,3 @@
 accessing
 at: aKey
-	^ self
-		at: aKey
-		ifAbsent: [nil]
+	^ self collection at: aKey

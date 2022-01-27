@@ -1,8 +1,8 @@
 private
-undeclareNamespacesInScope: anExitedScope
+undeclareNamespacesInScope: aScope
 	| currentScope |
 
 	currentScope := self scopeAllocator currentScope.
-	anExitedScope prefixesAndURIsDo: [:prefix :uri |
-		(currentScope resolvePrefix: prefix) = uri
+	aScope prefixesAndURIsDo: [:prefix :uri |
+		(currentScope includesPrefix: prefix mappedTo: uri)
 			ifFalse: [self saxHandler endPrefixMapping: prefix]].

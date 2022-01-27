@@ -1,1 +1,1 @@
-This class reads positive hex or decimal integers from minimal streams supporting #next, #peek, and #atEnd. It returns nil instead of raising errors for invalid integers.
+This class reads hex or decimal integers from a minimal stream supporting next, peek, and atEnd.

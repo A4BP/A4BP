@@ -2,5 +2,5 @@ tokenizing - dtd
 nextSystemID
 	^ self
 		expectNextAll: 'SYSTEM';
-		nextSeparators;
+		expectSeparators;
 		nextSystemIDLiteral

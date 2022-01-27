@@ -1,5 +1,5 @@
 instance creation
-unparsedEntities: anUnparsedEntityDictionary notations: aNotationDictionary
+unparsedEntities: anUnparsedEntityDictionary notations: aNotationSet
 	^ self new
 		setUnparsedEntities: anUnparsedEntityDictionary
-		notations: aNotationDictionary
+		notations: aNotationSet

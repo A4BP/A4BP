@@ -1,4 +1,5 @@
 accessing
 firstElement
-	self elementsDo: [:each | ^ each].
-	^ self defaultValue.
+	^ self
+		detect: [:each | each isElement]
+		ifNone: [self defaultValue]

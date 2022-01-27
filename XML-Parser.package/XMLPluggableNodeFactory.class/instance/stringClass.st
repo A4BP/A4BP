@@ -1,5 +1,3 @@
-deprecated
+accessing
 stringClass
-	"will be deprecated; use #stringNodeClass instead"
-
-	^ stringNodeClass
+	^ stringClass ifNil: [stringClass := super stringClass]

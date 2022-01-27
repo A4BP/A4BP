@@ -1,16 +1,9 @@
 instance creation
-onURL: aURLString upToLimit: aMaxSize
-	"Fetches a URL and returns new parser on the response content up to the
-	input limit (use nil to disable) but doesn't parse it. If the URL has
-	no scheme, it will be treated as a file path.
-
-	Can be used to configure limited URL parsers with 'configuring' messages
-	before parsing with #parseDocument."
+onURL: aURLString upToLimit: aLimit
+	"Fetches URL and returns new parser on the response up to
+	the input limit (use nil to disable) but doesn't parse"
 
 	^ (self
-		on:
-			(DTDExternalEntityResolver new
-				streamResolveExternalEntityURI: aURLString
-				upToLimit: aMaxSize)
+		on: (aURLString asXMLURI getUpToLimit: aLimit)
 		documentURI: aURLString)
-			documentReadLimit: aMaxSize
+			documentReadLimit: aLimit

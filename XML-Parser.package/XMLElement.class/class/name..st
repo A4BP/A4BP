@@ -1,3 +1,3 @@
 instance creation
 name: aLocalName
-	^ self named: aLocalName
+	^ self new name: aLocalName

@@ -1,3 +1,3 @@
 adding
-add: anObject before: aNextObject
-	^ collection add: anObject before: aNextObject
+add: anObject before: aSubsequentObject
+	^ collection add: anObject before: aSubsequentObject

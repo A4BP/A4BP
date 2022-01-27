@@ -1,7 +1,9 @@
 combining
-/ aURIOrURIString
-	"Returns the argument URI if it is absolute or the argument resolved in the
-	context of the receiver if it is relative, to do relative path resolution
-	or replace hosts, query strings, and other components."
+/ aURIOrString
+	| uriToCombineWith |
 
-	^ self combinedWith: aURIOrURIString
+	(uriToCombineWith := aURIOrString asXMLURI) isEmpty
+		ifFalse: [
+			(uriToCombineWith isRelative)
+				ifTrue: [^ self copy combineWithRelativeURI: uriToCombineWith]
+				ifFalse: [^ uriToCombineWith]]

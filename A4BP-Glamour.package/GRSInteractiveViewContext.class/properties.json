@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GRSAbstractViewContext",
+	"category" : "A4BP-Glamour-Context",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GRSInteractiveViewContext",
+	"type" : "normal"
+}

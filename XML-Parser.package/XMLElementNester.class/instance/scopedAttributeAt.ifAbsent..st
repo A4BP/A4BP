@@ -1,8 +1,8 @@
 accessing
-scopedAttributeAt: anAttribute ifAbsent: aBlock
+scopedAttributeAt: aName ifAbsent: aBlock
 	^ self currentScopedAttributes
 		ifNil: [aBlock value]
 		ifNotNil: [:attributes |
 			attributes
-				at: anAttribute
+				at: aName
 				ifAbsent: aBlock]

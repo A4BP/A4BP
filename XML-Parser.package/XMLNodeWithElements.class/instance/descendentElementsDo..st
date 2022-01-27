@@ -1,4 +1,4 @@
-deprecated
+enumerating
 descendentElementsDo: aBlock
-	self deprecated: 'use #descendantElementsDo: instead'.
-	^ self descendantElementsDo: aBlock.
+	self hasChildren
+		ifTrue: [self elementsDo: [:each | each allElementsDo: aBlock]]

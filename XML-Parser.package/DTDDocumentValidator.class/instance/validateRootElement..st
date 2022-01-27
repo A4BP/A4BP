@@ -1,5 +1,5 @@
 validating
-validateRootElement: anElement
+validateRootElement: anElementName
 	(self doctypeDefinition hasRoot
-		and: [self doctypeDefinition root ~= anElement])
-		ifTrue: [self errorInvalidRootElement: anElement]
+		and: [self doctypeDefinition root ~= anElementName])
+		ifTrue: [self errorInvalidRoot: anElementName]

@@ -1,0 +1,3 @@
+changing
+textDeclarationContext
+	^ XMLTextDeclarationContext previousContext: self

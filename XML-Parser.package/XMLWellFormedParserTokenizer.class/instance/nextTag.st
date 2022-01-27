@@ -1,58 +1,55 @@
 tokenizing
 nextTag
 	"performance critical method"
-	| tagName attributes nextChar |
+	| tagName attributes nextChar namespaces |
 
 	(streamReader peek == $/)
 		ifTrue: [^ self nextEndTag].
-	tagName := self nextElementName.
+	tagName := self nextName.
 
-	"nil understands isXMLSeparator so is not tested for"
-	[(nextChar := streamReader peek) isXMLSeparator
+	attributes := OrderPreservingStringDictionary new: 10.
+	"nil understands xmlParserIsSeparator so is not tested for"
+	[(nextChar := streamReader peek) xmlParserIsSeparator
 		and: [
 			streamReader
 				next;
 				skipSeparators.
 			((nextChar := streamReader peek) == $>
 				or: [nextChar == $/]) not]]
-		whileTrue: [| attributeName |
-			attributeName := self nextAttributeName.
+		whileTrue: [ | attributeName attributeValue |
+			attributeName := self nextName.
 			streamReader skipSeparators.
-			(nextChar := streamReader next) == $=
-				ifFalse: [
-					self errorExpectedElementAttributeEqualsSeparatorButGot: nextChar].
+			streamReader next == $=
+				ifFalse: [self errorExpectedAttributeNameValueSeparator].
 			streamReader skipSeparators.
-
-			"delay initializing 'attributes' until now to know for sure if it
-			needs a non-zero capacity, otherwise use the lazy version"
-			((attributes
-				ifNil: [attributes := driver newAttributeDictionary])
-				at: attributeName
-				newPut: self nextAttributeValue)
-				ifFalse: [self errorDuplicateAttribute: attributeName].
-
-			"the ordering of these tests is optimized"
+			attributeValue := self nextAttributeValue.
+	
 			(attributeName at: 1) == $x
 				ifTrue: [
-					driver hasUnhandledReservedAttributes
-						ifFalse: [
-							attributeName isXMLReservedAttributeName
-								ifTrue: [driver haveUnhandledReservedAttributes]]]].
+					(attributeName isNamespaceAttributeName
+						and: [driver usesNamespaces])
+						ifTrue: [
+							"initialize only if needed"
+							(namespaces
+								ifNil: [namespaces := OrderPreservingStringDictionary new: 5])
+								at:
+									((attributeName size > 6)
+										ifTrue: [attributeName copyFrom: 7 to: attributeName size]
+										ifFalse: [''])
+								put: attributeValue]
+						ifFalse: [							
+							attributeName isReservedAttributeName
+								ifTrue: [driver haveUnhandledReservedAttributes].
+							attributes at: attributeName put: attributeValue]]
+				ifFalse: [attributes at: attributeName put: attributeValue]].
 
-	elementNester wasRootElementEnded
-		ifTrue: [self errorMultipleDocumentRootElements].
-	elementNester startElement: tagName.
 	driver
 		handleStartTag: tagName
-		attributes:
-			(attributes
-				ifNil: [driver newEmptyAttributeDictionary]).
+		attributes: attributes
+		namespaces: namespaces.
 
 	nextChar == $/
 		ifTrue: [
 			streamReader next.
-			elementNester endCurrentElement.
 			driver handleEndTag: tagName].
-
-	(nextChar := streamReader next) == $>
-		ifFalse: [self errorExpectedTagTerminatorButGot: nextChar].
+	self expectTerminator.

@@ -1,3 +1,3 @@
-accessing
+building
 topFragment
 	^ self fragmentStack last

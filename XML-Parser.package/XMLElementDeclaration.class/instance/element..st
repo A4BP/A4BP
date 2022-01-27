@@ -1,3 +1,3 @@
 accessing
-element: anElementName
-	element := anElementName
+element: aName
+	element := aName

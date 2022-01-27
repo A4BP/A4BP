@@ -1,3 +1,3 @@
 testing
 hasScheme
-	^ self scheme notEmpty
+	^ scheme notEmpty

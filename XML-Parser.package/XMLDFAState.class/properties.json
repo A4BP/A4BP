@@ -8,8 +8,7 @@
 	"instvars" : [
 		"nfaStates",
 		"dfaStateCache",
-		"dfaStateTransitions",
-		"hasNonDeterminism"
+		"dfaStateTransitions"
 	],
 	"name" : "XMLDFAState",
 	"type" : "normal"

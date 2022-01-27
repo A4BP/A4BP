@@ -1,11 +1,9 @@
 enumerating
 collect: aCollectBlock thenSelect: aSelectBlock
-	| selected |
+	| collected |
 
-	selected := self copyEmpty.
-	"use #to:do: for speed"
-	1 to: collection size do: [:i | | item |
-		item := aCollectBlock value: (collection at: i).
-		(aSelectBlock value: item)
-			ifTrue: [selected addLast: item]].
-	^ selected.
+	collected := self species new.
+	self do: [:each | | collectedObject |
+		(aSelectBlock value: (collectedObject := aCollectBlock value: each))
+			ifTrue: [collected addLast: collectedObject]].
+	^ collected.

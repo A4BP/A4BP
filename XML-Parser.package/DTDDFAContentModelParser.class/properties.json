@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "monty 12/29/2013 04:00",
+	"super" : "DTDContentModelParser",
+	"category" : "XML-Parser-DTD",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"OperatorApplicators",
+		"SpecialCharacterParsers"
+	],
+	"instvars" : [
+		"operatorStack",
+		"nfaBuilder"
+	],
+	"name" : "DTDDFAContentModelParser",
+	"type" : "normal"
+}

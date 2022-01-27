@@ -1,5 +1,6 @@
 initialization
 initializeWithValidatorsFrom: aValidatorContainer
-	super initializeWithValidatorsFrom: aValidatorContainer.
-
-	elementIDValidator := aValidatorContainer elementIDValidator.
+	(elementIdValidator := aValidatorContainer elementIDValidator)
+		validateIDAttribute: self attribute
+		forElement: self element.
+	self validateReservedAttributeValidator.

@@ -5,5 +5,5 @@ copyFrom: aStart to: anEnd
 	copy := self copyEmpty.
 	(aStart max: 1)
 		to: (anEnd min: self size)
-		do: [:i | copy addToCopyLast: (self at: i)].
+		do: [:i | copy addLast: (self at: i)].
 	^ copy.

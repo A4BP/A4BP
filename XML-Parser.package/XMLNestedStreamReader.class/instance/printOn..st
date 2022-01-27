@@ -1,12 +1,14 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
 	aStream
-		nextPut: $(;
-		print: peekChar; "can be nil"
+		nextPutAll: '(';
+		print: peekChar;
 		nextPutAll: '; ';
-		print: stream;
-		space;
-		print: nestedStreams;
-		nextPut: $).
+		print: stream.
+	nestedStreams
+		ifNotNil: [
+			aStream
+				space;
+				print: nestedStreams].
+	aStream nextPut: $).

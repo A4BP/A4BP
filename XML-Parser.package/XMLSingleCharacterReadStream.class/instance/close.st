@@ -1,3 +1,2 @@
-closing
+file open/close
 close
-	atEnd := true

@@ -1,3 +1,3 @@
 testing
-hasOpenElement: anElement
-	^ self openElements includes: anElement
+hasOpenElement: anElementName
+	^ self openElements includes: anElementName

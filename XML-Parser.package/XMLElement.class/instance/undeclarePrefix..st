@@ -1,9 +1,9 @@
 namespacing
 undeclarePrefix: aPrefix
-	self ensureUsesNamespaces.
+	| currentMapping |
+
+	currentMapping := self namespaceScope prefixMappingAt: aPrefix ifAbsent: [^ self].
 	self
-		allNamespaceScopesUnmapPrefix: aPrefix
-		mappedTo:
-			(self namespaceScope
-				prefixMappingAt: aPrefix
-				ifAbsent: [^ self]).
+		updateEnclosedScopesWith: [:scope | scope unmapPrefix: aPrefix]
+		whileTrue: [:scope | scope includesPrefix: aPrefix mappedTo: currentMapping]
+		validateAfter: true.

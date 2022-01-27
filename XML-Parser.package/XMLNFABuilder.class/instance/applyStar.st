@@ -1,4 +1,4 @@
-applying
+building
 applyStar
 	| branchState starFragment |
 
@@ -9,4 +9,4 @@ applyStar
 	self pushFragment:
 		(XMLNFAFragment
 			firstState: branchState
-			terminalState: branchState).
+			terminalState: branchState)

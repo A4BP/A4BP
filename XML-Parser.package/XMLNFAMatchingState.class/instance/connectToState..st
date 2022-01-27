@@ -1,4 +1,3 @@
 connecting
 connectToState: aState
-	nextState
-		ifNil: [nextState := aState]
+	nextState := aState

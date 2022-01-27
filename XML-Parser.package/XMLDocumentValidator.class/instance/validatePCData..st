@@ -1,4 +1,4 @@
 validating
 validatePCData: aString
-	self hasCurrentElementValidator
+	self hasElementValidators
 		ifTrue: [self currentElementValidator validatePCData: aString]

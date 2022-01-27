@@ -1,5 +1,3 @@
 accessing
 elementAt: aName
-	^ self
-		elementAt: aName
-		ifAbsent: [self defaultValue]
+	^ self elementAt: aName ifAbsent: [self defaultValue]

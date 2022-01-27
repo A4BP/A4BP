@@ -1,4 +1,4 @@
 accessing
 element: anElement
-	"reuse an inst var to save memory"
+	"reuse instance variable to save memory"
 	parent := anElement

@@ -1,5 +1,5 @@
 instance creation
-on: aStream readLimit: anInteger
+on: aStream readLimit: aReadLimit
 	^ self new
 		setStream: aStream
-		readLimit: anInteger
+		readLimit: aReadLimit

@@ -1,3 +1,3 @@
-deprecated
+accessing
 requiresDocumentConstraints
-	^ self requiresSchema
+	^ requiresDocumentConstraints

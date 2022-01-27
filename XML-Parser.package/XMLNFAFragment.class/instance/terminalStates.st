@@ -1,5 +1,3 @@
-accessing
+private
 terminalStates
-	^ terminalStateOrStates isCollection
-		ifTrue: [terminalStateOrStates]
-		ifFalse: [OrderedCollection with: terminalStateOrStates]
+	^ terminalStates

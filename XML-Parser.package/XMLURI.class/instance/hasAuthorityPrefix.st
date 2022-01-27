@@ -1,4 +1,3 @@
 testing
 hasAuthorityPrefix
-	self parseURIStringIfUnparsed.
-	^ hasAuthorityPrefix.
+	^ hasAuthorityPrefix

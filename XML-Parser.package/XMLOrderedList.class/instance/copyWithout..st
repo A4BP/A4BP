@@ -1,3 +1,5 @@
 copying
 copyWithout: anObject
-	^ self reject: [:each | each = anObject]
+	^ self copy
+		remove: anObject ifAbsent: [nil];
+		yourself

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "monty 4/6/2015 09:21",
+	"super" : "Object",
+	"category" : "XML-Parser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "XMLTokenContext",
+	"type" : "normal"
+}

@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "monty 2/2/2016 00:15",
+	"commentStamp" : "monty 1/9/2014 23:29",
 	"super" : "XMLFileHandle",
-	"category" : "XML-Parser-Files",
+	"category" : "XML-Parser-File",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

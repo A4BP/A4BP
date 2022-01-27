@@ -1,11 +1,11 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
-	aStream nextPut: $(.
-	self printLabelOn: aStream.
-	aStream nextPutAll: '->'.
-	nextState
-		ifNotNil: [
-			nextState printLabelOn: aStream].
-	aStream nextPut: $).
+	aStream
+		nextPut: $(;
+		print: self identityHash; "only print ids to avoid loops"
+		nextPutAll: ': ';
+		print: matcher;
+		nextPutAll: ' -> ';
+		print: nextState identityHash;
+		nextPut: $).

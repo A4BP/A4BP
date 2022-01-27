@@ -2,5 +2,5 @@ tokenizing - dtd
 nextSystemIDInDeclaration
 	^ self
 		expectNextAll: 'SYSTEM';
-		nextSeparatorsInDeclaration;
+		expectSeparatorsInDeclaration;
 		nextSystemIDLiteral

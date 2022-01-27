@@ -1,5 +1,6 @@
 validating
 validateWith: aValidator
-	"revalidate against a custom DTD or other validator"
-
-	(XMLValidatingNodeVisitor validator: aValidator) visitDocument: self
+	self root
+		ifNotNil: [:rootElement | aValidator validateRootElement: rootElement name].
+	super validateWith: aValidator.
+	aValidator validateEndDocument.

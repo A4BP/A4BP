@@ -1,5 +1,3 @@
-handling
+element handling
 handleElements: anElementNameCollection withClass: aClass
-	elementClassMapper
-		mapElements: anElementNameCollection
-		toClass: aClass
+	anElementNameCollection do: [:each | self handleElement: each withClass: aClass]

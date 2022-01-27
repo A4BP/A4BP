@@ -1,3 +1,3 @@
-allocating
+scope
 enterScope
-	^ scopes addLast: self currentScope copy
+	^ self scopes addLast: self currentScope copy

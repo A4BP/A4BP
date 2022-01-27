@@ -1,1 +1,0 @@
-This is a class to parse MIME types with a main type and sub type separated by a "/", like "text/plain", and optional name=value parameters separated by ";" after. Adapted from ZnMimeType.

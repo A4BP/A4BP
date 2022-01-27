@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "AlexandreBergel 7/4/2016 18:31",
+	"super" : "GRSAbstractViewContext",
+	"category" : "A4BP-Glamour-Context",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GRSGrapherSelectRangeViewContext",
+	"type" : "normal"
+}

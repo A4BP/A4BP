@@ -1,0 +1,1 @@
+The class keeps track of elements as they start and end and ensures that they nest properly.

@@ -1,2 +1,2 @@
 handling
-handleEndTag: anElement
+handleEndTag: anElementName

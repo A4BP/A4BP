@@ -1,3 +1,0 @@
-accessing
-byteOrderMarkBytes
-	^ self basicByteOrderMarkBytes asByteArray

@@ -4,24 +4,16 @@ nextComment
 
 	"Skip first -"
 	streamReader next.
-	(nextChar := streamReader next) == $-
-		ifFalse: [self errorExpectedCommentStartButGot: nextChar].
+	self expectNext: $-.
 
-	"xml comments can't have '--' in them; any '--' must be followed
-	by the terminating '>'"
-	characterStream reset.
+	"xml comments cannot contain -- sequences not followed by terminating >"
+	writeStream reset.
 	[(nextChar := streamReader next) == nil
 		or: [nextChar == $-
-			and: [streamReader peek == $-]]]
-		whileFalse: [
-			nextChar isXMLChar
-				ifFalse: [self errorNonCharInComment: nextChar].
-			characterStream nextPut: nextChar].
-	nextChar
-		ifNil: [self errorExpectedCommentTerminator]
-		ifNotNil: [
-			streamReader next. "skip second $-"
-			(nextChar := streamReader next) == $>
-				ifFalse: [self errorExpectedCommentTerminatorButGot: nextChar]].
+			and: [(streamReader peek) == $-]]]
+		whileFalse: [writeStream nextPut: nextChar].
+	self
+		expectNext: $-;
+		expectTerminator.
 
-	driver handleComment: characterStream contents.
+	driver handleComment: writeStream contents.

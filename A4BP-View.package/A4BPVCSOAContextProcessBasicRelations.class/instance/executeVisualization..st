@@ -1,33 +1,35 @@
 as yet unclassified
 executeVisualization: view
-	| v soa cv lb |
-	v := A4BPMondrian new.
-	v view: view.
+	| b soa cv lb |
+	b := A4BPMondrian new.
+	b view: view.
 	soa := bpObj.
 	cv := A4BPUIBVFactory colorVisitor.
 	"Do visualization"
-	v interaction
+	b interaction
 		popupText: [ :a | '',a name,'-> [CFC:' , 
 				a metricCFC asString , ' , NoRel:' , 
 				a numberOfRelations asString , ']' ];
 		action: #inspect.
-	v shape rectangle color: (Color gray alpha:0.2).
-	v nodes: soa process forEach:[ :p | 
-		v shape label text:p.
-		v node:p.
-		( A4BPVCBasicRelations init: p ) executeMondrianViz: v.
+	b shape box color: (Color gray alpha:0.2).
+	b nodes: soa process forEach:[ :p | 
+		"b shape label labeled:p."
+		b nodes: (Array with:p).
+		( A4BPVCBasicRelations init: p ) executeMondrianViz: b.
+		b layout tree.
 	].
-	v layout grid.
-	v build.
+	b layout grid.
+	b build.
 	
 	"Create the legend builder"
-	lb := RSLegend new view: view.
+	"lb := RSLegend new view: view.
 	lb offset:1.
-	"lb addText:'width:metric CFC Abs'.
+	lb addText:'width:metric CFC Abs'.
 	lb addText:'height: metric CFC'.
-	lb addText:'color number Of Relations'."
+	lb addText:'color number Of Relations'.
 	lb below.
-	lb build.	
+	lb build.	"
 	
-	self addLegendBuilderView: view values: soa allNodes.	
-	
+	self addLegendBuilderView: view values: soa allNodes.
+	view @ RSCanvasController.
+	view open.

@@ -1,4 +1,4 @@
-deprecated
+configuring
 nodeListClass: aClass
 	"will be deprecated"
 	self configuration nodeListClass: aClass

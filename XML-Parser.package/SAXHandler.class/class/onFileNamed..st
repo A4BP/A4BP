@@ -1,17 +1,7 @@
 instance creation
-onFileNamed: aFileName
-	"Returns a new parser on the specified file but doesn't parse it.
-	If aFileName is a relative path, it will be resolved in the context of
-	the current working directory.
-
-	Can be used to configure file parsers with 'configuring' messages before
-	parsing with #parseDocument."
+onFileNamed: aFilePathString
+	"Returns new parser on the specified file but doesn't parse"
 
 	^ self
-		on:
-			"return an XMLDecodingReadStreamAdapter on the undecoded file
-			stream so we can do our own decoding looking at byte order
-			marks and <?xml ...?> encoding attributes"
-			(XMLDecodingReadStreamAdapter nonDecodingOn:
-				aFileName asXMLFileHandle rawReadStream)
-		documentURI: aFileName
+		on: (XMLFileHandle path: aFilePathString) readStream
+		documentURI: aFilePathString

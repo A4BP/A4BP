@@ -1,13 +1,11 @@
 tokenizing - dtd
 nextElementDeclaration
 	self
-		expectNextAll: 'ELEMENT'
-		startingAt: 2. "the 'E' was already read"
-
-	self nextSeparatorsInDeclaration.
+		expectNextAll: 'LEMENT';
+		expectSeparatorsInDeclaration.
 	driver
-		handleElementDeclaration: self nextElementName
+		handleElementDeclaration: self nextName
 		contentModel: self nextContentModel.
 	self
 		skipSeparatorsInDeclaration;
-		nextDeclarationTerminator.
+		expectTerminator.

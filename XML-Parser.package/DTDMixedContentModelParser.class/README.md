@@ -1,1 +1,1 @@
-This class parses mixed content declarations like "(#PCDATA|one|two)*" using a DTDEnumerationListParser and returns an XMLElementValidator accepting any sequence of PCDATA and the named elements in any order.
+This class parses mixed content declarations like "(#PCDATA|one|two)" using a DTDMixedContentListParser.

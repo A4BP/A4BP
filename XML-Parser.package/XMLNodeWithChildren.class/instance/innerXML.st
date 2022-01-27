@@ -1,7 +1,4 @@
 accessing
 innerXML
-	"Returns a string containing the XML source of all descendent nodes.
-	
-	See #innerXML:"
-
+	"returns XML source of descendent nodes as string"
 	^ String streamContents: [:stream | self printInnerXMLOn: stream]

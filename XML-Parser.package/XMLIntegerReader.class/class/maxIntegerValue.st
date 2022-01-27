@@ -1,3 +1,4 @@
-defaults
+private
 maxIntegerValue
-	^ nil
+	"SmallInteger maxVal"
+	^ 1073741823

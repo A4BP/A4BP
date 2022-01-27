@@ -1,3 +1,5 @@
 accessing
 classForElement: aQualifiedName
-	^ self elementClass
+	^ self
+		classForElement: aQualifiedName
+		namespaceURI: ''

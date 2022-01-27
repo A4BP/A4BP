@@ -1,4 +1,3 @@
-deprecated
+testing
 isLocalURI
-	self deprecated: 'use #isLocal instead'.
-	^ self isLocal.
+	^ self isFileURI or: [self isRelative]

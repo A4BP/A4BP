@@ -1,0 +1,3 @@
+private
+deleteFileOrDo: aBlock
+	self subclassResponsibility

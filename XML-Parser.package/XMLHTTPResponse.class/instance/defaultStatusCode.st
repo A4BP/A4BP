@@ -1,3 +1,0 @@
-defaults
-defaultStatusCode
-	^ 200

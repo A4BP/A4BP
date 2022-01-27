@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "monty 6/16/2015 00:07",
-	"super" : "DTDSubsetParserDriver",
-	"category" : "XML-Parser-Drivers",
+	"commentStamp" : "monty 2/9/2014 02:43",
+	"super" : "XMLParserDriver",
+	"category" : "XML-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -9,16 +9,11 @@
 		"saxHandler",
 		"elementNester",
 		"scopeAllocator",
+		"doctypeDefinition",
 		"validator",
-		"externalSubsetSystemID",
-		"externalSubsetPublicID",
-		"isValidating",
-		"usesNamespaces",
+		"externalSubsetURI",
 		"isStandalone",
-		"hasParameterEntityReferences",
-		"hasSkippedParameterEntityReferences",
-		"hasUnhandledReservedAttributes",
-		"externalEntityResolver"
+		"hasUnhandledReservedAttributes"
 	],
 	"name" : "SAXParserDriver",
 	"type" : "normal"

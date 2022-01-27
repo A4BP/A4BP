@@ -1,4 +1,3 @@
 testing
 atEnd
-	^ peekChar == nil
-		and: [stream atEnd]
+	^ peekChar == nil and: [stream atEnd]

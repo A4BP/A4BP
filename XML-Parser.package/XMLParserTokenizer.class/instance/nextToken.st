@@ -1,7 +1,6 @@
 tokenizing
 nextToken
-	streamReader atEnd
-		ifTrue: [
-			state isInitializedState
-				ifTrue: [^ self nextEndDocument]].
-	^ state nextTokenFrom: self.
+	(streamReader atEnd
+		and: [context isInitializedContext])
+		ifTrue: [^ self nextEndDocument].
+	context nextTokenFrom: self.

@@ -1,3 +1,3 @@
 clearing
 clear
-	self removeAll
+	self collection removeAll

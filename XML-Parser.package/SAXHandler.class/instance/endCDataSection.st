@@ -1,0 +1,3 @@
+private
+endCDataSection
+	isInCDataSection := false

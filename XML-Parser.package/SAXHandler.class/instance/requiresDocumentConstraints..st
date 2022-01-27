@@ -1,4 +1,7 @@
-deprecated
+configuring
 requiresDocumentConstraints: aBoolean
-	"will be deprecated; use #requiresSchema: instead"
-	self requiresSchema: aBoolean
+	"If true, constraints on elements and attributes (in a DTD)
+	will be required (not default).
+	Enables validation."
+
+	self configuration requiresDocumentConstraints: aBoolean

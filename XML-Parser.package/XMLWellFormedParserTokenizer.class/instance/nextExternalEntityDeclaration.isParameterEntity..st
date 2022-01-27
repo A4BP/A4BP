@@ -5,16 +5,16 @@ nextExternalEntityDeclaration: aName isParameterEntity: aBoolean
 	streamReader peek == $P
 		ifTrue: [
 			publicID := self nextPublicIDInDeclaration.
-			self nextSeparatorsInDeclaration.
-			systemID := self nextSystemIDLiteralWithoutURIFragment]
+			self expectSeparatorsInDeclaration.
+			systemID := self nextSystemIDLiteral]
 		ifFalse: [
 			publicID := ''.
-			systemID := self nextSystemIDInDeclarationWithoutURIFragment].
+			systemID := self nextSystemIDInDeclaration].
 	aBoolean
 		ifTrue: [
 			self
 				skipSeparatorsInDeclaration;
-				nextDeclarationTerminator.
+				expectTerminator.
 			driver
 				handleParameterEntityDeclaration: aName
 				publicID: publicID
@@ -22,7 +22,7 @@ nextExternalEntityDeclaration: aName isParameterEntity: aBoolean
 		ifFalse: [
 			(streamReader peek == $>
 				or: [
-					self nextSeparatorsInDeclaration.
+					self expectSeparatorsInDeclaration.
 					streamReader peek == $>])
 				ifTrue: [	
 					streamReader next.
@@ -30,11 +30,11 @@ nextExternalEntityDeclaration: aName isParameterEntity: aBoolean
 				ifFalse: [
 					self
 						expectNextAll: 'NDATA';
-						nextSeparatorsInDeclaration.
-					notation := self nextNotationName.
+						expectSeparatorsInDeclaration.
+					notation := self nextName.
 					self
 						skipSeparatorsInDeclaration;
-						nextDeclarationTerminator].
+						expectTerminator].
 			driver
 				handleGeneralEntityDeclaration: aName
 				publicID: publicID

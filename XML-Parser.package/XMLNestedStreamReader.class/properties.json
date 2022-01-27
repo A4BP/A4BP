@@ -1,25 +1,22 @@
 {
-	"commentStamp" : "monty 2/14/2016 02:20",
+	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "XML-Parser-Streams",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [
-		"CRCharacter",
-		"LFCharacter",
-		"NullReadStream"
+		"CarriageReturn",
+		"LineFeed"
 	],
 	"instvars" : [
 		"stream",
-		"whenPoppedDo",
-		"isExternal",
-		"currentPosition",
-		"currentLineNumber",
-		"currentLineStartPosition",
-		"peekChar",
+		"onClose",
 		"nestedStreams",
+		"peekChar",
 		"normalizedLineEndingChar",
-		"readLimit"
+		"currentLineNumber",
+		"readLimit",
+		"isEscapingQuotes"
 	],
 	"name" : "XMLNestedStreamReader",
 	"type" : "normal"

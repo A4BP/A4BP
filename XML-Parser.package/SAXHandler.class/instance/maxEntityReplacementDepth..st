@@ -1,5 +1,5 @@
 configuring
-maxEntityReplacementDepth: anInteger
+maxEntityReplacementDepth: aLimit
 	"change the max replacement depth or nil to disable"
 
-	self configuration maxEntityReplacementDepth: anInteger
+	self configuration maxEntityReplacementDepth: aLimit

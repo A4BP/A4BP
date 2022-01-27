@@ -1,0 +1,3 @@
+defaults
+canonicalWriterFormatterClass
+	^ XMLCanonicalWriterFormatter

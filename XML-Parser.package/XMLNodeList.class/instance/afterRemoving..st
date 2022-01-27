@@ -1,4 +1,6 @@
 private
 afterRemoving: aNode
-	observer
-		ifNotNil: [observer removedNode: aNode]
+	observer ifNotNil: [
+		aNode isElement
+			ifTrue: [observer removedElement: aNode]
+			ifFalse: [observer removedNode: aNode]]

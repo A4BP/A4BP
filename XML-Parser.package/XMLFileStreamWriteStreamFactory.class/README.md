@@ -1,0 +1,1 @@
+A FileStream write stream factory, default for Pharo/Squeak.

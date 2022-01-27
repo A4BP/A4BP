@@ -1,4 +1,4 @@
 testing
 isFile
-	^ self exists
+	^ self directoryEntry notNil
 		and: [self directoryEntry isDirectory not]

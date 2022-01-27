@@ -1,10 +1,11 @@
 private
-afterAddingLast: aNode
-	(self
-		removeDuplicateOf: aNode
-		notAt: self size)
-		ifNotNil: [:duplicate |
-			duplicate = aNode
-				ifTrue: [^ self]].
-	observer
-		ifNotNil: [observer addedAttribute: aNode].
+afterAddingLast: anAttribute
+	self attributesByName
+		at: anAttribute name
+		ifPresent: [:oldAttribute |
+			self
+				replacedAttribute: oldAttribute
+				withAttributeAt: self size];
+		at: anAttribute name
+		put: anAttribute.
+	observer ifNotNil: [observer addedAttribute: anAttribute].

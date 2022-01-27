@@ -1,3 +1,3 @@
-defaults
+private
 preferredImplementation
-	^ XMLHTTPZincRequest
+	^ XMLZincHTTPRequest

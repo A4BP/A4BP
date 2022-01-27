@@ -1,5 +1,6 @@
 adding
 add: anObject afterIndex: anIndex
+	self beforeAdding: anObject.
 	collection
 		add: anObject
 		afterIndex: anIndex.

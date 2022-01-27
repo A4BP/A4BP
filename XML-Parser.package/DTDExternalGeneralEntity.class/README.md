@@ -1,0 +1,1 @@
+A general entity with an external replacement.

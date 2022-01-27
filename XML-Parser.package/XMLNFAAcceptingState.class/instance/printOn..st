@@ -1,7 +1,7 @@
 printing
 printOn: aStream
 	super printOn: aStream.
-
-	aStream nextPut: $(.
-	self printLabelOn: aStream.
-	aStream nextPut: $).
+	aStream
+		nextPut: $(;
+		print: self identityHash; "only print ids to avoid loops"
+		nextPut: $).

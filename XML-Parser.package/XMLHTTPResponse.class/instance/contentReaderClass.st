@@ -1,3 +1,0 @@
-defaults
-contentReaderClass
-	self subclassResponsibility

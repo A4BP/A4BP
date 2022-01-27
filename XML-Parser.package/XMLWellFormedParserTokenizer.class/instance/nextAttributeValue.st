@@ -4,32 +4,27 @@ nextAttributeValue
 
 	((quote := streamReader next) == $"
 		or: [quote == $'])
-		ifFalse: [self errorExpectedAttributeValueStartButGot: quote].
+		ifFalse: [self errorExpectedAttributeValueStart].
 	
-	isInLiteralValue := true.
-	characterStream reset.
-	[((nextChar := streamReader next) == quote
-		and: [isIgnoringLiteralValueTerminator not])
-			or: [nextChar == $<
-				or: [nextChar == nil]]]
+	context enterLiteralValue.
+	writeStream reset.
+	[(nextChar := streamReader next) == quote
+		or: [nextChar == $<
+			or: [nextChar == nil]]]
 		whileFalse: [
 			nextChar == $&
 				ifTrue: [
 					"char refs should be ignored by whitespace normalization"
-					self nextGeneralEntityOrCharacterReferenceOnCharacterStream]
+					streamReader peek == $#
+						ifTrue: [self nextCharacterReferenceOnWriteStream]
+						ifFalse: [self nextGeneralEntityReferenceOnWriteStream]]
 				ifFalse: [
-					nextChar isXMLSeparator
-						ifTrue: [nextChar := NormalizedSpace]
-						ifFalse: [
-							nextChar isXMLChar
-								ifFalse: [self errorNonCharInAttributeValue: nextChar]].
-					characterStream nextPut: nextChar]].
-	isInLiteralValue := false.
+					nextChar xmlParserIsSeparator
+						ifTrue: [nextChar := NormalizedSpace].
+					writeStream nextPut: nextChar]].
+	context exitLiteralValue.
 
 	nextChar == quote
-		ifFalse: [
-			self
-				errorExpectedAttributeValueEnd: quote
-				butGot: nextChar].
+		ifFalse: [self errorExpectedAttributeValueEndButGot: nextChar].
 
-	^ characterStream contents.
+	^ writeStream contents.

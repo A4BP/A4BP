@@ -1,4 +1,3 @@
-deprecated
+enumerating
 descendentElementsDetect: aBlock
-	self deprecated: 'use #descendantElementsDetect: instead'.
-	^ self descendantElementsDetect: aBlock.
+	^ self descendentElementsDetect: aBlock ifNone: [nil]

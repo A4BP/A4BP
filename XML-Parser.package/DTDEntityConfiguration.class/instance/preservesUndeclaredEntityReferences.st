@@ -1,4 +1,3 @@
 accessing
 preservesUndeclaredEntityReferences
-	^ preservesUndeclaredEntityReferences
-		ifNil: [preservesUndeclaredEntityReferences := false]
+	^ preservesUndeclaredEntityReferences ifNil: [preservesUndeclaredEntityReferences := false]

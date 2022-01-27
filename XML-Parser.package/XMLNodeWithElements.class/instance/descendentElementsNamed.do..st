@@ -1,6 +1,5 @@
-deprecated
+enumerating
 descendentElementsNamed: aName do: aBlock
-	self deprecated: 'use #descendantElementsNamed:do: instead'.
-	^ self
-		descendantElementsNamed: aName
-		do: aBlock.
+	self descendentElementsDo: [:each |
+		(each isNamed: aName)
+			ifTrue: [aBlock value: each]]

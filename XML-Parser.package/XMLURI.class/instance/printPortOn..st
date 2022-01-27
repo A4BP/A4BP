@@ -2,5 +2,6 @@ printing
 printPortOn: aStream
 	self hasPort
 		ifTrue: [
-			aStream nextPut: $:.
-			port printOn: aStream]
+			aStream
+				nextPut: $:;
+				nextPutAll: port asString]

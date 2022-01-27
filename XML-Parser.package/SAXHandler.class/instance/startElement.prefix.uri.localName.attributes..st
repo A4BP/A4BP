@@ -1,17 +1,11 @@
 handling - content
-startElement: aQualifiedName prefix: aPrefix uri: aURI localName: aLocalName attributes: anAttributeDictionary
-	"Handles the start of an element, either a start tag like '<start>' or a
-	self-closed tag like '<empty/>'. By default it forwards to a simpler handler,
-	#startElement:prefix:uri:attributes:.
-	
-	aQualifiedName - the full name, including any prefix, such as 'prefix:name'
-	aPrefix - the prefix of the qualified name or an empty string
-	aURI - the namespace URI of the element or an empty string
-	aLocalName - the local part of the qualified name
-	anAttributeDictionary - an XMLAttributeDictionary of attributes"
+startElement: aQualifiedName prefix: aPrefix uri: aURI localName: aLocalName attributes: aDictionary
+	"This call corresonds to the Java SAX call
+	startElement(java.lang.String namespaceURI, java.lang.String localName,
+		java.lang.String qName, Attributes atts)."
 
 	self
 		startElement: aQualifiedName
 		prefix: aPrefix
 		uri: aURI
-		attributes: anAttributeDictionary
+		attributes: aDictionary

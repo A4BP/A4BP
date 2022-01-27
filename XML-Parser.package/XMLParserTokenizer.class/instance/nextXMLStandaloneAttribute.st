@@ -5,6 +5,5 @@ nextXMLStandaloneAttribute
 		ifTrue: [
 			^ self
 				nextXMLAttributeName: 'standalone';
-				nextXMLAttributeEqualsSeparator;
 				nextXMLStandaloneAttributeValue]
 		ifFalse: [^ '']

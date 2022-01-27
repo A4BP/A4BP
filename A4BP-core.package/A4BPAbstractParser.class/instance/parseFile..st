@@ -5,6 +5,7 @@ parseFile: aFile
 	[ ^ self parseFileWithError: aFile ]
 		on: Error
 		do: [ :e |  
+			self halt.
 			self manageError: e inFile: aFile ]
 	
 	"^ self parseFileWithError: aFile "

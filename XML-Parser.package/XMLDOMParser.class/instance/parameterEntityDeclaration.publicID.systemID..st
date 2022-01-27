@@ -1,6 +1,6 @@
-handling - declaration
+handling - declarations
 parameterEntityDeclaration: aName publicID: aPublicID systemID: aSystemID
-	self topNodeAdd:
+	self topNode addNode:
 		(self nodeFactory parameterEntityDeclarationClass
 			name: aName
 			publicID: aPublicID

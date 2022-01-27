@@ -1,3 +1,3 @@
-private
-parent: aNode
-	parent := aNode
+accessing
+parent: aParentNode
+	parent := aParentNode

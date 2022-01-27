@@ -1,6 +1,5 @@
 parsing
 parseURL: aURLString
-	"Fetches the URL and parses the response content. If the URL has no scheme,
-	it will be treated as a file path."
+	"Fetches URL and parses response"
 
 	^ (self onURL: aURLString) parseDocument

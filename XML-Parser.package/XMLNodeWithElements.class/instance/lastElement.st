@@ -1,6 +1,4 @@
 accessing
 lastElement
-	"returns the last child element of the receiver or nil if there
-	isn't one"
-
+	"returns nil if no elements"
 	^ self nodes lastElement

@@ -1,4 +1,4 @@
 connecting
 connectToFragment: aFragment
-	self connectTerminalStatesToState: aFragment firstState.
-	terminalStateOrStates := aFragment terminalStateOrStates.
+	self connectToState: aFragment firstState.
+	terminalStates := aFragment terminalStates.

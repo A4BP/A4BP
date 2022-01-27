@@ -1,0 +1,3 @@
+parsing
+parsePath
+	^ self parseUpToAnyNotSkipping: '?#'

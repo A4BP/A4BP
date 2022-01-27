@@ -2,11 +2,9 @@ tokenizing - dtd
 nextEntityDeclaration
 	| isParameterEntity name |
 
-	self
-		expectNextAll: 'ENTITY'
-		startingAt: 2. "the 'E' was already read"
+	self expectNextAll: 'NTITY'.
 
-	self isInExternalSubsetOrExternalEntity
+	context isExternalSubsetContext
 		ifTrue: [
 			"this is to distinguish a parameter reference from declaration"
 			[isParameterEntity isNil]
@@ -15,22 +13,22 @@ nextEntityDeclaration
 					streamReader peek == $%
 						ifTrue: [
 							streamReader next.
-							"nil understands isXMLSeparator so no nil test is needed"
-							streamReader peek isXMLSeparator
+							"nil understands xmlParserIsSeparator so no nil test is needed"
+							streamReader peek xmlParserIsSeparator
 								ifTrue: [
 									isParameterEntity := true.
-									self nextSeparatorsInDeclaration]
+									self expectSeparatorsInDeclaration]
 								ifFalse: [self nextParameterEntityReference]]
 						ifFalse: [isParameterEntity := false]]]
 		ifFalse: [
-			self nextSeparators.
+			self expectSeparators.
 			(isParameterEntity := (streamReader peek == $%))
 				ifTrue: [
 					streamReader next.
-					self nextSeparators]].
+					self expectSeparators]].
 
-	name := self nextEntityName.
-	self nextSeparatorsInDeclaration.
+	name := self nextName.
+	self expectSeparatorsInDeclaration.
 	streamReader atQuote
 		ifTrue: [
 			self

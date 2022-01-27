@@ -1,15 +1,16 @@
 handling - dtd
-handleAttributeDeclaration: anElement name: anAttribute type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue
-	super
-		handleAttributeDeclaration: anElement
-		name: anAttribute
-		type: aType
-		defaultPragma: aDefaultPragma
-		defaultValue: aDefaultValue.
-
+handleAttributeDeclaration: anElement name: aName type: aType defaultPragma: aDefaultPragma defaultValue: aDefaultValue
+	self isValidating
+		ifTrue: [
+			self doctypeDefinition
+				addValidatorForAttributeIn: anElement
+				named: aName
+				type: aType
+				defaultPragma: aDefaultPragma
+				defaultValue: aDefaultValue].
 	self saxHandler
 		attributeDeclaration: anElement
-		name: anAttribute
+		name: aName
 		type: aType
 		defaultPragma: aDefaultPragma
-		defaultValue: aDefaultValue.
+		defaultValue: aDefaultValue

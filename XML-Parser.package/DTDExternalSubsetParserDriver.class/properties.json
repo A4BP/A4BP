@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "monty 7/15/2015 10:32",
-	"super" : "DTDSubsetParserDriver",
-	"category" : "XML-Parser-Drivers",
+	"commentStamp" : "<historical>",
+	"super" : "XMLParserDriver",
+	"category" : "XML-Parser",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"saxDriver",
+		"doctypeDefinition",
 		"documentURI"
 	],
 	"name" : "DTDExternalSubsetParserDriver",

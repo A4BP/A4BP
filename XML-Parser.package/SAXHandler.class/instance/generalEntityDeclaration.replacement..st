@@ -1,2 +1,2 @@
-handling - declaration
+handling - declarations
 generalEntityDeclaration: aName replacement: aReplacement

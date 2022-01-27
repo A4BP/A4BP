@@ -6,5 +6,5 @@ initialize
 	isValidating := true.
 	usesNamespaces := true.
 	decodesCharacters := true.
-	requiresSchema := false.
+	requiresDocumentConstraints := false.
 	parserLimits := XMLParserLimits new.

@@ -1,4 +1,4 @@
-accessing
+private
 sortKey
 	"used to compare nodes when sorting"
 

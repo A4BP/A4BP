@@ -1,4 +1,7 @@
-deprecated
+enumerating
 descendentNodesCollect: aBlock
-	self deprecated: 'use #descendantNodesCollect: instead'.
-	^ self descendantNodesCollect: aBlock.
+	| collectedObjects |
+
+	collectedObjects := self newListForCollect.
+	self descendentNodesDo: [:each | collectedObjects addLast: (aBlock value: each)].
+	^ collectedObjects.

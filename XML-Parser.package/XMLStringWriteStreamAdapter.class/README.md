@@ -1,1 +1,0 @@
-A write stream adapter that accepts binary input and converts it to character output for string write streams.

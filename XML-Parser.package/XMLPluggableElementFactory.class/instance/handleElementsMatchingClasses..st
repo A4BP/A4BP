@@ -1,7 +1,3 @@
-handling
+element handling
 handleElementsMatchingClasses: aClassCollection
-	"See the comment in #handleElementsMatchingClass:"
-
-	elementClassMapper
-		mapAllMatchingElementsToClasses: aClassCollection
-		ignoringSuffixes: self ignorableClassNameSuffixes
+	aClassCollection do: [:each | self handleElementsMatchingClass: each]

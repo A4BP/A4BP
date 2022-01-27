@@ -1,8 +1,10 @@
 signalling
 formatSignal: aString with: aFirstValue with: aSecondValue with: aThirdValue with: aFourthValue
-	^ self new
+	^ self
 		formatSignal: aString
-		with: aFirstValue
-		with: aSecondValue
-		with: aThirdValue
-		with: aFourthValue
+		withAll:
+			(Array
+				with: aFirstValue
+				with: aSecondValue
+				with: aThirdValue
+				with: aFourthValue)

@@ -1,4 +1,7 @@
-deprecated
+accessing
 descendentElements
-	self deprecated: 'use #descendantElements instead'.
-	^ self descendantElements.
+	| descendentElements |
+
+	descendentElements := self newListForSelect.
+	self descendentElementsDo: [:each | descendentElements addLast: each].
+	^ descendentElements.

@@ -1,9 +1,7 @@
 private
-validateRootElement: anElement
-	self saxHandler requiresSchema
-		ifTrue: [
-			(self validator hasElementValidators
-				or: [self validator hasAttributeValidators])
-				ifFalse: [self errorDocumentConstraintsRequired]].
+validateRootElement: aStartTag
+	(self saxHandler requiresDocumentConstraints
+		and: [self validator hasElementValidators not])
+		ifTrue: [self errorDocumentConstraintsRequired].
 
-	self validator validateRootElement: anElement.
+	self validator validateRootElement: aStartTag.

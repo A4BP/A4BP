@@ -1,3 +1,3 @@
-defaults
+private
 nodeListClass
 	^ XMLNodeList

@@ -1,4 +1,4 @@
 initialization
-setUnparsedEntities: anUnparsedEntityDictionary notations: aNotationDictionary
+setUnparsedEntities: anUnparsedEntityDictionary notations: aNotationSet
 	unparsedEntities := anUnparsedEntityDictionary.
-	notations := aNotationDictionary.
+	notations := aNotationSet.

@@ -1,3 +1,5 @@
 instance creation
 maxSize: anInteger
-	^ self implementationNew setMaxSize: anInteger
+	^ self
+		collection: Dictionary new
+		maxSize: anInteger

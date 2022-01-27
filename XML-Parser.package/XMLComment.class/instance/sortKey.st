@@ -1,3 +1,3 @@
-accessing
+private
 sortKey
 	^ self string

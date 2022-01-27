@@ -1,5 +1,5 @@
-defaults
+private
 xmlWriterClassOrNil
-	"can be overridden to return a custom XMLWriter subclass"
-
-	^ XMLClassFinder classNamed: #XMLWriter
+	^ Smalltalk
+		at: #XMLWriter
+		ifAbsent: [nil]

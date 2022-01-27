@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "monty 2/11/2018 02:01",
+	"commentStamp" : "monty 4/12/2015 12:08",
 	"super" : "SAXHandler",
 	"category" : "XML-Parser",
 	"classinstvars" : [ ],
@@ -7,8 +7,7 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"document",
-		"nodeStack",
-		"currentScope"
+		"nodeStack"
 	],
 	"name" : "XMLDOMParser",
 	"type" : "normal"

@@ -1,1 +1,1 @@
-This class represents a document node, which is often the root of a DOM tree. Nodes can access their document ancestor with #document.
+This class represents a document node, which is often the root of a node tree. It can contain XML version and encoding information, a DOCTYPE declaration with a possible internal subset and a root element child node.

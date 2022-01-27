@@ -1,12 +1,12 @@
 {
-	"commentStamp" : "monty 2/20/2016 11:17",
+	"commentStamp" : "monty 2/2/2014 05:57",
 	"super" : "XMLAttributeValidator",
 	"category" : "XML-Parser-Validation",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"elementIDValidator"
+		"elementIdValidator"
 	],
 	"name" : "XMLIDAttributeValidator",
 	"type" : "normal"

@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"elementsAndNotationAttributes",
 		"unparsedEntities",
-		"notations",
-		"notationAttributeValidators"
+		"notations"
 	],
 	"name" : "XMLUnparsedEntityValidator",
 	"type" : "normal"

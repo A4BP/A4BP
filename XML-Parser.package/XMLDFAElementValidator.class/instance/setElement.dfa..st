@@ -1,5 +1,5 @@
-initialization
-setElement: anElement dfa: aDFA
-	element := anElement.
+accessing
+setElement: aName dfa: aDFA
+	element := aName.
 	dfa := aDFA.
-	currentState := aDFA.
+	currentState := dfa.

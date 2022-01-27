@@ -1,3 +1,3 @@
 signalling
 signalMessageFrom: anException
-	^ self new signalMessageFrom: anException
+	^ self signal: anException messageText

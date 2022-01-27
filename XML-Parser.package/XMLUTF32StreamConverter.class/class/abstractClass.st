@@ -1,3 +1,0 @@
-defaults
-abstractClass
-	^ XMLUTF32StreamConverter

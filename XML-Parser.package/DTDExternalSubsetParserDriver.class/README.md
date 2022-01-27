@@ -1,1 +1,1 @@
-This class is used by SAXParserDriver for parsing the external subset of a DTD.
+This class is a driver for parsing the external subset of a DTD.

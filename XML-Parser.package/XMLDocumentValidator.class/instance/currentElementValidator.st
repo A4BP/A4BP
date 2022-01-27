@@ -1,3 +1,3 @@
 accessing
 currentElementValidator
-	^ self elementValidatorStack xmlLastOrNil
+	^ self elementValidatorStack lastOrNil

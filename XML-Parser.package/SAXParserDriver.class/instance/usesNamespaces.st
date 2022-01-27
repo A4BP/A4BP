@@ -1,3 +1,3 @@
 testing
 usesNamespaces
-	^ usesNamespaces
+	^ self saxHandler usesNamespaces

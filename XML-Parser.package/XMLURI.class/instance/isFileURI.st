@@ -1,4 +1,3 @@
-deprecated
+testing
 isFileURI
-	self deprecated: 'use #isFile instead'.
-	^ self isFile.
+	^ scheme = 'file'

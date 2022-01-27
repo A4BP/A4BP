@@ -1,3 +1,3 @@
-allocating
+scope
 exitScope
-	^ scopes removeLast
+	^ self scopes removeLast

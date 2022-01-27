@@ -1,8 +1,5 @@
 private
 cacheElement: anElement addedAt: anIndex
-	anIndex = self size
-		ifTrue: [^ self cacheElementAddedLast: anElement].
-
 	(self findElementAfterIndex: anIndex)
 		ifNil: [self cachedElements addLast: anElement]
 		ifNotNil: [:elementAfter |

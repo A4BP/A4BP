@@ -1,2 +1,2 @@
 validating
-validateRootElement: anElement
+validateRootElement: anElementName

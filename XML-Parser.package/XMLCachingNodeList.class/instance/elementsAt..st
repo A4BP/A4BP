@@ -7,9 +7,6 @@ elementsAt: aName
 		self cachedElementsByName
 			at: aName
 			ifAbsent: [^ copiedElements]) isCollection
-		ifTrue: [
-			elementsWithName do: [:each |
-				copiedElements addToCopyLast: each]]
-		ifFalse: [
-			copiedElements addToCopyLast: elementsWithName].
+		ifTrue: [copiedElements addAll: elementsWithName]
+		ifFalse: [copiedElements addLast: elementsWithName].
 	^ copiedElements.

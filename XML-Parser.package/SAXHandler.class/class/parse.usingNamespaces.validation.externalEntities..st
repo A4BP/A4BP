@@ -1,8 +1,8 @@
 parsing
 parse: aStringOrStream usingNamespaces: aNamespaceBoolean validation: aValidationBoolean externalEntities: anEntityResolutionBoolean
-	"Parses the document in the string or stream argument possibly with namespace
-	checking (default), validation (default), or external entity resolution (not
-	default) enabled."
+	"Parses string or stream possibly with namespace checking
+	or validation (both defualt enabled)
+	or external entity resolution (default disabled)"
 
 	^ (self on: aStringOrStream)
 		usesNamespaces: aNamespaceBoolean;

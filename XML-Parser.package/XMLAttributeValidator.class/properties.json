@@ -10,7 +10,7 @@
 	"instvars" : [
 		"element",
 		"attribute",
-		"defaultValidator"
+		"defaultValueValidator"
 	],
 	"name" : "XMLAttributeValidator",
 	"type" : "normal"

@@ -1,3 +1,3 @@
 testing
 includesAttribute: aName
-	^ (self indexOfAttributeValueAt: aName) > 0
+	^ self attributesByName includesKey: aName

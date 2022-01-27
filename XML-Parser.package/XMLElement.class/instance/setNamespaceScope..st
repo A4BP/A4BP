@@ -1,3 +1,3 @@
-private
+initialization
 setNamespaceScope: aNamespaceScope
 	namespaceScope := aNamespaceScope

@@ -1,1 +1,1 @@
-This class places security limits on input. Setting a limit to nil disables it, and removeAll disables all.
+This class places security limits on parser input. You can set these using the configuration messages in SAXHandler or remove them using removeLimits.

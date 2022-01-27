@@ -1,4 +1,9 @@
-deprecated
+enumerating
 descendentElementsSelect: aBlock
-	self deprecated: 'use #descendantElementsSelect: instead'.
-	^ self descendantElementsSelect: aBlock.
+	| selectedElements |
+
+	selectedElements := self newListForSelect.
+	self descendentElementsDo: [:each |
+		(aBlock value: each)
+			ifTrue: [selectedElements addLast: each]].
+	^ selectedElements.

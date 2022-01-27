@@ -1,3 +1,3 @@
 instance creation
 new
-	^ self implementationNew
+	^ self implementation basicNew initialize

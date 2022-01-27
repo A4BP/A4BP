@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"nodeFactory",
 		"preservesCDataNodes",
 		"preservesCommentNodes",
-		"preservesIgnorableWhitespace",
-		"nodeFactory"
+		"preservesIgnorableWhitespace"
 	],
 	"name" : "XMLDOMConfiguration",
 	"type" : "normal"

@@ -1,6 +1,3 @@
 accessing
 peek
-	^ peekChar
-		ifNil: [
-			prePeekStreamPosition := stream position.
-			peekChar := streamConverter nextFromStream: stream]
+	^ peekChar ifNil: [peekChar := streamDecoder nextFromStream: self]

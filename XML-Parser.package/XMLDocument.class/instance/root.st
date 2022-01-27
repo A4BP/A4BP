@@ -1,5 +1,4 @@
 accessing
 root
-	"Returns the current root element or nil if there isn't one"
-
+	"returns root element or nil"
 	^ self firstElement

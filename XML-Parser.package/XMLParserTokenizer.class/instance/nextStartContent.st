@@ -1,5 +1,4 @@
 tokenizing
 nextStartContent
-	state := state contentState.
-	elementNester := driver elementNester.
+	context := context contentContext.
 	driver handleStartContent.

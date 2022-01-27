@@ -1,4 +1,4 @@
-deprecated
+accessing
 requiresDocumentConstraints: aBoolean
-	"will be deprecated; use #requiresSchema: instead"
-	self requiresSchema: aBoolean
+	(requiresDocumentConstraints := aBoolean)
+		ifTrue: [self isValidating: true]

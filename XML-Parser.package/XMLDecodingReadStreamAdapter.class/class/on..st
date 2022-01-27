@@ -2,4 +2,4 @@ instance creation
 on: aStream
 	^ self
 		on: aStream
-		streamConverter: XMLStreamConverter default
+		streamDecoder: XMLStreamDecoder defaultStreamDecoder new

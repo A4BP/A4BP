@@ -5,14 +5,8 @@ nextInternalEntityDeclaration: aName isParameterEntity: aBoolean
 	value := self nextEntityValue.
 	self
 		skipSeparatorsInDeclaration;
-		nextDeclarationTerminator.
+		expectTerminator.
 
 	aBoolean
-		ifTrue: [
-			driver
-				handleParameterEntityDeclaration: aName
-				replacement: value]
-		ifFalse: [
-			driver
-				handleGeneralEntityDeclaration: aName
-				replacement: value].
+		ifTrue: [driver handleParameterEntityDeclaration: aName replacement: value]
+		ifFalse: [driver handleGeneralEntityDeclaration: aName replacement: value].

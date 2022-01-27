@@ -1,3 +1,3 @@
 instance creation
-path: aPathString
-	^ self new setPath: aPathString
+path: aSystemPath
+	^ self new path: aSystemPath

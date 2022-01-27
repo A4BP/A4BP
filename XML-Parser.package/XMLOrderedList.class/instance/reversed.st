@@ -3,5 +3,5 @@ reversed
 	| reversed |
 
 	reversed := self copyEmpty.
-	self reverseDo: [:each | reversed addToCopyLast: each].
+	self reverseDo: [:each | reversed addLast: each].
 	^ reversed.

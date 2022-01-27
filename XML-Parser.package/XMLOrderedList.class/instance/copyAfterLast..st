@@ -7,5 +7,5 @@ copyAfterLast: anObject
 		lastIndexOf: anObject
 		ifAbsent: [^ copy]) + 1
 			to: self size
-			do: [:i | copy addToCopyLast: (self at: i)].
+			do: [:i | copy addLast: (self at: i)].
 	^ copy.

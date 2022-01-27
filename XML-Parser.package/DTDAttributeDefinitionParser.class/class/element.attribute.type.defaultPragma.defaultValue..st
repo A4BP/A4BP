@@ -4,7 +4,9 @@ element: anElement attribute: anAttribute type: aType defaultPragma: aDefaultPra
 		setElement: anElement
 		attribute: anAttribute
 		type: aType
-		defaultValidator:
-			((self attributeDefaultValidatorClassForPragma: aDefaultPragma)
-				attribute: anAttribute
-				value: aDefaultValue)
+		defaultValueValidator:
+			((DefaultValueValidators
+				at: aDefaultPragma
+				ifAbsent: [XMLDefaultValueAttributeValidator])
+					attribute: anAttribute
+					defaultValue: aDefaultValue).

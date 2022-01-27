@@ -1,5 +1,4 @@
 accessing
 nodeAt: anIndex
-	"returns the child node at position anIndex or nil if there isn't one"
-
+	"returns nil if absent"
 	^ self nodes at: anIndex

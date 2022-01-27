@@ -3,8 +3,8 @@ parseUserInfo
 	| userInfo oldPosition |
 
 	oldPosition := readStream position.
-	userInfo := self nextDelimitedByAny: UserInfoDelimiters.
-	(readStream peekFor: $@)
+	userInfo := self parseUpToAnyNotSkipping: ':/@?#'.
+	(self parseNext: $@)
 		ifTrue: [^ userInfo]
 		ifFalse: [
 			readStream position: oldPosition.

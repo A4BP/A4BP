@@ -1,3 +1,3 @@
 accessing
 piClass
-	^ piClass
+	^ piClass ifNil: [piClass := super piClass]

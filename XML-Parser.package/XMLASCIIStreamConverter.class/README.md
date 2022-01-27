@@ -1,1 +1,0 @@
-A stream converter for ASCII.

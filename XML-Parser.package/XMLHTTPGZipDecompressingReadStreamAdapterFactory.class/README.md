@@ -1,1 +1,0 @@
-A read stram adapter factory for the GZip compression scheme. Uses GZipReadStream if available.

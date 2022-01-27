@@ -1,5 +1,3 @@
 accessing
-elementValidatorFor: anElement
-	^ self
-		elementValidatorFor: anElement
-		ifNone: [nil]
+elementValidatorFor: aName
+	self subclassResponsibility

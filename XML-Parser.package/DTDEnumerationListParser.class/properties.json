@@ -1,12 +1,14 @@
 {
-	"commentStamp" : "monty 11/14/2016 13:51",
+	"commentStamp" : "monty 12/8/2014 15:21",
 	"super" : "Object",
 	"category" : "XML-Parser-DTD",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"listString"
+		"listString",
+		"listValues",
+		"startIndex"
 	],
 	"name" : "DTDEnumerationListParser",
 	"type" : "normal"

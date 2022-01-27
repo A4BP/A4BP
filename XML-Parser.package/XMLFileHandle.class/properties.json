@@ -1,12 +1,10 @@
 {
-	"commentStamp" : "monty 9/30/2016 00:25",
+	"commentStamp" : "monty 11/20/2014 02:27",
 	"super" : "XMLAbstractFactory",
-	"category" : "XML-Parser-Files",
+	"category" : "XML-Parser-File",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [
-		"XMLDocumentFileExtensions"
-	],
+	"classvars" : [ ],
 	"instvars" : [
 		"path"
 	],

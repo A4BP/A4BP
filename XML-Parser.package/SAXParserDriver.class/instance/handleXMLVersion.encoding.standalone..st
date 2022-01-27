@@ -3,6 +3,6 @@ handleXMLVersion: aVersion encoding: anEncoding standalone: aYesOrNo
 	isStandalone := aYesOrNo = 'yes'.
 
 	self saxHandler
-		xmlVersion: (self versionFloatFromString: aVersion)
+		xmlVersion: (Float readFrom: aVersion readStream)
 		encoding: anEncoding
 		standalone: isStandalone.

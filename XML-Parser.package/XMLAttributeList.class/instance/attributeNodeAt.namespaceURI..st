@@ -1,6 +1,6 @@
 accessing
-attributeNodeAt: aName namespaceURI: aURI
+attributeNodeAt: aLocalName namespaceURI: aURI
 	^ self
-		attributeNodeAt: aName
+		attributeNodeAt: aLocalName
 		namespaceURI: aURI
 		ifAbsent: [self defaultValue]

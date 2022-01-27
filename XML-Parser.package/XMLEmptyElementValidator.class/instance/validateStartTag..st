@@ -1,3 +1,3 @@
 validating
-validateStartTag: anElement
-	self errorUnexpectedElement: anElement
+validateStartTag: aName
+	self errorMustBeEmpty

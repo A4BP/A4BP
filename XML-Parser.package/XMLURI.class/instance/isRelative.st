@@ -1,3 +1,5 @@
 testing
 isRelative
-	^ self hasScheme not
+	^ scheme isEmpty
+		or: [host isEmpty
+			and: [self isFileURI not]]

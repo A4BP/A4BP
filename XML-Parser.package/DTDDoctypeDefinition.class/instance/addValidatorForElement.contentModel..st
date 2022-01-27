@@ -1,10 +1,8 @@
 adding
 addValidatorForElement: anElement contentModel: aContentModel
-	(self elementValidators includesKey: anElement)
-		ifTrue: [^ nil].
-	^ self elementValidators
+	self elementValidators
 		at: anElement
-		put:
-			((DTDContentModelParser parserClassForContentModel: aContentModel)
+		ifAbsentPut: [
+			((DTDContentModelParser parserForContentModel: aContentModel)
 				element: anElement
-				contentModel: aContentModel) parse.
+				contentModel: aContentModel) parse]

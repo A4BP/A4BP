@@ -1,0 +1,3 @@
+testing
+hasElementIDValidator
+	^ elementIDValidator notNil

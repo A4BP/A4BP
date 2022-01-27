@@ -1,3 +1,3 @@
 instance creation
-url: aURLString
-	^ self implementationNew setURL: aURLString
+url: aURL
+	^ self new url: aURL

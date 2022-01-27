@@ -1,2 +1,2 @@
-handling - declaration
-elementDeclaration: anElementName contentModel: aContentModel
+handling - declarations
+elementDeclaration: aName contentModel: aContentModel

@@ -2,6 +2,4 @@ parsing
 parse
 	^ XMLMixedContentElementValidator
 		element: element
-		allowedContent:
-			(DTDMixedContentEnumerationListParser on: contentModel)
-				parse
+		allowedElements: self parseAllowedElements

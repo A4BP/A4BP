@@ -4,21 +4,18 @@ nextAttlistDeclaration
 
 	self
 		expectNextAll: 'ATTLIST';
-		nextSeparatorsInDeclaration.
+		expectSeparatorsInDeclaration.
 
-	element := self nextElementName.
+	element := self nextName.
 	[streamReader peek == $>
 		or: [
-			self nextSeparatorsInDeclaration.
+			self expectSeparatorsInDeclaration.
 			streamReader peek == $>]]
 		whileFalse: [
 			driver
 				handleAttributeDeclaration: element
-				name: self nextAttributeName
+				name: self nextName
 				type: self nextAttributeType
-				defaultPragma:
-					(defaultPragma := self nextAttributeDefaultPragma)
-				defaultValue:
-					(self nextAttributeDefaultValueForPragma: defaultPragma)].
-
-	self nextDeclarationTerminator.
+				defaultPragma: (defaultPragma := self nextAttributeDefaultPragma)
+				defaultValue: (self nextAttributeDefaultValueForPragma: defaultPragma)].
+	self expectTerminator.

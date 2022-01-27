@@ -1,3 +1,3 @@
-defaults
+accessing
 defaultParserHandlerClass
 	^ XMLDOMParser

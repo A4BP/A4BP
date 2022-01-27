@@ -1,6 +1,8 @@
 positioning
 pushBackCharacter: aCharacter
-	self
-		pushBackStream: (XMLSingleCharacterReadStream on: aCharacter)
-		whenPoppedDo: nil
-		isExternal: false
+	peekChar
+		ifNil: [peekChar := aCharacter]
+		ifNotNil: [
+			self
+				pushBackStream: (XMLSingleCharacterReadStream on: aCharacter)
+				onClose: nil]

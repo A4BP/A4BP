@@ -1,6 +1,7 @@
-handling
+element handling
 handleElements: anElementNameCollection namespaceURI: aNamespaceURI withClass: aClass
-	elementClassMapper
-		mapElements: anElementNameCollection
-		namespaceURI: aNamespaceURI
-		toClass: aClass
+	anElementNameCollection do: [:each |
+		self
+			handleElement: each
+			namespaceURI: aNamespaceURI
+			withClass: aClass]

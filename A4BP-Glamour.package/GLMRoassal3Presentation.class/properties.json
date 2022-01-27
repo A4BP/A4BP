@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "GLMPresentation",
+	"category" : "A4BP-Glamour-Glamour",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"painting",
+		"paintingBlock",
+		"view",
+		"shouldPopulateSelection",
+		"newViewBlock"
+	],
+	"name" : "GLMRoassal3Presentation",
+	"type" : "normal"
+}

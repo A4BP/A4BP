@@ -1,4 +1,3 @@
-deprecated
+accessing
 descendentElementsNamed: aName
-	self deprecated: 'use #descendantElementsNamed: instead"'.
-	^ self descendantElementsNamed: aName.
+	^ self descendentElementsSelect: [:each | each isNamed: aName]

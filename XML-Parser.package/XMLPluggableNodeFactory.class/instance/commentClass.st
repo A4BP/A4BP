@@ -1,3 +1,3 @@
 accessing
 commentClass
-	^ commentClass
+	^ commentClass ifNil: [commentClass := super commentClass]

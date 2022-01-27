@@ -1,7 +1,6 @@
 parsing
 parseDocumentUntil: aBlock
-	"Parse the input string or stream only until aBlock evalautes as true
-	and return the result"
+	"parse the input document until aBlock is true"
 
 	self parser parseDocumentUntil: aBlock.
 

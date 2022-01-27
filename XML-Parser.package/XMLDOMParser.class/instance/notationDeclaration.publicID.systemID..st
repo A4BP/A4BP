@@ -1,6 +1,6 @@
-handling - declaration
+handling - declarations
 notationDeclaration: aName publicID: aPublicID systemID: aSystemID
-	self topNodeAdd:
+	self topNode addNode:
 		(self nodeFactory notationDeclarationClass
 			name: aName
 			publicID: aPublicID
